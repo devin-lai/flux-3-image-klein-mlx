@@ -1,0 +1,41 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+*.log
+*.partial
+.venv/
+.flux-env/
+build/
+dist/
+*.egg-info/
+.env
+.env.*
+!.env.example
+# Model weights live on Hugging Face, never in the source repository.
+*.safetensors
+/bf16/
+/q8/
+/mixed/
+/q4/
+/vae-fp32/
+/assets/
+/flux-models/
+/flux-output/
+/benchmark-output/
+verified-files.json
+# Local Hugging Face publication staging and inventories.
+/.hf-release/
+/.release-state.json
+/release/
+/publication.json
+/runtime.json
+/SHA256SUMS
+/LICENSE.md
+/scripts/prepare_hf_release.py
+/scripts/publish_hf_release.py
+# Full lossless comparison archive is linked from Hugging Face.
+/images/local-16/
+/images/local-presets/
+/images/previews/
+/images/validation/
+/images/stacks/

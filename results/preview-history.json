@@ -1,0 +1,651 @@
+{
+  "machine": {
+    "processor": "Apple M5",
+    "memory_bytes": 34359738368,
+    "machine": "macOS-27.0.1-arm64-arm-64bit"
+  },
+  "reference": "Official-code FP32 at EIGHT steps; not the FP32-16 release control",
+  "scope": "Archived four-case previews, previous runtime, TF32 enabled. Most variants have three repeats; FP32 has one. Timings include historical diagnostic output and integrity-verification costs.",
+  "cases": [
+    {
+      "case": "man_dog",
+      "preset": "official-fp32-8",
+      "steps": 8,
+      "title": "Official FP32 · 8 steps",
+      "median_seconds": 376.92058825001004,
+      "min_seconds": 376.92058825001004,
+      "max_seconds": 376.92058825001004,
+      "max_physical_GiB": 9.692445054650307,
+      "repeats": 1,
+      "repeat_pixel_identical": true,
+      "image": "images/previews/man_dog-official-fp32-8.png",
+      "quality": {
+        "psnr_db": null,
+        "ssim": 1.0,
+        "mean_abs": 0.0,
+        "max_abs": 0.0
+      },
+      "image_kind": "repeat-mean RGB PNG"
+    },
+    {
+      "case": "man_dog",
+      "preset": "previous-q8-8",
+      "steps": 8,
+      "title": "Previous 8-bit · 8 steps",
+      "median_seconds": 44.33966704198974,
+      "min_seconds": 40.44937108299928,
+      "max_seconds": 44.619190916011576,
+      "max_physical_GiB": 6.818146646022797,
+      "repeats": 3,
+      "repeat_pixel_identical": true,
+      "image": "images/previews/man_dog-previous-q8-8.png",
+      "quality": {
+        "psnr_db": 31.025751906660517,
+        "ssim": 0.9602843970219627,
+        "mean_abs": 2.9075565338134766,
+        "max_abs": 193.0
+      },
+      "image_kind": "repeat-mean RGB PNG"
+    },
+    {
+      "case": "man_dog",
+      "preset": "previous-q4-8",
+      "steps": 8,
+      "title": "Previous 4-bit · 8 steps",
+      "median_seconds": 36.64680958297686,
+      "min_seconds": 36.14556533400901,
+      "max_seconds": 38.89085562500986,
+      "max_physical_GiB": 6.194855608046055,
+      "repeats": 3,
+      "repeat_pixel_identical": true,
+      "image": "images/previews/man_dog-previous-q4-8.png",
+      "quality": {
+        "psnr_db": 19.136636660429712,
+        "ssim": 0.6691306895076458,
+        "mean_abs": 16.88567002614339,
+        "max_abs": 238.0
+      },
+      "image_kind": "repeat-mean RGB PNG"
+    },
+    {
+      "case": "man_dog",
+      "preset": "q8-8",
+      "steps": 8,
+      "title": "8-bit · 8 steps",
+      "median_seconds": 43.997755999997025,
+      "min_seconds": 37.67541925000842,
+      "max_seconds": 44.276756417006254,
+      "max_physical_GiB": 6.739536628127098,
+      "repeats": 3,
+      "repeat_pixel_identical": true,
+      "image": "images/previews/man_dog-q8-8.png",
+      "quality": {
+        "psnr_db": 36.9980921496854,
+        "ssim": 0.9880101050506956,
+        "mean_abs": 1.3118139902750652,
+        "max_abs": 165.0
+      },
+      "image_kind": "repeat-mean RGB PNG"
+    },
+    {
+      "case": "man_dog",
+      "preset": "q4-8",
+      "steps": 8,
+      "title": "4-bit · 8 steps",
+      "median_seconds": 36.63158383301925,
+      "min_seconds": 35.4884161670052,
+      "max_seconds": 39.57164495802135,
+      "max_physical_GiB": 5.36181727796793,
+      "repeats": 3,
+      "repeat_pixel_identical": true,
+      "image": "images/previews/man_dog-q4-8.png",
+      "quality": {
+        "psnr_db": 25.59404474508736,
+        "ssim": 0.8600167939462368,
+        "mean_abs": 8.016727447509766,
+        "max_abs": 207.0
+      },
+      "image_kind": "repeat-mean RGB PNG"
+    },
+    {
+      "case": "man_dog",
+      "preset": "mixed-8",
+      "steps": 8,
+      "title": "Mixed 4/8-bit · 8 steps",
+      "median_seconds": 42.192045500007225,
+      "min_seconds": 40.478213624999626,
+      "max_seconds": 45.759627041989006,
+      "max_physical_GiB": 5.534091420471668,
+      "repeats": 3,
+      "repeat_pixel_identical": true,
+      "image": "images/previews/man_dog-mixed-8.png",
+      "quality": {
+        "psnr_db": 25.25720657234794,
+        "ssim": 0.8713221813099569,
+        "mean_abs": 7.5438798268636065,
+        "max_abs": 215.0
+      },
+      "image_kind": "repeat-mean RGB PNG"
+    },
+    {
+      "case": "man_dog",
+      "preset": "bf16-8",
+      "steps": 8,
+      "title": "BF16 control · 8 steps",
+      "median_seconds": 55.37679149999167,
+      "min_seconds": 46.01494558400009,
+      "max_seconds": 73.11886316700839,
+      "max_physical_GiB": 10.95197257399559,
+      "repeats": 3,
+      "repeat_pixel_identical": true,
+      "image": "images/previews/man_dog-bf16-8.png",
+      "quality": {
+        "psnr_db": 42.76844240724958,
+        "ssim": 0.9961761306577004,
+        "mean_abs": 0.37125396728515625,
+        "max_abs": 176.0
+      },
+      "image_kind": "repeat-mean RGB PNG"
+    },
+    {
+      "case": "man_dog",
+      "preset": "mixed-6",
+      "steps": 6,
+      "title": "Mixed 4/8-bit · 6 steps",
+      "median_seconds": 25.990032875008183,
+      "min_seconds": 25.792833374987822,
+      "max_seconds": 29.797176708001643,
+      "max_physical_GiB": 5.559266097843647,
+      "repeats": 3,
+      "repeat_pixel_identical": true,
+      "image": "images/previews/man_dog-mixed-6.png",
+      "quality": {
+        "psnr_db": 22.476545973283507,
+        "ssim": 0.7698973378774988,
+        "mean_abs": 11.301192919413248,
+        "max_abs": 235.0
+      },
+      "image_kind": "repeat-mean RGB PNG"
+    },
+    {
+      "case": "teapot_small",
+      "preset": "official-fp32-8",
+      "steps": 8,
+      "title": "Official FP32 · 8 steps",
+      "median_seconds": 160.3747997500177,
+      "min_seconds": 160.3747997500177,
+      "max_seconds": 160.3747997500177,
+      "max_physical_GiB": 4.6247569769620895,
+      "repeats": 1,
+      "repeat_pixel_identical": true,
+      "image": "images/previews/teapot_small-official-fp32-8.png",
+      "quality": {
+        "psnr_db": null,
+        "ssim": 1.0,
+        "mean_abs": 0.0,
+        "max_abs": 0.0
+      },
+      "image_kind": "repeat-mean RGB PNG"
+    },
+    {
+      "case": "teapot_small",
+      "preset": "previous-q8-8",
+      "steps": 8,
+      "title": "Previous 8-bit · 8 steps",
+      "median_seconds": 15.525498834002065,
+      "min_seconds": 15.51404779200675,
+      "max_seconds": 30.225336124975,
+      "max_physical_GiB": 6.154453530907631,
+      "repeats": 3,
+      "repeat_pixel_identical": true,
+      "image": "images/previews/teapot_small-previous-q8-8.png",
+      "quality": {
+        "psnr_db": 36.267337355625216,
+        "ssim": 0.9888933609463822,
+        "mean_abs": 1.3349855211046007,
+        "max_abs": 135.0
+      },
+      "image_kind": "repeat-mean RGB PNG"
+    },
+    {
+      "case": "teapot_small",
+      "preset": "previous-q4-8",
+      "steps": 8,
+      "title": "Previous 4-bit · 8 steps",
+      "median_seconds": 14.134967916994356,
+      "min_seconds": 13.614897459017811,
+      "max_seconds": 38.35933179099811,
+      "max_physical_GiB": 3.933886170387268,
+      "repeats": 3,
+      "repeat_pixel_identical": true,
+      "image": "images/previews/teapot_small-previous-q4-8.png",
+      "quality": {
+        "psnr_db": 22.610379914533773,
+        "ssim": 0.8364630644883865,
+        "mean_abs": 11.780045403374565,
+        "max_abs": 208.0
+      },
+      "image_kind": "repeat-mean RGB PNG"
+    },
+    {
+      "case": "teapot_small",
+      "preset": "q8-8",
+      "steps": 8,
+      "title": "8-bit · 8 steps",
+      "median_seconds": 16.32439737499226,
+      "min_seconds": 15.23333666700637,
+      "max_seconds": 17.521180125011597,
+      "max_physical_GiB": 6.211384117603302,
+      "repeats": 3,
+      "repeat_pixel_identical": true,
+      "image": "images/previews/teapot_small-q8-8.png",
+      "quality": {
+        "psnr_db": 37.745678175451985,
+        "ssim": 0.989774604248768,
+        "mean_abs": 1.0063086615668402,
+        "max_abs": 145.0
+      },
+      "image_kind": "repeat-mean RGB PNG"
+    },
+    {
+      "case": "teapot_small",
+      "preset": "q4-8",
+      "steps": 8,
+      "title": "4-bit · 8 steps",
+      "median_seconds": 15.123854250006843,
+      "min_seconds": 13.190925040980801,
+      "max_seconds": 15.988292334019206,
+      "max_physical_GiB": 4.277361735701561,
+      "repeats": 3,
+      "repeat_pixel_identical": true,
+      "image": "images/previews/teapot_small-q4-8.png",
+      "quality": {
+        "psnr_db": 29.23604776284027,
+        "ssim": 0.9460494362226853,
+        "mean_abs": 4.449846903483073,
+        "max_abs": 183.0
+      },
+      "image_kind": "repeat-mean RGB PNG"
+    },
+    {
+      "case": "teapot_small",
+      "preset": "mixed-8",
+      "steps": 8,
+      "title": "Mixed 4/8-bit · 8 steps",
+      "median_seconds": 14.332672999997158,
+      "min_seconds": 13.278229208022822,
+      "max_seconds": 17.45808883398422,
+      "max_physical_GiB": 5.008334495127201,
+      "repeats": 3,
+      "repeat_pixel_identical": true,
+      "image": "images/previews/teapot_small-mixed-8.png",
+      "quality": {
+        "psnr_db": 30.83347970962814,
+        "ssim": 0.9623043529381499,
+        "mean_abs": 3.6410285101996527,
+        "max_abs": 185.0
+      },
+      "image_kind": "repeat-mean RGB PNG"
+    },
+    {
+      "case": "teapot_small",
+      "preset": "bf16-8",
+      "steps": 8,
+      "title": "BF16 control · 8 steps",
+      "median_seconds": 16.935710332996678,
+      "min_seconds": 16.768879999988712,
+      "max_seconds": 18.59774337502313,
+      "max_physical_GiB": 10.486197970807552,
+      "repeats": 3,
+      "repeat_pixel_identical": true,
+      "image": "images/previews/teapot_small-bf16-8.png",
+      "quality": {
+        "psnr_db": 55.83785429499085,
+        "ssim": 0.9993341119727113,
+        "mean_abs": 0.0957302517361111,
+        "max_abs": 30.0
+      },
+      "image_kind": "repeat-mean RGB PNG"
+    },
+    {
+      "case": "teapot_small",
+      "preset": "mixed-6",
+      "steps": 6,
+      "title": "Mixed 4/8-bit · 6 steps",
+      "median_seconds": 9.723812584008556,
+      "min_seconds": 9.659244082984515,
+      "max_seconds": 9.900935582991224,
+      "max_physical_GiB": 5.002078413963318,
+      "repeats": 3,
+      "repeat_pixel_identical": true,
+      "image": "images/previews/teapot_small-mixed-6.png",
+      "quality": {
+        "psnr_db": 26.66038409309108,
+        "ssim": 0.910190555390809,
+        "mean_abs": 5.8327178955078125,
+        "max_abs": 192.0
+      },
+      "image_kind": "repeat-mean RGB PNG"
+    },
+    {
+      "case": "poster_small",
+      "preset": "official-fp32-8",
+      "steps": 8,
+      "title": "Official FP32 · 8 steps",
+      "median_seconds": 187.20108833300765,
+      "min_seconds": 187.20108833300765,
+      "max_seconds": 187.20108833300765,
+      "max_physical_GiB": 4.637681193649769,
+      "repeats": 1,
+      "repeat_pixel_identical": true,
+      "image": "images/previews/poster_small-official-fp32-8.png",
+      "quality": {
+        "psnr_db": null,
+        "ssim": 1.0,
+        "mean_abs": 0.0,
+        "max_abs": 0.0
+      },
+      "image_kind": "repeat-mean RGB PNG"
+    },
+    {
+      "case": "poster_small",
+      "preset": "previous-q8-8",
+      "steps": 8,
+      "title": "Previous 8-bit · 8 steps",
+      "median_seconds": 17.156315291998908,
+      "min_seconds": 16.746728166996036,
+      "max_seconds": 17.500280042004306,
+      "max_physical_GiB": 6.300510659813881,
+      "repeats": 3,
+      "repeat_pixel_identical": true,
+      "image": "images/previews/poster_small-previous-q8-8.png",
+      "quality": {
+        "psnr_db": 26.622203172537382,
+        "ssim": 0.9409320212776487,
+        "mean_abs": 4.0829443359375,
+        "max_abs": 210.0
+      },
+      "image_kind": "repeat-mean RGB PNG"
+    },
+    {
+      "case": "poster_small",
+      "preset": "previous-q4-8",
+      "steps": 8,
+      "title": "Previous 4-bit · 8 steps",
+      "median_seconds": 15.617968583013862,
+      "min_seconds": 14.922139916976448,
+      "max_seconds": 24.874133999983314,
+      "max_physical_GiB": 4.133165955543518,
+      "repeats": 3,
+      "repeat_pixel_identical": true,
+      "image": "images/previews/poster_small-previous-q4-8.png",
+      "quality": {
+        "psnr_db": 20.420253231406353,
+        "ssim": 0.7895255859672258,
+        "mean_abs": 12.862350260416667,
+        "max_abs": 227.0
+      },
+      "image_kind": "repeat-mean RGB PNG"
+    },
+    {
+      "case": "poster_small",
+      "preset": "q8-8",
+      "steps": 8,
+      "title": "8-bit · 8 steps",
+      "median_seconds": 17.323384208022617,
+      "min_seconds": 16.477613458002452,
+      "max_seconds": 20.58127620900632,
+      "max_physical_GiB": 6.230274453759193,
+      "repeats": 3,
+      "repeat_pixel_identical": true,
+      "image": "images/previews/poster_small-q8-8.png",
+      "quality": {
+        "psnr_db": 29.208450751434366,
+        "ssim": 0.9689533788803822,
+        "mean_abs": 3.3548380533854165,
+        "max_abs": 166.0
+      },
+      "image_kind": "repeat-mean RGB PNG"
+    },
+    {
+      "case": "poster_small",
+      "preset": "q4-8",
+      "steps": 8,
+      "title": "4-bit · 8 steps",
+      "median_seconds": 17.475364125013584,
+      "min_seconds": 15.697270125005161,
+      "max_seconds": 18.25229091598885,
+      "max_physical_GiB": 4.408160030841827,
+      "repeats": 3,
+      "repeat_pixel_identical": true,
+      "image": "images/previews/poster_small-q4-8.png",
+      "quality": {
+        "psnr_db": 23.01738843256103,
+        "ssim": 0.881680511042501,
+        "mean_abs": 8.487914225260417,
+        "max_abs": 223.0
+      },
+      "image_kind": "repeat-mean RGB PNG"
+    },
+    {
+      "case": "poster_small",
+      "preset": "mixed-8",
+      "steps": 8,
+      "title": "Mixed 4/8-bit · 8 steps",
+      "median_seconds": 16.120638499996858,
+      "min_seconds": 14.64110237499699,
+      "max_seconds": 18.21238195800106,
+      "max_physical_GiB": 5.126880027353764,
+      "repeats": 3,
+      "repeat_pixel_identical": true,
+      "image": "images/previews/poster_small-mixed-8.png",
+      "quality": {
+        "psnr_db": 23.2916241785095,
+        "ssim": 0.8827678623401999,
+        "mean_abs": 7.399429524739583,
+        "max_abs": 228.0
+      },
+      "image_kind": "repeat-mean RGB PNG"
+    },
+    {
+      "case": "poster_small",
+      "preset": "bf16-8",
+      "steps": 8,
+      "title": "BF16 control · 8 steps",
+      "median_seconds": 18.17136524998932,
+      "min_seconds": 17.553638499986846,
+      "max_seconds": 23.04681804199936,
+      "max_physical_GiB": 10.510367959737778,
+      "repeats": 3,
+      "repeat_pixel_identical": true,
+      "image": "images/previews/poster_small-bf16-8.png",
+      "quality": {
+        "psnr_db": 27.530188342269174,
+        "ssim": 0.9529003662252361,
+        "mean_abs": 3.0237581380208334,
+        "max_abs": 212.0
+      },
+      "image_kind": "repeat-mean RGB PNG"
+    },
+    {
+      "case": "poster_small",
+      "preset": "mixed-6",
+      "steps": 6,
+      "title": "Mixed 4/8-bit · 6 steps",
+      "median_seconds": 10.787824250000995,
+      "min_seconds": 10.77845516600064,
+      "max_seconds": 10.85855299999821,
+      "max_physical_GiB": 5.136264204978943,
+      "repeats": 3,
+      "repeat_pixel_identical": true,
+      "image": "images/previews/poster_small-mixed-6.png",
+      "quality": {
+        "psnr_db": 23.08391239833351,
+        "ssim": 0.8773384597501023,
+        "mean_abs": 8.15460205078125,
+        "max_abs": 238.0
+      },
+      "image_kind": "repeat-mean RGB PNG"
+    },
+    {
+      "case": "teapot_edit_small",
+      "preset": "official-fp32-8",
+      "steps": 8,
+      "title": "Official FP32 · 8 steps",
+      "median_seconds": 277.4407989169995,
+      "min_seconds": 277.4407989169995,
+      "max_seconds": 277.4407989169995,
+      "max_physical_GiB": 4.624390810728073,
+      "repeats": 1,
+      "repeat_pixel_identical": true,
+      "image": "images/previews/teapot_edit_small-official-fp32-8.png",
+      "quality": {
+        "psnr_db": null,
+        "ssim": 1.0,
+        "mean_abs": 0.0,
+        "max_abs": 0.0
+      },
+      "image_kind": "repeat-mean RGB PNG"
+    },
+    {
+      "case": "teapot_edit_small",
+      "preset": "previous-q8-8",
+      "steps": 8,
+      "title": "Previous 8-bit · 8 steps",
+      "median_seconds": 28.688167042011628,
+      "min_seconds": 27.606243916990934,
+      "max_seconds": 29.026985624979716,
+      "max_physical_GiB": 7.05092316120863,
+      "repeats": 3,
+      "repeat_pixel_identical": true,
+      "image": "images/previews/teapot_edit_small-previous-q8-8.png",
+      "quality": {
+        "psnr_db": 51.02363039068334,
+        "ssim": 0.9978465194663424,
+        "mean_abs": 0.4039798312717014,
+        "max_abs": 12.0
+      },
+      "image_kind": "repeat-mean RGB PNG"
+    },
+    {
+      "case": "teapot_edit_small",
+      "preset": "previous-q4-8",
+      "steps": 8,
+      "title": "Previous 4-bit · 8 steps",
+      "median_seconds": 25.822808375000022,
+      "min_seconds": 25.69454191697878,
+      "max_seconds": 26.360506790981162,
+      "max_physical_GiB": 4.5381955206394196,
+      "repeats": 3,
+      "repeat_pixel_identical": true,
+      "image": "images/previews/teapot_edit_small-previous-q4-8.png",
+      "quality": {
+        "psnr_db": 35.799922384487274,
+        "ssim": 0.9833764302794613,
+        "mean_abs": 2.715539720323351,
+        "max_abs": 86.0
+      },
+      "image_kind": "repeat-mean RGB PNG"
+    },
+    {
+      "case": "teapot_edit_small",
+      "preset": "q8-8",
+      "steps": 8,
+      "title": "8-bit · 8 steps",
+      "median_seconds": 27.9714669160021,
+      "min_seconds": 26.87588804101688,
+      "max_seconds": 31.86952208299772,
+      "max_physical_GiB": 7.319035366177559,
+      "repeats": 3,
+      "repeat_pixel_identical": true,
+      "image": "images/previews/teapot_edit_small-q8-8.png",
+      "quality": {
+        "psnr_db": 56.45781198880159,
+        "ssim": 0.9990300569507199,
+        "mean_abs": 0.14045630560980904,
+        "max_abs": 6.0
+      },
+      "image_kind": "repeat-mean RGB PNG"
+    },
+    {
+      "case": "teapot_edit_small",
+      "preset": "q4-8",
+      "steps": 8,
+      "title": "4-bit · 8 steps",
+      "median_seconds": 25.134490750002442,
+      "min_seconds": 23.889128583017737,
+      "max_seconds": 30.2042887499847,
+      "max_physical_GiB": 5.1519805788993835,
+      "repeats": 3,
+      "repeat_pixel_identical": true,
+      "image": "images/previews/teapot_edit_small-q4-8.png",
+      "quality": {
+        "psnr_db": 38.60886432090988,
+        "ssim": 0.9904035719471788,
+        "mean_abs": 1.8995140923394098,
+        "max_abs": 62.0
+      },
+      "image_kind": "repeat-mean RGB PNG"
+    },
+    {
+      "case": "teapot_edit_small",
+      "preset": "mixed-8",
+      "steps": 8,
+      "title": "Mixed 4/8-bit · 8 steps",
+      "median_seconds": 26.82273895799881,
+      "min_seconds": 23.683768415998202,
+      "max_seconds": 30.207817291026004,
+      "max_physical_GiB": 5.956104084849358,
+      "repeats": 3,
+      "repeat_pixel_identical": true,
+      "image": "images/previews/teapot_edit_small-mixed-8.png",
+      "quality": {
+        "psnr_db": 42.73887880790311,
+        "ssim": 0.9960171001490181,
+        "mean_abs": 1.2547149658203125,
+        "max_abs": 40.0
+      },
+      "image_kind": "repeat-mean RGB PNG"
+    },
+    {
+      "case": "teapot_edit_small",
+      "preset": "bf16-8",
+      "steps": 8,
+      "title": "BF16 control · 8 steps",
+      "median_seconds": 31.567520000011427,
+      "min_seconds": 28.719892041990533,
+      "max_seconds": 33.2897700839967,
+      "max_physical_GiB": 12.25121358036995,
+      "repeats": 3,
+      "repeat_pixel_identical": true,
+      "image": "images/previews/teapot_edit_small-bf16-8.png",
+      "quality": {
+        "psnr_db": 60.4087783363625,
+        "ssim": 0.9995763838639501,
+        "mean_abs": 0.05871242947048611,
+        "max_abs": 4.0
+      },
+      "image_kind": "repeat-mean RGB PNG"
+    },
+    {
+      "case": "teapot_edit_small",
+      "preset": "mixed-6",
+      "steps": 6,
+      "title": "Mixed 4/8-bit · 6 steps",
+      "median_seconds": 18.186851125006797,
+      "min_seconds": 17.912999874999514,
+      "max_seconds": 18.515785000025062,
+      "max_physical_GiB": 5.948856182396412,
+      "repeats": 3,
+      "repeat_pixel_identical": true,
+      "image": "images/previews/teapot_edit_small-mixed-6.png",
+      "quality": {
+        "psnr_db": 42.82007276321088,
+        "ssim": 0.9946953257356808,
+        "mean_abs": 1.1083450317382812,
+        "max_abs": 53.0
+      },
+      "image_kind": "repeat-mean RGB PNG"
+    }
+  ]
+}

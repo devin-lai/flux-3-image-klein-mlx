@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Pretrained model files and downloads
+    url: https://huggingface.co/devin-lai/flux-3-image-klein-mlx
+    about: Model cards, weight licenses and the full image archive.

@@ -1,0 +1,26 @@
+name: Share a Mac benchmark
+description: Contribute reproducible results from your Apple Silicon Mac.
+labels: [benchmark]
+body:
+  - type: textarea
+    id: hardware
+    attributes:
+      label: Hardware and software
+      description: Chip, unified memory, macOS, Python, MLX and runtime commit. State power mode and background load.
+    validations:
+      required: true
+  - type: textarea
+    id: command
+    attributes:
+      label: Reproduction command and settings
+      description: Include model revision, preset, workloads, repeat count and cache conditions.
+      render: shell
+    validations:
+      required: true
+  - type: textarea
+    id: results
+    attributes:
+      label: Measurements and observations
+      description: Attach the benchmark JSON, latency range and peak process memory. Include failures or quality differences.
+    validations:
+      required: true

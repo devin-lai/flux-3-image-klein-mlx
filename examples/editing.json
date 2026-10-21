@@ -1,0 +1,15 @@
+{
+  "id": "teapot_edit_small",
+  "split": "holdout",
+  "category": "edit",
+  "prompt": "The same carefully composed horizontal studio photograph of the teapot, cup, tea tin, lavender and linen napkin on the walnut table shown in the reference image. The porcelain teapot is now a deep glossy red, with its original shape, spout pointing left and curved handle on the right. Keep the ivory cup in the foreground, the cream tea tin with the dark green words \"EARL GREY\" behind the cup, and the three lavender sprigs across the linen napkin on the right. Preserve the camera angle, object positions, pale grey plaster background, soft daylight from the left, realistic highlights and warm natural color palette. Only the teapot glaze changes from pale blue to deep red.\n",
+  "width": 768,
+  "height": 512,
+  "seed": 8521,
+  "references": [
+    {
+      "image": "images/inputs/teapot_edit_small-0.png",
+      "sha256": "9f455ed8baab236b47be11868fb355b47caca9fca8648561dd1e953a83efbf0c"
+    }
+  ]
+}

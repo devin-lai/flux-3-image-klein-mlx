@@ -1,0 +1,3797 @@
+{
+  "description": "Images are original lossless PNGs unless explicitly marked repeat means in the preview report. Contact sheets are presentation derivatives.",
+  "images": [
+    {
+      "group": "inputs",
+      "case": "bandana",
+      "variant": "reference-input",
+      "title": "bandana reference image 1",
+      "image": "images/inputs/bandana-0.png",
+      "sha256": "60ff18c6ce360237604f7f76bd9fe0d4081dcd742a79b0403de7c4903e8823ee",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "group": "inputs",
+      "case": "coffee",
+      "variant": "reference-input",
+      "title": "coffee reference image 1",
+      "image": "images/inputs/coffee-0.png",
+      "sha256": "0eca0ffdc27da1b158b691b75cd8cba3fd382e129c20c059ab9114df576d9816",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "group": "inputs",
+      "case": "figurine",
+      "variant": "reference-input",
+      "title": "figurine reference image 1",
+      "image": "images/inputs/figurine-0.png",
+      "sha256": "4193971dd16146156c50221c0c8926e57d540954f7da1b56054c36e1529f4370",
+      "width": 896,
+      "height": 1120
+    },
+    {
+      "group": "inputs",
+      "case": "cactus",
+      "variant": "reference-input",
+      "title": "cactus reference image 1",
+      "image": "images/inputs/coffee-0.png",
+      "sha256": "0eca0ffdc27da1b158b691b75cd8cba3fd382e129c20c059ab9114df576d9816",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "group": "inputs",
+      "case": "mugprint",
+      "variant": "reference-input",
+      "title": "mugprint reference image 1",
+      "image": "images/inputs/coffee-0.png",
+      "sha256": "0eca0ffdc27da1b158b691b75cd8cba3fd382e129c20c059ab9114df576d9816",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "group": "inputs",
+      "case": "mugprint",
+      "variant": "reference-input",
+      "title": "mugprint reference image 2",
+      "image": "images/inputs/bandana-0.png",
+      "sha256": "60ff18c6ce360237604f7f76bd9fe0d4081dcd742a79b0403de7c4903e8823ee",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "group": "inputs",
+      "case": "teapot_edit_small",
+      "variant": "reference-input",
+      "title": "teapot_edit_small reference image 1",
+      "image": "images/inputs/teapot_edit_small-0.png",
+      "sha256": "9f455ed8baab236b47be11868fb355b47caca9fca8648561dd1e953a83efbf0c",
+      "width": 768,
+      "height": 512
+    },
+    {
+      "group": "local",
+      "case": "man_dog",
+      "variant": "fp32",
+      "title": "MLX FP32 / 16 steps",
+      "image": "images/local-16/man_dog-fp32.png",
+      "sha256": "605f188b9146015a74019de8f9bc470e9342da1a54a7b6e6f3663f876ab1a972",
+      "width": 1024,
+      "height": 1024,
+      "quality": {
+        "ssim": 1.0,
+        "lpips": 0.0,
+        "mean_abs": 0.0,
+        "max_abs": 0,
+        "psnr_db": null
+      }
+    },
+    {
+      "group": "local",
+      "case": "man_dog",
+      "variant": "bf16",
+      "title": "BF16 / 16 steps",
+      "image": "images/local-16/man_dog-bf16.png",
+      "sha256": "e93f3f92a43017c326eab8b324bbbd663a29884be42626685917bfc4f22d872c",
+      "width": 1024,
+      "height": 1024,
+      "quality": {
+        "ssim": 0.999549283402827,
+        "lpips": 0.00014336533786263317,
+        "mean_abs": 0.17714595794677734,
+        "max_abs": 42,
+        "psnr_db": 53.391087534616986
+      }
+    },
+    {
+      "group": "local",
+      "case": "man_dog",
+      "variant": "q8-quality",
+      "title": "Q8 + BF16 text / 16 steps",
+      "image": "images/local-16/man_dog-q8-quality.png",
+      "sha256": "ec0f88998df0edb21a6322ae242affc65c56e26dabd600679625be3bc8785a72",
+      "width": 1024,
+      "height": 1024,
+      "quality": {
+        "ssim": 0.9959729842950509,
+        "lpips": 0.0023462497629225254,
+        "mean_abs": 0.736875851949056,
+        "max_abs": 204,
+        "psnr_db": 40.67727819863822
+      }
+    },
+    {
+      "group": "local",
+      "case": "man_dog",
+      "variant": "q8",
+      "title": "Q8 + Q8 text / 16 steps",
+      "image": "images/local-16/man_dog-q8.png",
+      "sha256": "a1f223d2edf8da9aab3e90eacea9409254f2885451f6af38a6ff20cd0ede52eb",
+      "width": 1024,
+      "height": 1024,
+      "quality": {
+        "ssim": 0.9947825170664669,
+        "lpips": 0.0033462783321738243,
+        "mean_abs": 0.9512573877970377,
+        "max_abs": 190,
+        "psnr_db": 39.55317959871704
+      }
+    },
+    {
+      "group": "local",
+      "case": "man_dog",
+      "variant": "mixed",
+      "title": "Mixed 4/8 + Q8 text / 16 steps",
+      "image": "images/local-16/man_dog-mixed.png",
+      "sha256": "4cf42c5a9eecb28d26e90fa48febb73ecbc87ceac9617d5a697ded6d4e76af7e",
+      "width": 1024,
+      "height": 1024,
+      "quality": {
+        "ssim": 0.9350835813683033,
+        "lpips": 0.05043252930045128,
+        "mean_abs": 5.933703740437825,
+        "max_abs": 213,
+        "psnr_db": 26.405188996602497
+      }
+    },
+    {
+      "group": "local",
+      "case": "man_dog",
+      "variant": "q4",
+      "title": "Q4 + Q8 text / 16 steps",
+      "image": "images/local-16/man_dog-q4.png",
+      "sha256": "d742a8ce1e281d3475b3e4dc1351da52859d06c86ece9b48c3064e4511c253cb",
+      "width": 1024,
+      "height": 1024,
+      "quality": {
+        "ssim": 0.9361442050714865,
+        "lpips": 0.046755533665418625,
+        "mean_abs": 5.984572728474935,
+        "max_abs": 220,
+        "psnr_db": 27.47571293676442
+      }
+    },
+    {
+      "group": "local",
+      "case": "teapot_small",
+      "variant": "fp32",
+      "title": "MLX FP32 / 16 steps",
+      "image": "images/local-16/teapot_small-fp32.png",
+      "sha256": "6936620e7fded85d1f0d4171cb30fae06f5eed6f451d1fb003813a2bcda21506",
+      "width": 768,
+      "height": 512,
+      "quality": {
+        "ssim": 1.0,
+        "lpips": 0.0,
+        "mean_abs": 0.0,
+        "max_abs": 0,
+        "psnr_db": null
+      }
+    },
+    {
+      "group": "local",
+      "case": "teapot_small",
+      "variant": "bf16",
+      "title": "BF16 / 16 steps",
+      "image": "images/local-16/teapot_small-bf16.png",
+      "sha256": "a0b91a1b618231f44d65dd8d3577e181909ae1c94f909213233026d09a69d042",
+      "width": 768,
+      "height": 512,
+      "quality": {
+        "ssim": 0.9994278717190709,
+        "lpips": 0.00011521272244863212,
+        "mean_abs": 0.09661780463324653,
+        "max_abs": 16,
+        "psnr_db": 56.5738060375526
+      }
+    },
+    {
+      "group": "local",
+      "case": "teapot_small",
+      "variant": "q8-quality",
+      "title": "Q8 + BF16 text / 16 steps",
+      "image": "images/local-16/teapot_small-q8-quality.png",
+      "sha256": "15f1891a0b8c5af178b57895fd21b8449afe9f51e4a3aec1b741a9c17e06be8b",
+      "width": 768,
+      "height": 512,
+      "quality": {
+        "ssim": 0.9947175762907406,
+        "lpips": 0.0034193070605397224,
+        "mean_abs": 0.6954947577582465,
+        "max_abs": 161,
+        "psnr_db": 37.24830474282021
+      }
+    },
+    {
+      "group": "local",
+      "case": "teapot_small",
+      "variant": "q8",
+      "title": "Q8 + Q8 text / 16 steps",
+      "image": "images/local-16/teapot_small-q8.png",
+      "sha256": "0c083fec09960409cd8697ba32d680bcbf725f8b45492de2a1c7fc982d7a3450",
+      "width": 768,
+      "height": 512,
+      "quality": {
+        "ssim": 0.9903150091748832,
+        "lpips": 0.004314084071666002,
+        "mean_abs": 1.0409198337131076,
+        "max_abs": 177,
+        "psnr_db": 36.24230152456922
+      }
+    },
+    {
+      "group": "local",
+      "case": "teapot_small",
+      "variant": "mixed",
+      "title": "Mixed 4/8 + Q8 text / 16 steps",
+      "image": "images/local-16/teapot_small-mixed.png",
+      "sha256": "fbfa2f5028da5e852816de561a7304e4f9a82b7853b95744a6ae81e1aa106a16",
+      "width": 768,
+      "height": 512,
+      "quality": {
+        "ssim": 0.9696593772147222,
+        "lpips": 0.017306605353951454,
+        "mean_abs": 3.349417792426215,
+        "max_abs": 189,
+        "psnr_db": 29.646958361770203
+      }
+    },
+    {
+      "group": "local",
+      "case": "teapot_small",
+      "variant": "q4",
+      "title": "Q4 + Q8 text / 16 steps",
+      "image": "images/local-16/teapot_small-q4.png",
+      "sha256": "13b4be207a45adc3913363c671bb4d758ec19e1a331403306cc518222733b210",
+      "width": 768,
+      "height": 512,
+      "quality": {
+        "ssim": 0.9528687390027044,
+        "lpips": 0.027506286278367043,
+        "mean_abs": 4.161618550618489,
+        "max_abs": 171,
+        "psnr_db": 29.021738167266896
+      }
+    },
+    {
+      "group": "local",
+      "case": "poster_small",
+      "variant": "fp32",
+      "title": "MLX FP32 / 16 steps",
+      "image": "images/local-16/poster_small-fp32.png",
+      "sha256": "2d02ddff1119b14e1573189d099638f07ea25382340272b9ef3443f85890fc9d",
+      "width": 640,
+      "height": 640,
+      "quality": {
+        "ssim": 1.0,
+        "lpips": 0.0,
+        "mean_abs": 0.0,
+        "max_abs": 0,
+        "psnr_db": null
+      }
+    },
+    {
+      "group": "local",
+      "case": "poster_small",
+      "variant": "bf16",
+      "title": "BF16 / 16 steps",
+      "image": "images/local-16/poster_small-bf16.png",
+      "sha256": "142c424e823848baf9638cc66791a4c402da0e5d6d1ae2a34219a6aae939595a",
+      "width": 640,
+      "height": 640,
+      "quality": {
+        "ssim": 0.998723911750561,
+        "lpips": 0.0003868926432915032,
+        "mean_abs": 0.21872314453125,
+        "max_abs": 56,
+        "psnr_db": 45.87850397704719
+      }
+    },
+    {
+      "group": "local",
+      "case": "poster_small",
+      "variant": "q8-quality",
+      "title": "Q8 + BF16 text / 16 steps",
+      "image": "images/local-16/poster_small-q8-quality.png",
+      "sha256": "394778d842adecba0742580b953002f07071c944dd6a6cd7d604a2b6a215b7d7",
+      "width": 640,
+      "height": 640,
+      "quality": {
+        "ssim": 0.9843586261401063,
+        "lpips": 0.007119579240679741,
+        "mean_abs": 1.1971354166666666,
+        "max_abs": 210,
+        "psnr_db": 32.304207587910106
+      }
+    },
+    {
+      "group": "local",
+      "case": "poster_small",
+      "variant": "q8",
+      "title": "Q8 + Q8 text / 16 steps",
+      "image": "images/local-16/poster_small-q8.png",
+      "sha256": "8df60d3bf1bbc14e90b2baf40efa39c245c73daeb45a613371b234a592bd3972",
+      "width": 640,
+      "height": 640,
+      "quality": {
+        "ssim": 0.9806505254293807,
+        "lpips": 0.009020781144499779,
+        "mean_abs": 1.4775838216145833,
+        "max_abs": 200,
+        "psnr_db": 31.176952968806546
+      }
+    },
+    {
+      "group": "local",
+      "case": "poster_small",
+      "variant": "mixed",
+      "title": "Mixed 4/8 + Q8 text / 16 steps",
+      "image": "images/local-16/poster_small-mixed.png",
+      "sha256": "df48609f282c0ddd51c09f595ec36f4e50368acf2fac980cd1a7f110fdefdcd7",
+      "width": 640,
+      "height": 640,
+      "quality": {
+        "ssim": 0.8647323546010792,
+        "lpips": 0.1184520423412323,
+        "mean_abs": 9.133194173177083,
+        "max_abs": 245,
+        "psnr_db": 20.741055761913877
+      }
+    },
+    {
+      "group": "local",
+      "case": "poster_small",
+      "variant": "q4",
+      "title": "Q4 + Q8 text / 16 steps",
+      "image": "images/local-16/poster_small-q4.png",
+      "sha256": "09ae50bffc0035692f261d08305d3173754d3b41b3bd9543bc9a504fb08f7c92",
+      "width": 640,
+      "height": 640,
+      "quality": {
+        "ssim": 0.8513360362819212,
+        "lpips": 0.13954302668571472,
+        "mean_abs": 9.85372314453125,
+        "max_abs": 245,
+        "psnr_db": 20.457343265749408
+      }
+    },
+    {
+      "group": "local",
+      "case": "teapot_edit_small",
+      "variant": "fp32",
+      "title": "MLX FP32 / 16 steps",
+      "image": "images/local-16/teapot_edit_small-fp32.png",
+      "sha256": "9da0a6f94413e1e0f8b353d7bea16e964c3013ab60980293ac802ac0f093f466",
+      "width": 768,
+      "height": 512,
+      "quality": {
+        "ssim": 1.0,
+        "lpips": 0.0,
+        "mean_abs": 0.0,
+        "max_abs": 0,
+        "psnr_db": null
+      }
+    },
+    {
+      "group": "local",
+      "case": "teapot_edit_small",
+      "variant": "bf16",
+      "title": "BF16 / 16 steps",
+      "image": "images/local-16/teapot_edit_small-bf16.png",
+      "sha256": "b53af31d5d8cb029397577116a62abe00edc55ac09e1406faeeeee6ed49409a3",
+      "width": 768,
+      "height": 512,
+      "quality": {
+        "ssim": 0.9996092822095642,
+        "lpips": 4.8649068048689514e-05,
+        "mean_abs": 0.055792914496527776,
+        "max_abs": 6,
+        "psnr_db": 60.63633803407153
+      }
+    },
+    {
+      "group": "local",
+      "case": "teapot_edit_small",
+      "variant": "q8-quality",
+      "title": "Q8 + BF16 text / 16 steps",
+      "image": "images/local-16/teapot_edit_small-q8-quality.png",
+      "sha256": "15585413ba168271aaa4a77256011356c2363e925b1a0ea05a512cef59d55570",
+      "width": 768,
+      "height": 512,
+      "quality": {
+        "ssim": 0.9992367162573075,
+        "lpips": 0.00010013744031311944,
+        "mean_abs": 0.12386067708333333,
+        "max_abs": 9,
+        "psnr_db": 56.96427467764876
+      }
+    },
+    {
+      "group": "local",
+      "case": "teapot_edit_small",
+      "variant": "q8",
+      "title": "Q8 + Q8 text / 16 steps",
+      "image": "images/local-16/teapot_edit_small-q8.png",
+      "sha256": "6469a2e1dfa93087ecea6ad2f80c213ea80368b6d55d6c82076fcc1ca3819d5c",
+      "width": 768,
+      "height": 512,
+      "quality": {
+        "ssim": 0.9993043774424692,
+        "lpips": 0.00010142571409232914,
+        "mean_abs": 0.11855316162109375,
+        "max_abs": 9,
+        "psnr_db": 57.10177079278292
+      }
+    },
+    {
+      "group": "local",
+      "case": "teapot_edit_small",
+      "variant": "mixed",
+      "title": "Mixed 4/8 + Q8 text / 16 steps",
+      "image": "images/local-16/teapot_edit_small-mixed.png",
+      "sha256": "0bc07433041c8330459e735ec2153308cec9e3a8039e2f56f77e65ef56a8de6f",
+      "width": 768,
+      "height": 512,
+      "quality": {
+        "ssim": 0.9960694982145958,
+        "lpips": 0.0013978925999253988,
+        "mean_abs": 1.4432720608181424,
+        "max_abs": 38,
+        "psnr_db": 42.16801822999082
+      }
+    },
+    {
+      "group": "local",
+      "case": "teapot_edit_small",
+      "variant": "q4",
+      "title": "Q4 + Q8 text / 16 steps",
+      "image": "images/local-16/teapot_edit_small-q4.png",
+      "sha256": "0a1c22ef63f715d4c3c2a98b54f96c5748f157487ab05bfdb3c37e4bbf63f490",
+      "width": 768,
+      "height": 512,
+      "quality": {
+        "ssim": 0.9904900354198637,
+        "lpips": 0.004367368295788765,
+        "mean_abs": 1.812427944607205,
+        "max_abs": 56,
+        "psnr_db": 38.9293218298867
+      }
+    },
+    {
+      "group": "local",
+      "case": "man_dog",
+      "variant": "bf16-11",
+      "title": "BF16 / 11 steps / fast",
+      "image": "images/local-presets/man_dog-bf16-11.png",
+      "sha256": "9b62f079db85b6d77d561491b4361b021fa1668c3b6935bc2084b653e2aca738",
+      "width": 1024,
+      "height": 1024,
+      "quality": {
+        "psnr_db": 34.78283828173299,
+        "ssim": 0.9838056297744382,
+        "lpips": 0.012697002850472927,
+        "mean_abs": 2.569329579671224,
+        "max_abs": 154
+      }
+    },
+    {
+      "group": "local",
+      "case": "man_dog",
+      "variant": "q8-quality-11",
+      "title": "Q8 + BF16 text / 11 steps",
+      "image": "images/local-presets/man_dog-q8-quality-11.png",
+      "sha256": "563442fffdd8a5d5f71d3bf7aed75c1a746228f0912018fbeb7b7a9799498ea8",
+      "width": 1024,
+      "height": 1024,
+      "quality": {
+        "psnr_db": 34.022411798336265,
+        "ssim": 0.9814018491950233,
+        "lpips": 0.014054818078875542,
+        "mean_abs": 2.6854931513468423,
+        "max_abs": 202
+      }
+    },
+    {
+      "group": "local",
+      "case": "man_dog",
+      "variant": "q8-quality-12",
+      "title": "Q8 + BF16 text / 12 steps",
+      "image": "images/local-presets/man_dog-q8-quality-12.png",
+      "sha256": "0418be314897495584c20cb5c9d1d150fee7408df862b28325e1b7f370f29ad2",
+      "width": 1024,
+      "height": 1024,
+      "quality": {
+        "psnr_db": 36.05988034798348,
+        "ssim": 0.9875308134733959,
+        "lpips": 0.008993850089609623,
+        "mean_abs": 1.9711987177530925,
+        "max_abs": 203
+      }
+    },
+    {
+      "group": "local",
+      "case": "teapot_small",
+      "variant": "bf16-11",
+      "title": "BF16 / 11 steps / fast",
+      "image": "images/local-presets/teapot_small-bf16-11.png",
+      "sha256": "aadbfda8ac7e2c1d292702814522671a1594c5661241b621bd547d465cb215ba",
+      "width": 768,
+      "height": 512,
+      "quality": {
+        "psnr_db": 35.60815012240832,
+        "ssim": 0.9900074508013551,
+        "lpips": 0.006082913372665644,
+        "mean_abs": 1.6940553453233507,
+        "max_abs": 145
+      }
+    },
+    {
+      "group": "local",
+      "case": "teapot_small",
+      "variant": "q8-quality-11",
+      "title": "Q8 + BF16 text / 11 steps",
+      "image": "images/local-presets/teapot_small-q8-quality-11.png",
+      "sha256": "bc068ee98fb4f0c52d1f64ad542e87cbf61ae0a8055548d226ef4e08556eb5ca",
+      "width": 768,
+      "height": 512,
+      "quality": {
+        "psnr_db": 34.695029390009594,
+        "ssim": 0.9883822729592011,
+        "lpips": 0.00687583489343524,
+        "mean_abs": 1.8140953911675348,
+        "max_abs": 159
+      }
+    },
+    {
+      "group": "local",
+      "case": "teapot_small",
+      "variant": "q8-quality-12",
+      "title": "Q8 + BF16 text / 12 steps",
+      "image": "images/local-presets/teapot_small-q8-quality-12.png",
+      "sha256": "a7304242697d5d60a76980332091adf5f79411fd6b55905b4ce1b772a59e96aa",
+      "width": 768,
+      "height": 512,
+      "quality": {
+        "psnr_db": 35.82605279545729,
+        "ssim": 0.9913228251010519,
+        "lpips": 0.005320573691278696,
+        "mean_abs": 1.3481004503038194,
+        "max_abs": 164
+      }
+    },
+    {
+      "group": "local",
+      "case": "poster_small",
+      "variant": "bf16-11",
+      "title": "BF16 / 11 steps / fast",
+      "image": "images/local-presets/poster_small-bf16-11.png",
+      "sha256": "33f4246242eabeabe35986a9eeef2b5df15edc03f54052c6e828bc763c91cbff",
+      "width": 640,
+      "height": 640,
+      "quality": {
+        "psnr_db": 32.3630373216183,
+        "ssim": 0.9847391532248837,
+        "lpips": 0.012507927604019642,
+        "mean_abs": 1.8922916666666667,
+        "max_abs": 186
+      }
+    },
+    {
+      "group": "local",
+      "case": "poster_small",
+      "variant": "q8-quality-11",
+      "title": "Q8 + BF16 text / 11 steps",
+      "image": "images/local-presets/poster_small-q8-quality-11.png",
+      "sha256": "7bdf5b45d1237019041678449e9265aff1e07ed90eed2c0a4e14c90d36cd96be",
+      "width": 640,
+      "height": 640,
+      "quality": {
+        "psnr_db": 31.1989602219484,
+        "ssim": 0.9782622299447791,
+        "lpips": 0.011131469160318375,
+        "mean_abs": 2.0525496419270834,
+        "max_abs": 211
+      }
+    },
+    {
+      "group": "local",
+      "case": "poster_small",
+      "variant": "q8-quality-12",
+      "title": "Q8 + BF16 text / 12 steps",
+      "image": "images/local-presets/poster_small-q8-quality-12.png",
+      "sha256": "b1af52d4302f804a7bad233f20cbbfb4bf6a6b86eb2ad86e330f4dd03bc8d37e",
+      "width": 640,
+      "height": 640,
+      "quality": {
+        "psnr_db": 31.717408650211368,
+        "ssim": 0.9814183043928898,
+        "lpips": 0.00901454035192728,
+        "mean_abs": 1.5099348958333334,
+        "max_abs": 210
+      }
+    },
+    {
+      "group": "local",
+      "case": "teapot_edit_small",
+      "variant": "bf16-11",
+      "title": "BF16 / 11 steps / fast",
+      "image": "images/local-presets/teapot_edit_small-bf16-11.png",
+      "sha256": "f04cfbfbd4e2c962a021f5cf67c91562c0dcea2e26d5980920d48f893aa08f75",
+      "width": 768,
+      "height": 512,
+      "quality": {
+        "psnr_db": 49.263692570227704,
+        "ssim": 0.9973617742239235,
+        "lpips": 0.0004745317855849862,
+        "mean_abs": 0.4701961941189236,
+        "max_abs": 28
+      }
+    },
+    {
+      "group": "local",
+      "case": "teapot_edit_small",
+      "variant": "q8-quality-11",
+      "title": "Q8 + BF16 text / 11 steps",
+      "image": "images/local-presets/teapot_edit_small-q8-quality-11.png",
+      "sha256": "76c9f185612e1d66b362da98f1f84b16044d1975c515f5bd825eba63b39f5de2",
+      "width": 768,
+      "height": 512,
+      "quality": {
+        "psnr_db": 49.26684295569988,
+        "ssim": 0.997447821405358,
+        "lpips": 0.0004731347435154021,
+        "mean_abs": 0.44741566975911456,
+        "max_abs": 33
+      }
+    },
+    {
+      "group": "local",
+      "case": "teapot_edit_small",
+      "variant": "q8-quality-12",
+      "title": "Q8 + BF16 text / 12 steps",
+      "image": "images/local-presets/teapot_edit_small-q8-quality-12.png",
+      "sha256": "13b4d5266bd154fc4c963c1422da9b6cc82c3bf2b1d04d8678d6e40c60f9fe7e",
+      "width": 768,
+      "height": 512,
+      "quality": {
+        "psnr_db": 50.706298315768635,
+        "ssim": 0.9975242173049242,
+        "lpips": 0.00041321455501019955,
+        "mean_abs": 0.41854773627387154,
+        "max_abs": 30
+      }
+    },
+    {
+      "group": "local",
+      "case": "man_dog",
+      "variant": "q8-13",
+      "title": "Q8 + Q8 text / 13 steps",
+      "image": "images/local-presets/man_dog-q8-13.png",
+      "sha256": "ca79ac492b87c59954be6b5b086b32b2b6b141ceec0c4cd6671f3dc5b0528c97",
+      "width": 1024,
+      "height": 1024,
+      "quality": {
+        "psnr_db": 37.33447989956642,
+        "ssim": 0.9909355911277512,
+        "lpips": 0.006360610947012901,
+        "mean_abs": 1.6448961893717449,
+        "max_abs": 179
+      }
+    },
+    {
+      "group": "local",
+      "case": "teapot_small",
+      "variant": "q8-13",
+      "title": "Q8 + Q8 text / 13 steps",
+      "image": "images/local-presets/teapot_small-q8-13.png",
+      "sha256": "82a1c0c8b3884aca1ce558fc726b90cd948215acd2379b6595cd24e81947558f",
+      "width": 768,
+      "height": 512,
+      "quality": {
+        "psnr_db": 35.38321763805886,
+        "ssim": 0.9887481409696254,
+        "lpips": 0.005572172347456217,
+        "mean_abs": 1.6307347615559895,
+        "max_abs": 173
+      }
+    },
+    {
+      "group": "local",
+      "case": "poster_small",
+      "variant": "q8-13",
+      "title": "Q8 + Q8 text / 13 steps",
+      "image": "images/local-presets/poster_small-q8-13.png",
+      "sha256": "9a5552b2e7e516eb88614e97800ca32416c7924fa8203bd0465ebec0b8378384",
+      "width": 640,
+      "height": 640,
+      "quality": {
+        "psnr_db": 31.02469680042458,
+        "ssim": 0.9794590648532565,
+        "lpips": 0.010323002934455872,
+        "mean_abs": 1.6277286783854166,
+        "max_abs": 197
+      }
+    },
+    {
+      "group": "local",
+      "case": "teapot_edit_small",
+      "variant": "q8-13",
+      "title": "Q8 + Q8 text / 13 steps",
+      "image": "images/local-presets/teapot_edit_small-q8-13.png",
+      "sha256": "c515e52379555d1b64674caf7b9040ddd0273d81973e025e6a2e1948f3c526d3",
+      "width": 768,
+      "height": 512,
+      "quality": {
+        "psnr_db": 50.66096346169075,
+        "ssim": 0.9975458984480151,
+        "lpips": 0.0004268369812052697,
+        "mean_abs": 0.4318355984157986,
+        "max_abs": 28
+      }
+    },
+    {
+      "group": "validation",
+      "case": "man_dog",
+      "variant": "bf16-11",
+      "title": "BF16 / 11 steps / fast",
+      "image": "images/validation/man_dog-bf16-11.png",
+      "sha256": "d77c1f9f0a7248a7c3e1cd6c89efaf4b3718c7891a908bc248fce7dda1fc5d1b",
+      "width": 1024,
+      "height": 1024,
+      "quality": {
+        "lpips": 0.012615734711289406,
+        "psnr_db": 34.83321111329935,
+        "ssim": 0.9839499505237485
+      }
+    },
+    {
+      "group": "validation",
+      "case": "church",
+      "variant": "bf16-11",
+      "title": "BF16 / 11 steps / fast",
+      "image": "images/validation/church-bf16-11.png",
+      "sha256": "042f76b5e80776b8c7b9e11d974870bcac2cad8a8a5f56d7ae384bf22e10c1fc",
+      "width": 832,
+      "height": 1248,
+      "quality": {
+        "lpips": 0.013391418382525444,
+        "psnr_db": 40.27813173390919,
+        "ssim": 0.986654299997841
+      }
+    },
+    {
+      "group": "validation",
+      "case": "fashion",
+      "variant": "bf16-11",
+      "title": "BF16 / 11 steps / fast",
+      "image": "images/validation/fashion-bf16-11.png",
+      "sha256": "00040515109d0dd25f951a186b54a2147e6915c271cb8da34db2ae6c5a12ff5c",
+      "width": 832,
+      "height": 1248,
+      "quality": {
+        "lpips": 0.003130825702100992,
+        "psnr_db": 40.45421415652488,
+        "ssim": 0.9932405709829341
+      }
+    },
+    {
+      "group": "validation",
+      "case": "hiroshige",
+      "variant": "bf16-11",
+      "title": "BF16 / 11 steps / fast",
+      "image": "images/validation/hiroshige-bf16-11.png",
+      "sha256": "9b8c735d58bf00c0bbf41d8761cf00193830c0d60e2d094c1579a6eb5af720f8",
+      "width": 832,
+      "height": 1248,
+      "quality": {
+        "lpips": 0.022391920909285545,
+        "psnr_db": 28.437333256708897,
+        "ssim": 0.9573478969167047
+      }
+    },
+    {
+      "group": "validation",
+      "case": "tea_tin",
+      "variant": "bf16-11",
+      "title": "BF16 / 11 steps / fast",
+      "image": "images/validation/tea_tin-bf16-11.png",
+      "sha256": "98c61e59f1408109189a3147d7def91c5233cac028ad229d9de5b168177e1eae",
+      "width": 1024,
+      "height": 1024,
+      "quality": {
+        "lpips": 0.00298745627515018,
+        "psnr_db": 38.540277237518985,
+        "ssim": 0.9941990714732221
+      }
+    },
+    {
+      "group": "validation",
+      "case": "gig_poster",
+      "variant": "bf16-11",
+      "title": "BF16 / 11 steps / fast",
+      "image": "images/validation/gig_poster-bf16-11.png",
+      "sha256": "7d0a6f17c1eb3bbb78dc93cbb346a3bbae4db26750dc9736fb6932e1d6d27dd3",
+      "width": 832,
+      "height": 1248,
+      "quality": {
+        "lpips": 0.009168479591608047,
+        "psnr_db": 31.37827925083027,
+        "ssim": 0.9860739375567719
+      }
+    },
+    {
+      "group": "validation",
+      "case": "field_notes",
+      "variant": "bf16-11",
+      "title": "BF16 / 11 steps / fast",
+      "image": "images/validation/field_notes-bf16-11.png",
+      "sha256": "af6ae5f864c96817152955c2ac1e29320e2a5e21774a8277f939d089a6b3702d",
+      "width": 1248,
+      "height": 832,
+      "quality": {
+        "lpips": 0.009451648220419884,
+        "psnr_db": 36.49454508741765,
+        "ssim": 0.9879754211136756
+      }
+    },
+    {
+      "group": "validation",
+      "case": "balloons",
+      "variant": "bf16-11",
+      "title": "BF16 / 11 steps / fast",
+      "image": "images/validation/balloons-bf16-11.png",
+      "sha256": "d7f7ba1299f8ea72eb2651aa0f4bbedd27c5931d598a36697dcf765046fd161b",
+      "width": 1024,
+      "height": 1024,
+      "quality": {
+        "lpips": 0.011567402631044388,
+        "psnr_db": 37.26849312598644,
+        "ssim": 0.9839537809019222
+      }
+    },
+    {
+      "group": "validation",
+      "case": "double_exposure_s1",
+      "variant": "bf16-11",
+      "title": "BF16 / 11 steps / fast",
+      "image": "images/validation/double_exposure_s1-bf16-11.png",
+      "sha256": "825ee9e7de02194269718688cff45014427294687dd4fe1fbcf480e4ab74aa38",
+      "width": 832,
+      "height": 1248,
+      "quality": {
+        "lpips": 0.010700502432882786,
+        "psnr_db": 41.92599148174881,
+        "ssim": 0.9887007889584924
+      }
+    },
+    {
+      "group": "validation",
+      "case": "bandana",
+      "variant": "bf16-11",
+      "title": "BF16 / 11 steps / fast",
+      "image": "images/validation/bandana-bf16-11.png",
+      "sha256": "3430291c109dbdd5bfc9baf3af8836569927d7eb2008401fb0a805bb85612516",
+      "width": 1024,
+      "height": 1024,
+      "quality": {
+        "lpips": 0.001705866539850831,
+        "psnr_db": 44.2648772294899,
+        "ssim": 0.996429759835257
+      }
+    },
+    {
+      "group": "validation",
+      "case": "coffee",
+      "variant": "bf16-11",
+      "title": "BF16 / 11 steps / fast",
+      "image": "images/validation/coffee-bf16-11.png",
+      "sha256": "e0c5b6bbfb99bb087b9047de4cfdca7a4a81bb47e179b6f309de9f0d191d2b8d",
+      "width": 1024,
+      "height": 1024,
+      "quality": {
+        "lpips": 0.002017139457166195,
+        "psnr_db": 42.84783881341292,
+        "ssim": 0.9958080244471815
+      }
+    },
+    {
+      "group": "validation",
+      "case": "figurine",
+      "variant": "bf16-11",
+      "title": "BF16 / 11 steps / fast",
+      "image": "images/validation/figurine-bf16-11.png",
+      "sha256": "5d9eade0bb0cfac3694a7949e05c98918182d0d3de6187e9ca7f96246e9fd4d1",
+      "width": 896,
+      "height": 1120,
+      "quality": {
+        "lpips": 0.017728235572576523,
+        "psnr_db": 29.401029250978873,
+        "ssim": 0.9718259851874725
+      }
+    },
+    {
+      "group": "validation",
+      "case": "still_life_wide",
+      "variant": "bf16-11",
+      "title": "BF16 / 11 steps / fast",
+      "image": "images/validation/still_life_wide-bf16-11.png",
+      "sha256": "42c32775fb304e954710e3b2824e52b0bfcb64e1fa002d2078223269440d7300",
+      "width": 1248,
+      "height": 832,
+      "quality": {
+        "lpips": 0.010024572722613811,
+        "psnr_db": 33.61255182100075,
+        "ssim": 0.9846184137533064
+      }
+    },
+    {
+      "group": "validation",
+      "case": "riso_lido",
+      "variant": "bf16-11",
+      "title": "BF16 / 11 steps / fast",
+      "image": "images/validation/riso_lido-bf16-11.png",
+      "sha256": "d08f3eee5dce2c224ff7942a519bf760d6920765ac8160c7f9cdd56525541867",
+      "width": 832,
+      "height": 1248,
+      "quality": {
+        "lpips": 0.022849883884191513,
+        "psnr_db": 27.456925105961425,
+        "ssim": 0.9613648171988897
+      }
+    },
+    {
+      "group": "validation",
+      "case": "knitted",
+      "variant": "bf16-11",
+      "title": "BF16 / 11 steps / fast",
+      "image": "images/validation/knitted-bf16-11.png",
+      "sha256": "a46415df3c7ac6e975f64fd84da8359a0240098450dab95465b4065c31fb6099",
+      "width": 1184,
+      "height": 896,
+      "quality": {
+        "lpips": 0.021848449483513832,
+        "psnr_db": 30.93611786735633,
+        "ssim": 0.9539794496566784
+      }
+    },
+    {
+      "group": "validation",
+      "case": "cereal_box",
+      "variant": "bf16-11",
+      "title": "BF16 / 11 steps / fast",
+      "image": "images/validation/cereal_box-bf16-11.png",
+      "sha256": "90685f5cc97a5caed1189bcfe3b7c354285470f1ee2a69ffed3759ae5465eda4",
+      "width": 832,
+      "height": 1248,
+      "quality": {
+        "lpips": 0.008385754190385342,
+        "psnr_db": 31.09413986121917,
+        "ssim": 0.9789201761291166
+      }
+    },
+    {
+      "group": "validation",
+      "case": "double_exposure_s2",
+      "variant": "bf16-11",
+      "title": "BF16 / 11 steps / fast",
+      "image": "images/validation/double_exposure_s2-bf16-11.png",
+      "sha256": "b5abd472a23481f2a3590beeee99bd8a085fb47b85baac7a6803d4b75a82bef7",
+      "width": 832,
+      "height": 1248,
+      "quality": {
+        "lpips": 0.013566497713327408,
+        "psnr_db": 39.13678047964821,
+        "ssim": 0.9861198808424931
+      }
+    },
+    {
+      "group": "validation",
+      "case": "cactus",
+      "variant": "bf16-11",
+      "title": "BF16 / 11 steps / fast",
+      "image": "images/validation/cactus-bf16-11.png",
+      "sha256": "35d6d6549e2ca2298686a5c7bca286b84e05108324b0567df76b286e1d719019",
+      "width": 1024,
+      "height": 1024,
+      "quality": {
+        "lpips": 0.0010047020623460412,
+        "psnr_db": 46.92885100897769,
+        "ssim": 0.9971520259135694
+      }
+    },
+    {
+      "group": "validation",
+      "case": "mugprint",
+      "variant": "bf16-11",
+      "title": "BF16 / 11 steps / fast",
+      "image": "images/validation/mugprint-bf16-11.png",
+      "sha256": "64af80f7d5ab4957ef1e3ff39bf854183a6ff0ee66b9983fc4a7cbe76a2d4647",
+      "width": 1024,
+      "height": 1024,
+      "quality": {
+        "lpips": 0.0005795962642878294,
+        "psnr_db": 51.1372810276708,
+        "ssim": 0.9975789526537163
+      }
+    },
+    {
+      "group": "validation",
+      "case": "teapot_small",
+      "variant": "bf16-11",
+      "title": "BF16 / 11 steps / fast",
+      "image": "images/validation/teapot_small-bf16-11.png",
+      "sha256": "25404f7b29ba862a02f417d59382366c7021924f905ee9727fa522dae21862d1",
+      "width": 768,
+      "height": 512,
+      "quality": {
+        "lpips": 0.006145825143903494,
+        "psnr_db": 35.56454803922736,
+        "ssim": 0.9898900920770118
+      }
+    },
+    {
+      "group": "validation",
+      "case": "poster_small",
+      "variant": "bf16-11",
+      "title": "BF16 / 11 steps / fast",
+      "image": "images/validation/poster_small-bf16-11.png",
+      "sha256": "b5494df96ead9af794e149345963af9e6b468753d21c5575eb95ab36295d69a0",
+      "width": 640,
+      "height": 640,
+      "quality": {
+        "lpips": 0.01303650438785553,
+        "psnr_db": 32.13502624433298,
+        "ssim": 0.9841556941249009
+      }
+    },
+    {
+      "group": "validation",
+      "case": "teapot_edit_small",
+      "variant": "bf16-11",
+      "title": "BF16 / 11 steps / fast",
+      "image": "images/validation/teapot_edit_small-bf16-11.png",
+      "sha256": "5fb02f335b885b53332e08f31ebb26f67fb902d68a3942262b1b0c9f31c642d5",
+      "width": 768,
+      "height": 512,
+      "quality": {
+        "lpips": 0.00048094085650518537,
+        "psnr_db": 49.22693693279976,
+        "ssim": 0.9973417291058538
+      }
+    },
+    {
+      "group": "validation",
+      "case": "man_dog",
+      "variant": "bf16-fused-11",
+      "title": "BF16 / 11 steps / fused",
+      "image": "images/validation/man_dog-bf16-fused-11.png",
+      "sha256": "d02b60eeb4c624bf649d5f3144d2a6edbc41cc6580311745c927d65d64f36fbe",
+      "width": 1024,
+      "height": 1024,
+      "quality": {
+        "lpips": 0.01282932423055172,
+        "psnr_db": 34.73920828445107,
+        "ssim": 0.9837275657523228
+      }
+    },
+    {
+      "group": "validation",
+      "case": "church",
+      "variant": "bf16-fused-11",
+      "title": "BF16 / 11 steps / fused",
+      "image": "images/validation/church-bf16-fused-11.png",
+      "sha256": "2c4ef89c4eb6f1e8adaa438347b2b76977f800166976fc29296f498522246491",
+      "width": 832,
+      "height": 1248,
+      "quality": {
+        "lpips": 0.013380011543631554,
+        "psnr_db": 40.22608779179396,
+        "ssim": 0.9866987079653072
+      }
+    },
+    {
+      "group": "validation",
+      "case": "fashion",
+      "variant": "bf16-fused-11",
+      "title": "BF16 / 11 steps / fused",
+      "image": "images/validation/fashion-bf16-fused-11.png",
+      "sha256": "74769cbba1da67e57a67500a8cb7e3f2fa87203f144be36b3b9f402a6f1aeb2b",
+      "width": 832,
+      "height": 1248,
+      "quality": {
+        "lpips": 0.003088610712438822,
+        "psnr_db": 40.65185882316289,
+        "ssim": 0.993406614006571
+      }
+    },
+    {
+      "group": "validation",
+      "case": "hiroshige",
+      "variant": "bf16-fused-11",
+      "title": "BF16 / 11 steps / fused",
+      "image": "images/validation/hiroshige-bf16-fused-11.png",
+      "sha256": "4c23e6fb3d3661d90e54fead6f1c690e338ec54bc2a43a01ad37899fbec69b52",
+      "width": 832,
+      "height": 1248,
+      "quality": {
+        "lpips": 0.022397374734282494,
+        "psnr_db": 28.44907624687909,
+        "ssim": 0.9573605941860093
+      }
+    },
+    {
+      "group": "validation",
+      "case": "tea_tin",
+      "variant": "bf16-fused-11",
+      "title": "BF16 / 11 steps / fused",
+      "image": "images/validation/tea_tin-bf16-fused-11.png",
+      "sha256": "110c022a921e5137742ebb937c6c1aa9df3b5a58d65dccfade34247f38c8dd57",
+      "width": 1024,
+      "height": 1024,
+      "quality": {
+        "lpips": 0.002968638436868787,
+        "psnr_db": 38.5424018307189,
+        "ssim": 0.994217921684916
+      }
+    },
+    {
+      "group": "validation",
+      "case": "gig_poster",
+      "variant": "bf16-fused-11",
+      "title": "BF16 / 11 steps / fused",
+      "image": "images/validation/gig_poster-bf16-fused-11.png",
+      "sha256": "2bdbdde39d7f023ee2dd0cd0d2e60d8153b1f600c6ca31c7661920078fb8faf5",
+      "width": 832,
+      "height": 1248,
+      "quality": {
+        "lpips": 0.009425245225429535,
+        "psnr_db": 31.29340803095984,
+        "ssim": 0.9858405271661638
+      }
+    },
+    {
+      "group": "validation",
+      "case": "field_notes",
+      "variant": "bf16-fused-11",
+      "title": "BF16 / 11 steps / fused",
+      "image": "images/validation/field_notes-bf16-fused-11.png",
+      "sha256": "13b893ac040d2982e7b19bc8c38da03fe9f481b4726d8e34828f408754248be8",
+      "width": 1248,
+      "height": 832,
+      "quality": {
+        "lpips": 0.009588494896888733,
+        "psnr_db": 36.30435751571862,
+        "ssim": 0.9877642567754342
+      }
+    },
+    {
+      "group": "validation",
+      "case": "balloons",
+      "variant": "bf16-fused-11",
+      "title": "BF16 / 11 steps / fused",
+      "image": "images/validation/balloons-bf16-fused-11.png",
+      "sha256": "dbfd3c28f55c35c404d3ef9bc300f380c6c765a05fc1ca851926b8fdc4a13127",
+      "width": 1024,
+      "height": 1024,
+      "quality": {
+        "lpips": 0.011531470343470573,
+        "psnr_db": 37.294629735481664,
+        "ssim": 0.9840001863710697
+      }
+    },
+    {
+      "group": "validation",
+      "case": "double_exposure_s1",
+      "variant": "bf16-fused-11",
+      "title": "BF16 / 11 steps / fused",
+      "image": "images/validation/double_exposure_s1-bf16-fused-11.png",
+      "sha256": "3c2495251f2275db314e3b0e1ecc130d9b368e2bb43edf77aaf0f477271c0b80",
+      "width": 832,
+      "height": 1248,
+      "quality": {
+        "lpips": 0.010681875050067902,
+        "psnr_db": 41.955431508853174,
+        "ssim": 0.9887487647997141
+      }
+    },
+    {
+      "group": "validation",
+      "case": "bandana",
+      "variant": "bf16-fused-11",
+      "title": "BF16 / 11 steps / fused",
+      "image": "images/validation/bandana-bf16-fused-11.png",
+      "sha256": "81e132422b344c1eb902536572e7075cabb5eb7f4fd1c22e00e361915b345b70",
+      "width": 1024,
+      "height": 1024,
+      "quality": {
+        "lpips": 0.001641739159822464,
+        "psnr_db": 44.353215758588206,
+        "ssim": 0.9964546266120946
+      }
+    },
+    {
+      "group": "validation",
+      "case": "coffee",
+      "variant": "bf16-fused-11",
+      "title": "BF16 / 11 steps / fused",
+      "image": "images/validation/coffee-bf16-fused-11.png",
+      "sha256": "d245d3c4513a2977d390a967bd3bf00f2a3d7012d0ce1eeaa7bbcfd9e2c28917",
+      "width": 1024,
+      "height": 1024,
+      "quality": {
+        "lpips": 0.001989067764952779,
+        "psnr_db": 42.95097953391544,
+        "ssim": 0.9958503220250338
+      }
+    },
+    {
+      "group": "validation",
+      "case": "figurine",
+      "variant": "bf16-fused-11",
+      "title": "BF16 / 11 steps / fused",
+      "image": "images/validation/figurine-bf16-fused-11.png",
+      "sha256": "5a90b3dbea7a011af843703be15fe47be1a9dd4b0e6a82c61cd9472761a7ab17",
+      "width": 896,
+      "height": 1120,
+      "quality": {
+        "lpips": 0.017545612528920174,
+        "psnr_db": 29.480677796285462,
+        "ssim": 0.9722573223276102
+      }
+    },
+    {
+      "group": "validation",
+      "case": "still_life_wide",
+      "variant": "bf16-fused-11",
+      "title": "BF16 / 11 steps / fused",
+      "image": "images/validation/still_life_wide-bf16-fused-11.png",
+      "sha256": "c3c14da8c150484750cadb2f51ec1aed0624e6fad638b795a0511ad2bf59d354",
+      "width": 1248,
+      "height": 832,
+      "quality": {
+        "lpips": 0.009445974603295326,
+        "psnr_db": 34.26982312961791,
+        "ssim": 0.9852974948454643
+      }
+    },
+    {
+      "group": "validation",
+      "case": "riso_lido",
+      "variant": "bf16-fused-11",
+      "title": "BF16 / 11 steps / fused",
+      "image": "images/validation/riso_lido-bf16-fused-11.png",
+      "sha256": "3c762059cefd7ceef2c1459a8dc834d4dedc0d26d2b995968b3e6e7472bf2051",
+      "width": 832,
+      "height": 1248,
+      "quality": {
+        "lpips": 0.020925316959619522,
+        "psnr_db": 27.841166790095187,
+        "ssim": 0.9630942542710703
+      }
+    },
+    {
+      "group": "validation",
+      "case": "knitted",
+      "variant": "bf16-fused-11",
+      "title": "BF16 / 11 steps / fused",
+      "image": "images/validation/knitted-bf16-fused-11.png",
+      "sha256": "75d05e10f83126527dd12d662039664805cb09052a01a0ef2576b11eab116576",
+      "width": 1184,
+      "height": 896,
+      "quality": {
+        "lpips": 0.02191298082470894,
+        "psnr_db": 30.905935669649864,
+        "ssim": 0.9538523641371707
+      }
+    },
+    {
+      "group": "validation",
+      "case": "cereal_box",
+      "variant": "bf16-fused-11",
+      "title": "BF16 / 11 steps / fused",
+      "image": "images/validation/cereal_box-bf16-fused-11.png",
+      "sha256": "cab75a43543dce0970c997c69c9c62bbde212a2cc0682d017d016bba95680835",
+      "width": 832,
+      "height": 1248,
+      "quality": {
+        "lpips": 0.008460918441414833,
+        "psnr_db": 31.07786463549629,
+        "ssim": 0.9788831534837404
+      }
+    },
+    {
+      "group": "validation",
+      "case": "double_exposure_s2",
+      "variant": "bf16-fused-11",
+      "title": "BF16 / 11 steps / fused",
+      "image": "images/validation/double_exposure_s2-bf16-fused-11.png",
+      "sha256": "5ca9f942a48ecc877d0882a51626c9dc2f73f053ac6575acb3d4fdf4a3c0464f",
+      "width": 832,
+      "height": 1248,
+      "quality": {
+        "lpips": 0.013590432703495026,
+        "psnr_db": 39.09065158053699,
+        "ssim": 0.9860935810780762
+      }
+    },
+    {
+      "group": "validation",
+      "case": "cactus",
+      "variant": "bf16-fused-11",
+      "title": "BF16 / 11 steps / fused",
+      "image": "images/validation/cactus-bf16-fused-11.png",
+      "sha256": "92a0c2deb6b37731bcd0c6a67bea6c29b814025f093868f499fd5cd8fd0eb843",
+      "width": 1024,
+      "height": 1024,
+      "quality": {
+        "lpips": 0.0010021030902862549,
+        "psnr_db": 46.93024034811965,
+        "ssim": 0.9971540353586059
+      }
+    },
+    {
+      "group": "validation",
+      "case": "mugprint",
+      "variant": "bf16-fused-11",
+      "title": "BF16 / 11 steps / fused",
+      "image": "images/validation/mugprint-bf16-fused-11.png",
+      "sha256": "6f8f33e26d2a5235b8fb9caba9b25680fb8aa842996166235b031fa58f2785c5",
+      "width": 1024,
+      "height": 1024,
+      "quality": {
+        "lpips": 0.0005800396320410073,
+        "psnr_db": 51.15917985523609,
+        "ssim": 0.9975864575536414
+      }
+    },
+    {
+      "group": "validation",
+      "case": "teapot_small",
+      "variant": "bf16-fused-11",
+      "title": "BF16 / 11 steps / fused",
+      "image": "images/validation/teapot_small-bf16-fused-11.png",
+      "sha256": "f2b00fc9765bde8db255fb8f523b9fc0573d40108a3bfb2fa54a22fdfd507746",
+      "width": 768,
+      "height": 512,
+      "quality": {
+        "lpips": 0.006184322293847799,
+        "psnr_db": 35.5501079732559,
+        "ssim": 0.9898473727699847
+      }
+    },
+    {
+      "group": "validation",
+      "case": "poster_small",
+      "variant": "bf16-fused-11",
+      "title": "BF16 / 11 steps / fused",
+      "image": "images/validation/poster_small-bf16-fused-11.png",
+      "sha256": "67227cc25ffe1758537f600ab109bf5d7b63e5de055a7184122063c7d9d7dace",
+      "width": 640,
+      "height": 640,
+      "quality": {
+        "lpips": 0.012311477214097977,
+        "psnr_db": 32.58678783376893,
+        "ssim": 0.985018798686298
+      }
+    },
+    {
+      "group": "validation",
+      "case": "teapot_edit_small",
+      "variant": "bf16-fused-11",
+      "title": "BF16 / 11 steps / fused",
+      "image": "images/validation/teapot_edit_small-bf16-fused-11.png",
+      "sha256": "af6c7bf40b1e9d49b61aff94e9096883c6036eadb7d9cc9c415286b206ed9070",
+      "width": 768,
+      "height": 512,
+      "quality": {
+        "lpips": 0.00046623582602478564,
+        "psnr_db": 49.21502635696429,
+        "ssim": 0.9973401083092063
+      }
+    },
+    {
+      "group": "validation",
+      "case": "man_dog",
+      "variant": "q8-quality-11",
+      "title": "Q8 + BF16 text / 11 steps",
+      "image": "images/validation/man_dog-q8-quality-11.png",
+      "sha256": "5f32f296a30ebda1e5286cd373ec676e8425bec03cdfb6f5624c1e96f53d8d09",
+      "width": 1024,
+      "height": 1024,
+      "quality": {
+        "lpips": 0.014068246819078922,
+        "psnr_db": 34.01406036404404,
+        "ssim": 0.9813680011162047
+      }
+    },
+    {
+      "group": "validation",
+      "case": "church",
+      "variant": "q8-quality-11",
+      "title": "Q8 + BF16 text / 11 steps",
+      "image": "images/validation/church-q8-quality-11.png",
+      "sha256": "8894abc2dad755fae45746f6db8ebc3ed08a93907d330d85242e802da1935ae6",
+      "width": 832,
+      "height": 1248,
+      "quality": {
+        "lpips": 0.013656935654580593,
+        "psnr_db": 39.813251626591665,
+        "ssim": 0.9864603544893059
+      }
+    },
+    {
+      "group": "validation",
+      "case": "fashion",
+      "variant": "q8-quality-11",
+      "title": "Q8 + BF16 text / 11 steps",
+      "image": "images/validation/fashion-q8-quality-11.png",
+      "sha256": "081fde5f324d8aacdbe3c44356b3d1a378f8f99e5943f67632d1410627404694",
+      "width": 832,
+      "height": 1248,
+      "quality": {
+        "lpips": 0.004251273348927498,
+        "psnr_db": 38.194879061371196,
+        "ssim": 0.9915545417602797
+      }
+    },
+    {
+      "group": "validation",
+      "case": "hiroshige",
+      "variant": "q8-quality-11",
+      "title": "Q8 + BF16 text / 11 steps",
+      "image": "images/validation/hiroshige-q8-quality-11.png",
+      "sha256": "3b3680d18da40f9fac3f76755da490a94f4304603e43f74cb3ab8f55c5a0ebd2",
+      "width": 832,
+      "height": 1248,
+      "quality": {
+        "lpips": 0.02435782551765442,
+        "psnr_db": 27.83716350003788,
+        "ssim": 0.9515356333237434
+      }
+    },
+    {
+      "group": "validation",
+      "case": "tea_tin",
+      "variant": "q8-quality-11",
+      "title": "Q8 + BF16 text / 11 steps",
+      "image": "images/validation/tea_tin-q8-quality-11.png",
+      "sha256": "dbac86d101c18675e59d60e94f15b1f2f36fe7a3d0d2f1c44206567a18c4b6e5",
+      "width": 1024,
+      "height": 1024,
+      "quality": {
+        "lpips": 0.003003957448527217,
+        "psnr_db": 38.43152333718852,
+        "ssim": 0.9941266988531129
+      }
+    },
+    {
+      "group": "validation",
+      "case": "gig_poster",
+      "variant": "q8-quality-11",
+      "title": "Q8 + BF16 text / 11 steps",
+      "image": "images/validation/gig_poster-q8-quality-11.png",
+      "sha256": "7c89ea5cc9be806b518ac6f1422f58e5c5f9ffb51fd81ba9c82d5d0309fa2806",
+      "width": 832,
+      "height": 1248,
+      "quality": {
+        "lpips": 0.01283089816570282,
+        "psnr_db": 29.622883612484216,
+        "ssim": 0.9806509316155013
+      }
+    },
+    {
+      "group": "validation",
+      "case": "field_notes",
+      "variant": "q8-quality-11",
+      "title": "Q8 + BF16 text / 11 steps",
+      "image": "images/validation/field_notes-q8-quality-11.png",
+      "sha256": "e50efb84d1c4fa9611563551ebc6c7572aebcde3c2637722a765c2eae88eed53",
+      "width": 1248,
+      "height": 832,
+      "quality": {
+        "lpips": 0.011323025450110435,
+        "psnr_db": 33.97447569137542,
+        "ssim": 0.9835169128326066
+      }
+    },
+    {
+      "group": "validation",
+      "case": "balloons",
+      "variant": "q8-quality-11",
+      "title": "Q8 + BF16 text / 11 steps",
+      "image": "images/validation/balloons-q8-quality-11.png",
+      "sha256": "ef8f64850ccf377b7c704943a2e7003acec2f194752329daa59443117c4e081f",
+      "width": 1024,
+      "height": 1024,
+      "quality": {
+        "lpips": 0.012045349925756454,
+        "psnr_db": 37.09304780841545,
+        "ssim": 0.9832546105736628
+      }
+    },
+    {
+      "group": "validation",
+      "case": "double_exposure_s1",
+      "variant": "q8-quality-11",
+      "title": "Q8 + BF16 text / 11 steps",
+      "image": "images/validation/double_exposure_s1-q8-quality-11.png",
+      "sha256": "cb75a26340cb255d5d5dbea9646355747c8ec45a59016a011038e67f78a1b717",
+      "width": 832,
+      "height": 1248,
+      "quality": {
+        "lpips": 0.013762576505541801,
+        "psnr_db": 39.39958030085819,
+        "ssim": 0.9849696451175857
+      }
+    },
+    {
+      "group": "validation",
+      "case": "bandana",
+      "variant": "q8-quality-11",
+      "title": "Q8 + BF16 text / 11 steps",
+      "image": "images/validation/bandana-q8-quality-11.png",
+      "sha256": "1a8f64f9e02437280651a97f3bb426763aa6d422a1097cfea82a20a9b14465ce",
+      "width": 1024,
+      "height": 1024,
+      "quality": {
+        "lpips": 0.0017894572811201215,
+        "psnr_db": 44.11817766814366,
+        "ssim": 0.9963487923873026
+      }
+    },
+    {
+      "group": "validation",
+      "case": "coffee",
+      "variant": "q8-quality-11",
+      "title": "Q8 + BF16 text / 11 steps",
+      "image": "images/validation/coffee-q8-quality-11.png",
+      "sha256": "e95f495f4832eb80201b756ca61014dff40aac0b57619d6050072cb1c16c9ef3",
+      "width": 1024,
+      "height": 1024,
+      "quality": {
+        "lpips": 0.0020582471042871475,
+        "psnr_db": 42.34981084572985,
+        "ssim": 0.9956857054710887
+      }
+    },
+    {
+      "group": "validation",
+      "case": "figurine",
+      "variant": "q8-quality-11",
+      "title": "Q8 + BF16 text / 11 steps",
+      "image": "images/validation/figurine-q8-quality-11.png",
+      "sha256": "c29ff60011f51ee4f940e7a1c84c4032eadd9c14c305ad1d4d0f243af057dfb8",
+      "width": 896,
+      "height": 1120,
+      "quality": {
+        "lpips": 0.018428169190883636,
+        "psnr_db": 29.200303763566893,
+        "ssim": 0.9700445663203525
+      }
+    },
+    {
+      "group": "validation",
+      "case": "still_life_wide",
+      "variant": "q8-quality-11",
+      "title": "Q8 + BF16 text / 11 steps",
+      "image": "images/validation/still_life_wide-q8-quality-11.png",
+      "sha256": "0eb79e18e5a2de2865b0066d95f8aee9d0849c0462fa5cf3e2a0f65d4ee6c96c",
+      "width": 1248,
+      "height": 832,
+      "quality": {
+        "lpips": 0.01632850058376789,
+        "psnr_db": 31.096484397421698,
+        "ssim": 0.9768983889319426
+      }
+    },
+    {
+      "group": "validation",
+      "case": "riso_lido",
+      "variant": "q8-quality-11",
+      "title": "Q8 + BF16 text / 11 steps",
+      "image": "images/validation/riso_lido-q8-quality-11.png",
+      "sha256": "4d0a0b9964d82b1df4e5179376daa884c4d7bf64c904c3fc9d85dce1773b06db",
+      "width": 832,
+      "height": 1248,
+      "quality": {
+        "lpips": 0.04902783781290054,
+        "psnr_db": 23.917135935769135,
+        "ssim": 0.9257220652915441
+      }
+    },
+    {
+      "group": "validation",
+      "case": "knitted",
+      "variant": "q8-quality-11",
+      "title": "Q8 + BF16 text / 11 steps",
+      "image": "images/validation/knitted-q8-quality-11.png",
+      "sha256": "3a08c9fb645a5e2940eb2477116e8af30df2ca2e700617962abcd901189ac8af",
+      "width": 1184,
+      "height": 896,
+      "quality": {
+        "lpips": 0.02222144789993763,
+        "psnr_db": 30.691723145225897,
+        "ssim": 0.9539826817060884
+      }
+    },
+    {
+      "group": "validation",
+      "case": "cereal_box",
+      "variant": "q8-quality-11",
+      "title": "Q8 + BF16 text / 11 steps",
+      "image": "images/validation/cereal_box-q8-quality-11.png",
+      "sha256": "5d6d8e904225a861a9be6caaecd1c0bff1e3af4bade5f5f59ad3eec11c520185",
+      "width": 832,
+      "height": 1248,
+      "quality": {
+        "lpips": 0.008902333676815033,
+        "psnr_db": 30.843361516145254,
+        "ssim": 0.9778939514106547
+      }
+    },
+    {
+      "group": "validation",
+      "case": "double_exposure_s2",
+      "variant": "q8-quality-11",
+      "title": "Q8 + BF16 text / 11 steps",
+      "image": "images/validation/double_exposure_s2-q8-quality-11.png",
+      "sha256": "31cf1e25ec98e74993c2611b63acefdf0455ce12510ced4b51fd4dc867571f5e",
+      "width": 832,
+      "height": 1248,
+      "quality": {
+        "lpips": 0.01516032312065363,
+        "psnr_db": 38.00835552637686,
+        "ssim": 0.9842582200577384
+      }
+    },
+    {
+      "group": "validation",
+      "case": "cactus",
+      "variant": "q8-quality-11",
+      "title": "Q8 + BF16 text / 11 steps",
+      "image": "images/validation/cactus-q8-quality-11.png",
+      "sha256": "991909abb304b1113fbd7480557ee920c8710d2bd3b4092f6fb2c467aa92f744",
+      "width": 1024,
+      "height": 1024,
+      "quality": {
+        "lpips": 0.0010699625127017498,
+        "psnr_db": 46.42528487491907,
+        "ssim": 0.9971136370804824
+      }
+    },
+    {
+      "group": "validation",
+      "case": "mugprint",
+      "variant": "q8-quality-11",
+      "title": "Q8 + BF16 text / 11 steps",
+      "image": "images/validation/mugprint-q8-quality-11.png",
+      "sha256": "f78beff6db9b84d05956606abb01232301626f24bf57fbc774fa34d1f68e999c",
+      "width": 1024,
+      "height": 1024,
+      "quality": {
+        "lpips": 0.0006774630164727569,
+        "psnr_db": 50.27895642790763,
+        "ssim": 0.9973170918454878
+      }
+    },
+    {
+      "group": "validation",
+      "case": "teapot_small",
+      "variant": "q8-quality-11",
+      "title": "Q8 + BF16 text / 11 steps",
+      "image": "images/validation/teapot_small-q8-quality-11.png",
+      "sha256": "5809735a7fe911c28ccbbfd9620a3df420b86e6b7dc9992c9d839b50e99b335a",
+      "width": 768,
+      "height": 512,
+      "quality": {
+        "lpips": 0.006970366463065147,
+        "psnr_db": 34.65874609770127,
+        "ssim": 0.9882830105737309
+      }
+    },
+    {
+      "group": "validation",
+      "case": "poster_small",
+      "variant": "q8-quality-11",
+      "title": "Q8 + BF16 text / 11 steps",
+      "image": "images/validation/poster_small-q8-quality-11.png",
+      "sha256": "76891bdd32a8c1ceb4e1ea70d20fd96125e7899dade33c2e0873cae713954724",
+      "width": 640,
+      "height": 640,
+      "quality": {
+        "lpips": 0.01104752253741026,
+        "psnr_db": 31.330248260084876,
+        "ssim": 0.9785873779490485
+      }
+    },
+    {
+      "group": "validation",
+      "case": "teapot_edit_small",
+      "variant": "q8-quality-11",
+      "title": "Q8 + BF16 text / 11 steps",
+      "image": "images/validation/teapot_edit_small-q8-quality-11.png",
+      "sha256": "5962687a48c9df14cfb592d36db96c11f6f97a2ee1ab51fe386435fa7951abfd",
+      "width": 768,
+      "height": 512,
+      "quality": {
+        "lpips": 0.000479673472000286,
+        "psnr_db": 49.218255120815435,
+        "ssim": 0.9974337364007985
+      }
+    },
+    {
+      "group": "validation",
+      "case": "man_dog",
+      "variant": "q8-quality-12",
+      "title": "Q8 + BF16 text / 12 steps",
+      "image": "images/validation/man_dog-q8-quality-12.png",
+      "sha256": "30cb06bdb5f1840636828a6e3db4b73ea9941092bac3b639e550549430e304f7",
+      "width": 1024,
+      "height": 1024,
+      "quality": {
+        "lpips": 0.008983150124549866,
+        "psnr_db": 36.03912084825156,
+        "ssim": 0.9874782781431378
+      }
+    },
+    {
+      "group": "validation",
+      "case": "church",
+      "variant": "q8-quality-12",
+      "title": "Q8 + BF16 text / 12 steps",
+      "image": "images/validation/church-q8-quality-12.png",
+      "sha256": "cecdc1bca52d498f72839e7e53d0b9220f781d4367fae2654c816fce3c8cdbb6",
+      "width": 832,
+      "height": 1248,
+      "quality": {
+        "lpips": 0.007350722327828407,
+        "psnr_db": 41.52598233017759,
+        "ssim": 0.9916667300448738
+      }
+    },
+    {
+      "group": "validation",
+      "case": "fashion",
+      "variant": "q8-quality-12",
+      "title": "Q8 + BF16 text / 12 steps",
+      "image": "images/validation/fashion-q8-quality-12.png",
+      "sha256": "6164c1437dcc5c04acf5a3f803a67c10f99a21cbf79cb093480adaa0bc3b4b18",
+      "width": 832,
+      "height": 1248,
+      "quality": {
+        "lpips": 0.0036637005396187305,
+        "psnr_db": 38.84930582966544,
+        "ssim": 0.9924094225046224
+      }
+    },
+    {
+      "group": "validation",
+      "case": "hiroshige",
+      "variant": "q8-quality-12",
+      "title": "Q8 + BF16 text / 12 steps",
+      "image": "images/validation/hiroshige-q8-quality-12.png",
+      "sha256": "c0361fc300576d026baea48332a2f0e605a1b4e2e0952d47064e0e12a082778d",
+      "width": 832,
+      "height": 1248,
+      "quality": {
+        "lpips": 0.013735899701714516,
+        "psnr_db": 30.810792975300544,
+        "ssim": 0.9738950470309646
+      }
+    },
+    {
+      "group": "validation",
+      "case": "tea_tin",
+      "variant": "q8-quality-12",
+      "title": "Q8 + BF16 text / 12 steps",
+      "image": "images/validation/tea_tin-q8-quality-12.png",
+      "sha256": "02852af672e30b33f81e66e2675edbccfa43d5cabd45a42de0a80a2f98d70f9a",
+      "width": 1024,
+      "height": 1024,
+      "quality": {
+        "lpips": 0.0020049484446644783,
+        "psnr_db": 41.263675150927135,
+        "ssim": 0.9958538286876287
+      }
+    },
+    {
+      "group": "validation",
+      "case": "gig_poster",
+      "variant": "q8-quality-12",
+      "title": "Q8 + BF16 text / 12 steps",
+      "image": "images/validation/gig_poster-q8-quality-12.png",
+      "sha256": "2c405cc376c7c3d43c9c95fcfdb0712775e79e43c459c1f0e5c9c6903f9913b7",
+      "width": 832,
+      "height": 1248,
+      "quality": {
+        "lpips": 0.011374386958777905,
+        "psnr_db": 29.658185635467685,
+        "ssim": 0.9824424201152845
+      }
+    },
+    {
+      "group": "validation",
+      "case": "field_notes",
+      "variant": "q8-quality-12",
+      "title": "Q8 + BF16 text / 12 steps",
+      "image": "images/validation/field_notes-q8-quality-12.png",
+      "sha256": "d72f17ff312d74498d12e7b0893601467466bc44167f90e14ce8cab2763e899d",
+      "width": 1248,
+      "height": 832,
+      "quality": {
+        "lpips": 0.006526400335133076,
+        "psnr_db": 36.53958057628102,
+        "ssim": 0.9899282879294535
+      }
+    },
+    {
+      "group": "validation",
+      "case": "balloons",
+      "variant": "q8-quality-12",
+      "title": "Q8 + BF16 text / 12 steps",
+      "image": "images/validation/balloons-q8-quality-12.png",
+      "sha256": "1af8930114f2b58534736f5d02559bc37f7b7c8aff58ba3a45723d9e4bc3af33",
+      "width": 1024,
+      "height": 1024,
+      "quality": {
+        "lpips": 0.005172715988010168,
+        "psnr_db": 40.36857645435728,
+        "ssim": 0.9900197947028418
+      }
+    },
+    {
+      "group": "validation",
+      "case": "double_exposure_s1",
+      "variant": "q8-quality-12",
+      "title": "Q8 + BF16 text / 12 steps",
+      "image": "images/validation/double_exposure_s1-q8-quality-12.png",
+      "sha256": "6252cb43e02bfa79a02d74520885ff6d52ce2f5e0e2b32469c5ae4e84b58823b",
+      "width": 832,
+      "height": 1248,
+      "quality": {
+        "lpips": 0.00788157619535923,
+        "psnr_db": 40.91712150902033,
+        "ssim": 0.98987233466795
+      }
+    },
+    {
+      "group": "validation",
+      "case": "bandana",
+      "variant": "q8-quality-12",
+      "title": "Q8 + BF16 text / 12 steps",
+      "image": "images/validation/bandana-q8-quality-12.png",
+      "sha256": "9ba9fe18282f9fae6dd9c833a1463e095abc1403b00c1dfa62d8db44658e3320",
+      "width": 1024,
+      "height": 1024,
+      "quality": {
+        "lpips": 0.0024766684509813786,
+        "psnr_db": 43.956288737745325,
+        "ssim": 0.9965709701452213
+      }
+    },
+    {
+      "group": "validation",
+      "case": "coffee",
+      "variant": "q8-quality-12",
+      "title": "Q8 + BF16 text / 12 steps",
+      "image": "images/validation/coffee-q8-quality-12.png",
+      "sha256": "3dd0ab3881aca009d1fc0ac45852f7b41dce36728b336ca246c9e60697566454",
+      "width": 1024,
+      "height": 1024,
+      "quality": {
+        "lpips": 0.0014146757312119007,
+        "psnr_db": 44.58154132336083,
+        "ssim": 0.9964982113572388
+      }
+    },
+    {
+      "group": "validation",
+      "case": "figurine",
+      "variant": "q8-quality-12",
+      "title": "Q8 + BF16 text / 12 steps",
+      "image": "images/validation/figurine-q8-quality-12.png",
+      "sha256": "95db8bfbf264c0c13468a4e9ad358497d1928c7ec462ca274b3b560acad5606a",
+      "width": 896,
+      "height": 1120,
+      "quality": {
+        "lpips": 0.01387457549571991,
+        "psnr_db": 30.272604869321388,
+        "ssim": 0.9796505730450468
+      }
+    },
+    {
+      "group": "validation",
+      "case": "still_life_wide",
+      "variant": "q8-quality-12",
+      "title": "Q8 + BF16 text / 12 steps",
+      "image": "images/validation/still_life_wide-q8-quality-12.png",
+      "sha256": "f93c3897f23130a95e8cf2851aefa864e267ed8e9dd92e82a0bc079ff2881463",
+      "width": 1248,
+      "height": 832,
+      "quality": {
+        "lpips": 0.012070423923432827,
+        "psnr_db": 31.843439678535525,
+        "ssim": 0.9808858946066564
+      }
+    },
+    {
+      "group": "validation",
+      "case": "riso_lido",
+      "variant": "q8-quality-12",
+      "title": "Q8 + BF16 text / 12 steps",
+      "image": "images/validation/riso_lido-q8-quality-12.png",
+      "sha256": "d130b986a3286091ebbdbfec98a081d811efa8d05c4b334724a4c7eda02d75f8",
+      "width": 832,
+      "height": 1248,
+      "quality": {
+        "lpips": 0.04668521136045456,
+        "psnr_db": 24.000979255374233,
+        "ssim": 0.9313105235671219
+      }
+    },
+    {
+      "group": "validation",
+      "case": "knitted",
+      "variant": "q8-quality-12",
+      "title": "Q8 + BF16 text / 12 steps",
+      "image": "images/validation/knitted-q8-quality-12.png",
+      "sha256": "7c157c9e85fa8a5dec8416acfba8b51347bc5abf240c4b02d9d6f950094661a8",
+      "width": 1184,
+      "height": 896,
+      "quality": {
+        "lpips": 0.01144680567085743,
+        "psnr_db": 33.940676180610346,
+        "ssim": 0.977818961726537
+      }
+    },
+    {
+      "group": "validation",
+      "case": "cereal_box",
+      "variant": "q8-quality-12",
+      "title": "Q8 + BF16 text / 12 steps",
+      "image": "images/validation/cereal_box-q8-quality-12.png",
+      "sha256": "0e54ec2c3815a212b5617f50b2a4c9d2591c13c4efb98256fe5de37da442f84f",
+      "width": 832,
+      "height": 1248,
+      "quality": {
+        "lpips": 0.004310598596930504,
+        "psnr_db": 34.37071486489604,
+        "ssim": 0.9881527581475057
+      }
+    },
+    {
+      "group": "validation",
+      "case": "double_exposure_s2",
+      "variant": "q8-quality-12",
+      "title": "Q8 + BF16 text / 12 steps",
+      "image": "images/validation/double_exposure_s2-q8-quality-12.png",
+      "sha256": "d5e5774abe2370b961f765a01ca80a02e7d7a53297580a540f8e6c104b4290c7",
+      "width": 832,
+      "height": 1248,
+      "quality": {
+        "lpips": 0.008338931947946548,
+        "psnr_db": 39.954765741970725,
+        "ssim": 0.9900041215910976
+      }
+    },
+    {
+      "group": "validation",
+      "case": "cactus",
+      "variant": "q8-quality-12",
+      "title": "Q8 + BF16 text / 12 steps",
+      "image": "images/validation/cactus-q8-quality-12.png",
+      "sha256": "19fbe193bb1c12b6559b1b0b819c34db4d9c5eb5db7052279d9f5b285c3814ae",
+      "width": 1024,
+      "height": 1024,
+      "quality": {
+        "lpips": 0.0008302151109091938,
+        "psnr_db": 49.53997317984399,
+        "ssim": 0.9974710863573543
+      }
+    },
+    {
+      "group": "validation",
+      "case": "mugprint",
+      "variant": "q8-quality-12",
+      "title": "Q8 + BF16 text / 12 steps",
+      "image": "images/validation/mugprint-q8-quality-12.png",
+      "sha256": "c56daa6c6c56357a624c8e442a1b68399ad31f15dafa9046ef6fea7a8e626fa2",
+      "width": 1024,
+      "height": 1024,
+      "quality": {
+        "lpips": 0.0007389554521068931,
+        "psnr_db": 50.34671431728067,
+        "ssim": 0.9972794774850139
+      }
+    },
+    {
+      "group": "validation",
+      "case": "teapot_small",
+      "variant": "q8-quality-12",
+      "title": "Q8 + BF16 text / 12 steps",
+      "image": "images/validation/teapot_small-q8-quality-12.png",
+      "sha256": "8032b111adcd4ab02153fada4cb287c4a2c92b521d52db277b2161aad9cb0177",
+      "width": 768,
+      "height": 512,
+      "quality": {
+        "lpips": 0.005349155981093645,
+        "psnr_db": 35.805202453846185,
+        "ssim": 0.9912652692536961
+      }
+    },
+    {
+      "group": "validation",
+      "case": "poster_small",
+      "variant": "q8-quality-12",
+      "title": "Q8 + BF16 text / 12 steps",
+      "image": "images/validation/poster_small-q8-quality-12.png",
+      "sha256": "4756bd476cea28584d9d142c72b3ba8a1c9668cd1c732a610dd92c8dea7b964c",
+      "width": 640,
+      "height": 640,
+      "quality": {
+        "lpips": 0.009064559824764729,
+        "psnr_db": 31.842722658916255,
+        "ssim": 0.9816215825277661
+      }
+    },
+    {
+      "group": "validation",
+      "case": "teapot_edit_small",
+      "variant": "q8-quality-12",
+      "title": "Q8 + BF16 text / 12 steps",
+      "image": "images/validation/teapot_edit_small-q8-quality-12.png",
+      "sha256": "c065ab595e17241f5cc92da73ad3f4a30e2f0321d5424454caf5a00f17e6688a",
+      "width": 768,
+      "height": 512,
+      "quality": {
+        "lpips": 0.00042128690984100103,
+        "psnr_db": 50.65910478423211,
+        "ssim": 0.9975241610248946
+      }
+    },
+    {
+      "group": "validation",
+      "case": "man_dog",
+      "variant": "q8-13",
+      "title": "Q8 + Q8 text / 13 steps",
+      "image": "images/validation/man_dog-q8-13.png",
+      "sha256": "193e268365caf9ba7a1935187bdb262a134c393010e732aec7962360c30cc777",
+      "width": 1024,
+      "height": 1024,
+      "quality": {
+        "lpips": 0.0063795060850679874,
+        "psnr_db": 37.30135713947601,
+        "ssim": 0.990844199203241
+      }
+    },
+    {
+      "group": "validation",
+      "case": "church",
+      "variant": "q8-13",
+      "title": "Q8 + Q8 text / 13 steps",
+      "image": "images/validation/church-q8-13.png",
+      "sha256": "81b5f50aa73f264edb03e92048d71762c82d963aa9df2510816c4da6a51f6dcd",
+      "width": 832,
+      "height": 1248,
+      "quality": {
+        "lpips": 0.023773912340402603,
+        "psnr_db": 32.35270392024881,
+        "ssim": 0.9762037183822793
+      }
+    },
+    {
+      "group": "validation",
+      "case": "fashion",
+      "variant": "q8-13",
+      "title": "Q8 + Q8 text / 13 steps",
+      "image": "images/validation/fashion-q8-13.png",
+      "sha256": "db98b07f0a9a3947238dd01d5dcf47720453bad69d19c85c2d6380855ed2f840",
+      "width": 832,
+      "height": 1248,
+      "quality": {
+        "lpips": 0.0036328642163425684,
+        "psnr_db": 38.39795468627408,
+        "ssim": 0.9923453374166608
+      }
+    },
+    {
+      "group": "validation",
+      "case": "hiroshige",
+      "variant": "q8-13",
+      "title": "Q8 + Q8 text / 13 steps",
+      "image": "images/validation/hiroshige-q8-13.png",
+      "sha256": "cbe77fd0e9bdbfe10e04dc9e605bb70f5a2ee18027215447af0fdbe2da7b8ccb",
+      "width": 832,
+      "height": 1248,
+      "quality": {
+        "lpips": 0.025194209069013596,
+        "psnr_db": 25.566038915060854,
+        "ssim": 0.9481209309423112
+      }
+    },
+    {
+      "group": "validation",
+      "case": "tea_tin",
+      "variant": "q8-13",
+      "title": "Q8 + Q8 text / 13 steps",
+      "image": "images/validation/tea_tin-q8-13.png",
+      "sha256": "7763df38cea27cc3a59c5036751b1a771b86645d64d7e9c1f4969bf52b581782",
+      "width": 1024,
+      "height": 1024,
+      "quality": {
+        "lpips": 0.005697234999388456,
+        "psnr_db": 34.69804181904082,
+        "ssim": 0.9899414843227771
+      }
+    },
+    {
+      "group": "validation",
+      "case": "gig_poster",
+      "variant": "q8-13",
+      "title": "Q8 + Q8 text / 13 steps",
+      "image": "images/validation/gig_poster-q8-13.png",
+      "sha256": "7a734792e7bcf7a53c193ed1ba4fd89c02009fcbdf224c04681b4e0ceca5de1a",
+      "width": 832,
+      "height": 1248,
+      "quality": {
+        "lpips": 0.008070923388004303,
+        "psnr_db": 32.127148392124084,
+        "ssim": 0.9880458107548677
+      }
+    },
+    {
+      "group": "validation",
+      "case": "field_notes",
+      "variant": "q8-13",
+      "title": "Q8 + Q8 text / 13 steps",
+      "image": "images/validation/field_notes-q8-13.png",
+      "sha256": "29315cd60cca2a3f5a2ac3e0fae91ee0afb0645faa093b57603ff57a89053264",
+      "width": 1248,
+      "height": 832,
+      "quality": {
+        "lpips": 0.006637748796492815,
+        "psnr_db": 34.46879681037073,
+        "ssim": 0.9884260872170035
+      }
+    },
+    {
+      "group": "validation",
+      "case": "balloons",
+      "variant": "q8-13",
+      "title": "Q8 + Q8 text / 13 steps",
+      "image": "images/validation/balloons-q8-13.png",
+      "sha256": "8c2e34595fafd1966ed65d014d929e09d92307a793ef1147006eb0d9657cb90a",
+      "width": 1024,
+      "height": 1024,
+      "quality": {
+        "lpips": 0.003466449212282896,
+        "psnr_db": 43.390534561102506,
+        "ssim": 0.99326468196116
+      }
+    },
+    {
+      "group": "validation",
+      "case": "double_exposure_s1",
+      "variant": "q8-13",
+      "title": "Q8 + Q8 text / 13 steps",
+      "image": "images/validation/double_exposure_s1-q8-13.png",
+      "sha256": "89a60b8c6dc493f42fdcc9c491e0c8d00814f65c99e0aacfcdead112266b70d1",
+      "width": 832,
+      "height": 1248,
+      "quality": {
+        "lpips": 0.008860507979989052,
+        "psnr_db": 39.56306922740546,
+        "ssim": 0.9888053651547981
+      }
+    },
+    {
+      "group": "validation",
+      "case": "bandana",
+      "variant": "q8-13",
+      "title": "Q8 + Q8 text / 13 steps",
+      "image": "images/validation/bandana-q8-13.png",
+      "sha256": "8abcd44f3e2c4d162c0695cc9a9d08dd8d55b1926b915da2f8768942c32db82c",
+      "width": 1024,
+      "height": 1024,
+      "quality": {
+        "lpips": 0.0008513055508956313,
+        "psnr_db": 47.96415438213611,
+        "ssim": 0.9975596855721566
+      }
+    },
+    {
+      "group": "validation",
+      "case": "coffee",
+      "variant": "q8-13",
+      "title": "Q8 + Q8 text / 13 steps",
+      "image": "images/validation/coffee-q8-13.png",
+      "sha256": "82ea0cb2aadcd27817bff3a25dc1ebec922026b11484d66f6df2ebe415dacd57",
+      "width": 1024,
+      "height": 1024,
+      "quality": {
+        "lpips": 0.0034463212359696627,
+        "psnr_db": 41.01485397027348,
+        "ssim": 0.9940156875736456
+      }
+    },
+    {
+      "group": "validation",
+      "case": "figurine",
+      "variant": "q8-13",
+      "title": "Q8 + Q8 text / 13 steps",
+      "image": "images/validation/figurine-q8-13.png",
+      "sha256": "6ff93f50a37f928da3092f4cc63632b57eaf249de4662a2e7544179e8c968df6",
+      "width": 896,
+      "height": 1120,
+      "quality": {
+        "lpips": 0.012486397288739681,
+        "psnr_db": 31.05582984106267,
+        "ssim": 0.9730454771110001
+      }
+    },
+    {
+      "group": "validation",
+      "case": "still_life_wide",
+      "variant": "q8-13",
+      "title": "Q8 + Q8 text / 13 steps",
+      "image": "images/validation/still_life_wide-q8-13.png",
+      "sha256": "db2b138b182669e67ff68e0f24cc07e97afbeb381d646154fb04e3763d5255b3",
+      "width": 1248,
+      "height": 832,
+      "quality": {
+        "lpips": 0.036454904824495316,
+        "psnr_db": 26.648669072193325,
+        "ssim": 0.9575161090556011
+      }
+    },
+    {
+      "group": "validation",
+      "case": "riso_lido",
+      "variant": "q8-13",
+      "title": "Q8 + Q8 text / 13 steps",
+      "image": "images/validation/riso_lido-q8-13.png",
+      "sha256": "4c56d4e35d638cd387903d138b695e50cd07eeb55aac153be2c12d5d4c6b0e4a",
+      "width": 832,
+      "height": 1248,
+      "quality": {
+        "lpips": 0.07711211591959,
+        "psnr_db": 21.640896936752625,
+        "ssim": 0.8916854451417247
+      }
+    },
+    {
+      "group": "validation",
+      "case": "knitted",
+      "variant": "q8-13",
+      "title": "Q8 + Q8 text / 13 steps",
+      "image": "images/validation/knitted-q8-13.png",
+      "sha256": "ad51bee1c74672364f0b933c3db000282006808d19d37878340ec253882372cf",
+      "width": 1184,
+      "height": 896,
+      "quality": {
+        "lpips": 0.010442334227263927,
+        "psnr_db": 34.37948344341297,
+        "ssim": 0.9787940345898023
+      }
+    },
+    {
+      "group": "validation",
+      "case": "cereal_box",
+      "variant": "q8-13",
+      "title": "Q8 + Q8 text / 13 steps",
+      "image": "images/validation/cereal_box-q8-13.png",
+      "sha256": "7c4769fbc4e3b23a272c1e1f11a410dc24887e8465b2c1fa8c244123d685e446",
+      "width": 832,
+      "height": 1248,
+      "quality": {
+        "lpips": 0.00313094281591475,
+        "psnr_db": 35.259891774375795,
+        "ssim": 0.9903695046530423
+      }
+    },
+    {
+      "group": "validation",
+      "case": "double_exposure_s2",
+      "variant": "q8-13",
+      "title": "Q8 + Q8 text / 13 steps",
+      "image": "images/validation/double_exposure_s2-q8-13.png",
+      "sha256": "bff5ad63fe380560f7e168e673e3a1dc04b66c599af55736f70cd5ed92328c23",
+      "width": 832,
+      "height": 1248,
+      "quality": {
+        "lpips": 0.012338683940470219,
+        "psnr_db": 36.37046109753058,
+        "ssim": 0.9851224413083415
+      }
+    },
+    {
+      "group": "validation",
+      "case": "cactus",
+      "variant": "q8-13",
+      "title": "Q8 + Q8 text / 13 steps",
+      "image": "images/validation/cactus-q8-13.png",
+      "sha256": "e3c90e474f3e90f8b65f83e08786b78b2080b39371324bf08cd4920a84eb7af9",
+      "width": 1024,
+      "height": 1024,
+      "quality": {
+        "lpips": 0.0007999188965186477,
+        "psnr_db": 49.73460291906,
+        "ssim": 0.9975247173917295
+      }
+    },
+    {
+      "group": "validation",
+      "case": "mugprint",
+      "variant": "q8-13",
+      "title": "Q8 + Q8 text / 13 steps",
+      "image": "images/validation/mugprint-q8-13.png",
+      "sha256": "2b83b6e4fd3e5372b037405e048168c711d7e62ddd643b11e98f5fb54882244b",
+      "width": 1024,
+      "height": 1024,
+      "quality": {
+        "lpips": 0.0007966426201164722,
+        "psnr_db": 49.30223463279653,
+        "ssim": 0.9968440756115666
+      }
+    },
+    {
+      "group": "validation",
+      "case": "teapot_small",
+      "variant": "q8-13",
+      "title": "Q8 + Q8 text / 13 steps",
+      "image": "images/validation/teapot_small-q8-13.png",
+      "sha256": "f540711580ee1e024ff0402a6ad1c8ede01118bcc0253071a5d0671c1828a61c",
+      "width": 768,
+      "height": 512,
+      "quality": {
+        "lpips": 0.005562818609178066,
+        "psnr_db": 35.405906457426056,
+        "ssim": 0.9887773925836472
+      }
+    },
+    {
+      "group": "validation",
+      "case": "poster_small",
+      "variant": "q8-13",
+      "title": "Q8 + Q8 text / 13 steps",
+      "image": "images/validation/poster_small-q8-13.png",
+      "sha256": "eaac4237d281a33243565086f17d980999e14c4dde3dd2a2aa34339a4eb9b7ec",
+      "width": 640,
+      "height": 640,
+      "quality": {
+        "lpips": 0.010418463498353958,
+        "psnr_db": 30.9363323991591,
+        "ssim": 0.9791376244790375
+      }
+    },
+    {
+      "group": "validation",
+      "case": "teapot_edit_small",
+      "variant": "q8-13",
+      "title": "Q8 + Q8 text / 13 steps",
+      "image": "images/validation/teapot_edit_small-q8-13.png",
+      "sha256": "a69e00a2b88181081cda30798c4c4420b47e061c6d538be54f35df91f5f2cd84",
+      "width": 768,
+      "height": 512,
+      "quality": {
+        "lpips": 0.0004332057433202863,
+        "psnr_db": 50.599848244485834,
+        "ssim": 0.9975469869186168
+      }
+    },
+    {
+      "group": "validation",
+      "case": "man_dog",
+      "variant": "hybrid-q8-12-archived",
+      "title": "Hybrid Q8 / 12 steps / archived",
+      "image": "images/validation/man_dog-hybrid-q8-12-archived.png",
+      "sha256": "f66294d82e9d8213880337811d4b21fefa72bb175f9e8f4286cde6d1330150b0",
+      "width": 1024,
+      "height": 1024,
+      "quality": {
+        "lpips": 0.008919033221900463,
+        "psnr_db": 36.035226747104964,
+        "ssim": 0.9879781293942113
+      }
+    },
+    {
+      "group": "validation",
+      "case": "church",
+      "variant": "hybrid-q8-12-archived",
+      "title": "Hybrid Q8 / 12 steps / archived",
+      "image": "images/validation/church-hybrid-q8-12-archived.png",
+      "sha256": "d90190de0a4954f9f9029fcbdeca7d833ae0cfb4f2087576bc719ded193e11af",
+      "width": 832,
+      "height": 1248,
+      "quality": {
+        "lpips": 0.03272129222750664,
+        "psnr_db": 30.224703671052477,
+        "ssim": 0.9691034648451698
+      }
+    },
+    {
+      "group": "validation",
+      "case": "fashion",
+      "variant": "hybrid-q8-12-archived",
+      "title": "Hybrid Q8 / 12 steps / archived",
+      "image": "images/validation/fashion-hybrid-q8-12-archived.png",
+      "sha256": "8d701845a0439d3170f5a553ca3f74efd843496f7de31637f13a195dfd1bcd82",
+      "width": 832,
+      "height": 1248,
+      "quality": {
+        "lpips": 0.0024274953175336123,
+        "psnr_db": 42.59944794833046,
+        "ssim": 0.9946194692999749
+      }
+    },
+    {
+      "group": "validation",
+      "case": "hiroshige",
+      "variant": "hybrid-q8-12-archived",
+      "title": "Hybrid Q8 / 12 steps / archived",
+      "image": "images/validation/hiroshige-hybrid-q8-12-archived.png",
+      "sha256": "c1a97a55ff22274a5188d7dee9062d134b0faeffa2d8ac32b112c890eb545d81",
+      "width": 832,
+      "height": 1248,
+      "quality": {
+        "lpips": 0.01814521662890911,
+        "psnr_db": 27.633195730338592,
+        "ssim": 0.9602648749202549
+      }
+    },
+    {
+      "group": "validation",
+      "case": "tea_tin",
+      "variant": "hybrid-q8-12-archived",
+      "title": "Hybrid Q8 / 12 steps / archived",
+      "image": "images/validation/tea_tin-hybrid-q8-12-archived.png",
+      "sha256": "f47e2f91a2b53590706c83e60295184b6e50df9d12aa26b80e72e0e07ce56338",
+      "width": 1024,
+      "height": 1024,
+      "quality": {
+        "lpips": 0.00546367559581995,
+        "psnr_db": 36.43681494536684,
+        "ssim": 0.9917385321062296
+      }
+    },
+    {
+      "group": "validation",
+      "case": "gig_poster",
+      "variant": "hybrid-q8-12-archived",
+      "title": "Hybrid Q8 / 12 steps / archived",
+      "image": "images/validation/gig_poster-hybrid-q8-12-archived.png",
+      "sha256": "decc1077d92909b14ae53bc9f9d5f045b03ec16b248c76ec169cfdcbf4b0cf7e",
+      "width": 832,
+      "height": 1248,
+      "quality": {
+        "lpips": 0.013431161642074585,
+        "psnr_db": 28.00739295881879,
+        "ssim": 0.9769247338607423
+      }
+    },
+    {
+      "group": "validation",
+      "case": "field_notes",
+      "variant": "hybrid-q8-12-archived",
+      "title": "Hybrid Q8 / 12 steps / archived",
+      "image": "images/validation/field_notes-hybrid-q8-12-archived.png",
+      "sha256": "91531868c9a18e5e50747cf7b4f4366f2fea4f1bc894d6d51f73f91c84480552",
+      "width": 1248,
+      "height": 832,
+      "quality": {
+        "lpips": 0.005922657437622547,
+        "psnr_db": 37.826315693025066,
+        "ssim": 0.9912762154700022
+      }
+    },
+    {
+      "group": "validation",
+      "case": "balloons",
+      "variant": "hybrid-q8-12-archived",
+      "title": "Hybrid Q8 / 12 steps / archived",
+      "image": "images/validation/balloons-hybrid-q8-12-archived.png",
+      "sha256": "7ac074570b3f76bdc1bbc8f48ec8b6277dd1bab3b057c2f00ac55f05375db1ea",
+      "width": 1024,
+      "height": 1024,
+      "quality": {
+        "lpips": 0.004730287007987499,
+        "psnr_db": 41.31309744570481,
+        "ssim": 0.9912806236849138
+      }
+    },
+    {
+      "group": "validation",
+      "case": "double_exposure_s1",
+      "variant": "hybrid-q8-12-archived",
+      "title": "Hybrid Q8 / 12 steps / archived",
+      "image": "images/validation/double_exposure_s1-hybrid-q8-12-archived.png",
+      "sha256": "b59ac3d175c9fddc1f12f505fee5d577b4c42b1904b4323f6e16782d4217b55d",
+      "width": 832,
+      "height": 1248,
+      "quality": {
+        "lpips": 0.005951848812401295,
+        "psnr_db": 43.48563222734096,
+        "ssim": 0.9922555166462256
+      }
+    },
+    {
+      "group": "validation",
+      "case": "bandana",
+      "variant": "hybrid-q8-12-archived",
+      "title": "Hybrid Q8 / 12 steps / archived",
+      "image": "images/validation/bandana-hybrid-q8-12-archived.png",
+      "sha256": "5abcc5d5f85dd92f87b0aafd32eafccc8f1c21b6c0d42843ffb13efaf4b9b98d",
+      "width": 1024,
+      "height": 1024,
+      "quality": {
+        "lpips": 0.0012328708544373512,
+        "psnr_db": 45.88323009565093,
+        "ssim": 0.9969939299235056
+      }
+    },
+    {
+      "group": "validation",
+      "case": "coffee",
+      "variant": "hybrid-q8-12-archived",
+      "title": "Hybrid Q8 / 12 steps / archived",
+      "image": "images/validation/coffee-hybrid-q8-12-archived.png",
+      "sha256": "938a4b6c5b1ecca63e21e0cfdf6bfa538335a370fd4cfa35e12bb6e2686f37f7",
+      "width": 1024,
+      "height": 1024,
+      "quality": {
+        "lpips": 0.0034277059603482485,
+        "psnr_db": 41.077770230549376,
+        "ssim": 0.9940179081556845
+      }
+    },
+    {
+      "group": "validation",
+      "case": "figurine",
+      "variant": "hybrid-q8-12-archived",
+      "title": "Hybrid Q8 / 12 steps / archived",
+      "image": "images/validation/figurine-hybrid-q8-12-archived.png",
+      "sha256": "fc6011934f62213aee6bac4f3058d0999247a6018dac68228f672786b330cde8",
+      "width": 896,
+      "height": 1120,
+      "quality": {
+        "lpips": 0.022285668179392815,
+        "psnr_db": 29.032487921679653,
+        "ssim": 0.9613619773131861
+      }
+    },
+    {
+      "group": "validation",
+      "case": "still_life_wide",
+      "variant": "hybrid-q8-12-archived",
+      "title": "Hybrid Q8 / 12 steps / archived",
+      "image": "images/validation/still_life_wide-hybrid-q8-12-archived.png",
+      "sha256": "eda3b271db53c7da37f2a0311b4c229fbaae4359fa70e1275c6fb7e7f64057bd",
+      "width": 1248,
+      "height": 832,
+      "quality": {
+        "lpips": 0.03250904008746147,
+        "psnr_db": 27.240541771755606,
+        "ssim": 0.9629025603567136
+      }
+    },
+    {
+      "group": "validation",
+      "case": "riso_lido",
+      "variant": "hybrid-q8-12-archived",
+      "title": "Hybrid Q8 / 12 steps / archived",
+      "image": "images/validation/riso_lido-hybrid-q8-12-archived.png",
+      "sha256": "63aaab453727e5f67e5a6424b77f546b655cc9c14cc6f40b4abf01b905458d1e",
+      "width": 832,
+      "height": 1248,
+      "quality": {
+        "lpips": 0.016261540353298187,
+        "psnr_db": 28.636987774670967,
+        "ssim": 0.9688221778035153
+      }
+    },
+    {
+      "group": "validation",
+      "case": "knitted",
+      "variant": "hybrid-q8-12-archived",
+      "title": "Hybrid Q8 / 12 steps / archived",
+      "image": "images/validation/knitted-hybrid-q8-12-archived.png",
+      "sha256": "218103f6b7f5ba971392f7c29d10883ed20b9235ed8598593482ab3155d2b70a",
+      "width": 1184,
+      "height": 896,
+      "quality": {
+        "lpips": 0.011842679232358932,
+        "psnr_db": 33.96983040980038,
+        "ssim": 0.9762832034851341
+      }
+    },
+    {
+      "group": "validation",
+      "case": "cereal_box",
+      "variant": "hybrid-q8-12-archived",
+      "title": "Hybrid Q8 / 12 steps / archived",
+      "image": "images/validation/cereal_box-hybrid-q8-12-archived.png",
+      "sha256": "d8e3e86fd941f79b5659bd104bbe84462d6aedbad058a7f12d2da25b81a1d579",
+      "width": 832,
+      "height": 1248,
+      "quality": {
+        "lpips": 0.003959733992815018,
+        "psnr_db": 34.413462381172735,
+        "ssim": 0.9885041394982631
+      }
+    },
+    {
+      "group": "validation",
+      "case": "double_exposure_s2",
+      "variant": "hybrid-q8-12-archived",
+      "title": "Hybrid Q8 / 12 steps / archived",
+      "image": "images/validation/double_exposure_s2-hybrid-q8-12-archived.png",
+      "sha256": "50677c0ad5c2de0eb7cb056f8799e9917c914d706e208bd5dfe2c6e2a01ac408",
+      "width": 832,
+      "height": 1248,
+      "quality": {
+        "lpips": 0.015478724613785744,
+        "psnr_db": 35.78296946943964,
+        "ssim": 0.9827188221712633
+      }
+    },
+    {
+      "group": "validation",
+      "case": "cactus",
+      "variant": "hybrid-q8-12-archived",
+      "title": "Hybrid Q8 / 12 steps / archived",
+      "image": "images/validation/cactus-hybrid-q8-12-archived.png",
+      "sha256": "0ffd2e202ebb37573f13d97f8cf09c7ea81b26bcba228da8d0910236bae0f619",
+      "width": 1024,
+      "height": 1024,
+      "quality": {
+        "lpips": 0.0008377833291888237,
+        "psnr_db": 49.4635747879847,
+        "ssim": 0.9974095487204294
+      }
+    },
+    {
+      "group": "validation",
+      "case": "mugprint",
+      "variant": "hybrid-q8-12-archived",
+      "title": "Hybrid Q8 / 12 steps / archived",
+      "image": "images/validation/mugprint-hybrid-q8-12-archived.png",
+      "sha256": "0861e046be3817e9c1b95b52c676a7d32293a9ee10144056775533749b5ef144",
+      "width": 1024,
+      "height": 1024,
+      "quality": {
+        "lpips": 0.0006921896710991859,
+        "psnr_db": 50.693990068812425,
+        "ssim": 0.9973809077366393
+      }
+    },
+    {
+      "group": "validation",
+      "case": "teapot_small",
+      "variant": "hybrid-q8-12-archived",
+      "title": "Hybrid Q8 / 12 steps / archived",
+      "image": "images/validation/teapot_small-hybrid-q8-12-archived.png",
+      "sha256": "9e0cfb4c1d125c8a3cc5afd65527925ed2fd9347a1ca92823aede25639428c7e",
+      "width": 768,
+      "height": 512,
+      "quality": {
+        "lpips": 0.005201509688049555,
+        "psnr_db": 36.56746901861909,
+        "ssim": 0.9918368691214227
+      }
+    },
+    {
+      "group": "validation",
+      "case": "poster_small",
+      "variant": "hybrid-q8-12-archived",
+      "title": "Hybrid Q8 / 12 steps / archived",
+      "image": "images/validation/poster_small-hybrid-q8-12-archived.png",
+      "sha256": "a631a9c3283bb5a900555311d555471c2d65a1ae35e8d283e9ca07312424b875",
+      "width": 640,
+      "height": 640,
+      "quality": {
+        "lpips": 0.008436396718025208,
+        "psnr_db": 32.99977684039869,
+        "ssim": 0.9831369952169929
+      }
+    },
+    {
+      "group": "validation",
+      "case": "teapot_edit_small",
+      "variant": "hybrid-q8-12-archived",
+      "title": "Hybrid Q8 / 12 steps / archived",
+      "image": "images/validation/teapot_edit_small-hybrid-q8-12-archived.png",
+      "sha256": "2108df37f077cbe332b38748f9e2643031837dbd20369d32ac25ada929a45d15",
+      "width": 768,
+      "height": 512,
+      "quality": {
+        "lpips": 0.0004283887683413923,
+        "psnr_db": 49.989448616446595,
+        "ssim": 0.9974372458514709
+      }
+    },
+    {
+      "group": "validation",
+      "case": "man_dog",
+      "variant": "official-fp32-16",
+      "title": "Official-code FP32 / 16 steps",
+      "image": "images/validation/man_dog-official-fp32-16.png",
+      "sha256": "820963aee5b4b69b3605f2db4fddbe191c8b345c1048b72665033fffef405926",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "group": "validation",
+      "case": "man_dog",
+      "variant": "bf16-anchor-16",
+      "title": "Published official BF16 / 16 steps",
+      "image": "images/validation/man_dog-bf16-anchor-16.png",
+      "sha256": "9a2ea16c6dffb4953ff28a488ae998b2809a25fca7f2ffb380cf38da437dd5bd",
+      "width": 1024,
+      "height": 1024,
+      "quality": {
+        "psnr_db": 29.96454886526604,
+        "ssim": 0.9669759233932002,
+        "lpips": 0.024532798677682877
+      }
+    },
+    {
+      "group": "validation",
+      "case": "church",
+      "variant": "official-fp32-16",
+      "title": "Official-code FP32 / 16 steps",
+      "image": "images/validation/church-official-fp32-16.png",
+      "sha256": "ded7ca8f07f641bcb0a1a83d1c5a1036e05f6b2aabae76f4da857c2e61791cae",
+      "width": 832,
+      "height": 1248
+    },
+    {
+      "group": "validation",
+      "case": "church",
+      "variant": "bf16-anchor-16",
+      "title": "Published official BF16 / 16 steps",
+      "image": "images/validation/church-bf16-anchor-16.png",
+      "sha256": "3412d658ba620fbd80b5e803e500d484ca4d3cd358a866d05298a393aa9fc849",
+      "width": 832,
+      "height": 1248,
+      "quality": {
+        "psnr_db": 36.32534753652087,
+        "ssim": 0.9810583256390991,
+        "lpips": 0.012685583904385567
+      }
+    },
+    {
+      "group": "validation",
+      "case": "fashion",
+      "variant": "official-fp32-16",
+      "title": "Official-code FP32 / 16 steps",
+      "image": "images/validation/fashion-official-fp32-16.png",
+      "sha256": "b1ba79d7a42fa00862283b807b28266308172744f648e12d952b86b7827878b8",
+      "width": 832,
+      "height": 1248
+    },
+    {
+      "group": "validation",
+      "case": "fashion",
+      "variant": "bf16-anchor-16",
+      "title": "Published official BF16 / 16 steps",
+      "image": "images/validation/fashion-bf16-anchor-16.png",
+      "sha256": "e1ef740d4e973e5ebb1d701cc8e31cffc40fd1d3cae8540a617d8d010068a1b9",
+      "width": 832,
+      "height": 1248,
+      "quality": {
+        "psnr_db": 40.148818204843685,
+        "ssim": 0.9941765397329355,
+        "lpips": 0.002069529378786683
+      }
+    },
+    {
+      "group": "validation",
+      "case": "hiroshige",
+      "variant": "official-fp32-16",
+      "title": "Official-code FP32 / 16 steps",
+      "image": "images/validation/hiroshige-official-fp32-16.png",
+      "sha256": "4ced894fa006345a735199ac308df4c980ba69c758589e9f58e94c27e09bff35",
+      "width": 832,
+      "height": 1248
+    },
+    {
+      "group": "validation",
+      "case": "hiroshige",
+      "variant": "bf16-anchor-16",
+      "title": "Published official BF16 / 16 steps",
+      "image": "images/validation/hiroshige-bf16-anchor-16.png",
+      "sha256": "abc9391a72e280b776a51b6b94ff1878bbc30ea2d19b71cb4741788bf365e49d",
+      "width": 832,
+      "height": 1248,
+      "quality": {
+        "psnr_db": 28.004913300385553,
+        "ssim": 0.9687293283365044,
+        "lpips": 0.01602640375494957
+      }
+    },
+    {
+      "group": "validation",
+      "case": "tea_tin",
+      "variant": "official-fp32-16",
+      "title": "Official-code FP32 / 16 steps",
+      "image": "images/validation/tea_tin-official-fp32-16.png",
+      "sha256": "2c49f66281e2383ff3fb3dc5ab362fb051492892aec97010a6e436a8f7a8d314",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "group": "validation",
+      "case": "tea_tin",
+      "variant": "bf16-anchor-16",
+      "title": "Published official BF16 / 16 steps",
+      "image": "images/validation/tea_tin-bf16-anchor-16.png",
+      "sha256": "8163e6fe12c100ade62c0457be36cd2c0d8630909955ecf18710312740e540f6",
+      "width": 1024,
+      "height": 1024,
+      "quality": {
+        "psnr_db": 28.39390610064422,
+        "ssim": 0.9675213462055514,
+        "lpips": 0.022575052455067635
+      }
+    },
+    {
+      "group": "validation",
+      "case": "gig_poster",
+      "variant": "official-fp32-16",
+      "title": "Official-code FP32 / 16 steps",
+      "image": "images/validation/gig_poster-official-fp32-16.png",
+      "sha256": "aec24dc49f4688100f49b68f89d887055b2fe6d87ee0e9227e963acffdba7b32",
+      "width": 832,
+      "height": 1248
+    },
+    {
+      "group": "validation",
+      "case": "gig_poster",
+      "variant": "bf16-anchor-16",
+      "title": "Published official BF16 / 16 steps",
+      "image": "images/validation/gig_poster-bf16-anchor-16.png",
+      "sha256": "12d9c35566c7576ed296449e2f413a1f3c63d26ef7f62dd99c71e2f251a3d33e",
+      "width": 832,
+      "height": 1248,
+      "quality": {
+        "psnr_db": 26.270156030924802,
+        "ssim": 0.9693419662800361,
+        "lpips": 0.015225190669298172
+      }
+    },
+    {
+      "group": "validation",
+      "case": "field_notes",
+      "variant": "official-fp32-16",
+      "title": "Official-code FP32 / 16 steps",
+      "image": "images/validation/field_notes-official-fp32-16.png",
+      "sha256": "90b9dbc4fe822365885855f46f15085fb8a6279e3559207bd86e4414211c423c",
+      "width": 1248,
+      "height": 832
+    },
+    {
+      "group": "validation",
+      "case": "field_notes",
+      "variant": "bf16-anchor-16",
+      "title": "Published official BF16 / 16 steps",
+      "image": "images/validation/field_notes-bf16-anchor-16.png",
+      "sha256": "ca885ecb7738fbfc0c9df3098bdd89c22b1bd94f2285763b6315fd5b31e713f1",
+      "width": 1248,
+      "height": 832,
+      "quality": {
+        "psnr_db": 37.93267923464541,
+        "ssim": 0.9935193054546905,
+        "lpips": 0.0035435822792351246
+      }
+    },
+    {
+      "group": "validation",
+      "case": "balloons",
+      "variant": "official-fp32-16",
+      "title": "Official-code FP32 / 16 steps",
+      "image": "images/validation/balloons-official-fp32-16.png",
+      "sha256": "5a846697f78ecacbe24829b441024b400b73c189dffb8ed02360c31d365a18a0",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "group": "validation",
+      "case": "balloons",
+      "variant": "bf16-anchor-16",
+      "title": "Published official BF16 / 16 steps",
+      "image": "images/validation/balloons-bf16-anchor-16.png",
+      "sha256": "ea9bed1b7db91453433b6cae390e31478cfcb4ee10b1427323c5e32f6bfcdd79",
+      "width": 1024,
+      "height": 1024,
+      "quality": {
+        "psnr_db": 39.619147117945325,
+        "ssim": 0.9951721582379586,
+        "lpips": 0.002804751042276621
+      }
+    },
+    {
+      "group": "validation",
+      "case": "double_exposure_s1",
+      "variant": "official-fp32-16",
+      "title": "Official-code FP32 / 16 steps",
+      "image": "images/validation/double_exposure_s1-official-fp32-16.png",
+      "sha256": "5a3342be42aca428a62db7d9d772893100b3c598d031dbe63bc33f8e6184dd7c",
+      "width": 832,
+      "height": 1248
+    },
+    {
+      "group": "validation",
+      "case": "double_exposure_s1",
+      "variant": "bf16-anchor-16",
+      "title": "Published official BF16 / 16 steps",
+      "image": "images/validation/double_exposure_s1-bf16-anchor-16.png",
+      "sha256": "44d150078da783b4974409674433108a8f5e85fc21cad60ee07ebd52b89f14a8",
+      "width": 832,
+      "height": 1248,
+      "quality": {
+        "psnr_db": 34.249440861959485,
+        "ssim": 0.9822980569477507,
+        "lpips": 0.015244883485138416
+      }
+    },
+    {
+      "group": "validation",
+      "case": "bandana",
+      "variant": "official-fp32-16",
+      "title": "Official-code FP32 / 16 steps",
+      "image": "images/validation/bandana-official-fp32-16.png",
+      "sha256": "43e098089c3c8f4272d33e9e2022522624111a2ded59fc90848ab60f709f61cf",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "group": "validation",
+      "case": "bandana",
+      "variant": "bf16-anchor-16",
+      "title": "Published official BF16 / 16 steps",
+      "image": "images/validation/bandana-bf16-anchor-16.png",
+      "sha256": "b941937e36795f4659e386744d63c57f0f63f6da3cc4dad6e8f8206dddd18040",
+      "width": 1024,
+      "height": 1024,
+      "quality": {
+        "psnr_db": 54.64931751187865,
+        "ssim": 0.9985286114577837,
+        "lpips": 0.0003328478487674147
+      }
+    },
+    {
+      "group": "validation",
+      "case": "coffee",
+      "variant": "official-fp32-16",
+      "title": "Official-code FP32 / 16 steps",
+      "image": "images/validation/coffee-official-fp32-16.png",
+      "sha256": "fc6f0c2b3b40fea993d3963804dcfbbaeabda21798641616aa0bf0aa7466e9fe",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "group": "validation",
+      "case": "coffee",
+      "variant": "bf16-anchor-16",
+      "title": "Published official BF16 / 16 steps",
+      "image": "images/validation/coffee-bf16-anchor-16.png",
+      "sha256": "1ddf8a42ce2e1029a43887e77656f4aebf4d9156a80c4f04fff879a4c5dceb63",
+      "width": 1024,
+      "height": 1024,
+      "quality": {
+        "psnr_db": 44.72344613122698,
+        "ssim": 0.9973071147787507,
+        "lpips": 0.0016667699674144387
+      }
+    },
+    {
+      "group": "validation",
+      "case": "figurine",
+      "variant": "official-fp32-16",
+      "title": "Official-code FP32 / 16 steps",
+      "image": "images/validation/figurine-official-fp32-16.png",
+      "sha256": "93aa6a21d822c8833a4a931986169999e43461f988d898940327a0bf3b88b5f3",
+      "width": 896,
+      "height": 1120
+    },
+    {
+      "group": "validation",
+      "case": "figurine",
+      "variant": "bf16-anchor-16",
+      "title": "Published official BF16 / 16 steps",
+      "image": "images/validation/figurine-bf16-anchor-16.png",
+      "sha256": "86a6e6b61773c00dca976c3698d7727cabbeef05af8a5c0da039ae92da967fcf",
+      "width": 896,
+      "height": 1120,
+      "quality": {
+        "psnr_db": 29.413909514412858,
+        "ssim": 0.9687500170926073,
+        "lpips": 0.014950563199818134
+      }
+    },
+    {
+      "group": "validation",
+      "case": "still_life_wide",
+      "variant": "official-fp32-16",
+      "title": "Official-code FP32 / 16 steps",
+      "image": "images/validation/still_life_wide-official-fp32-16.png",
+      "sha256": "709c6c2dc41d25528405c176a5176009d371cfaf6c66bfa414291d243118cd1f",
+      "width": 1248,
+      "height": 832
+    },
+    {
+      "group": "validation",
+      "case": "still_life_wide",
+      "variant": "bf16-anchor-16",
+      "title": "Published official BF16 / 16 steps",
+      "image": "images/validation/still_life_wide-bf16-anchor-16.png",
+      "sha256": "f1b3395f33e15a20e332af3e3e5b219b746f1938272c4a09cfeb18222ceeac3f",
+      "width": 1248,
+      "height": 832,
+      "quality": {
+        "psnr_db": 25.036473692211185,
+        "ssim": 0.9380841670008806,
+        "lpips": 0.05913973227143288
+      }
+    },
+    {
+      "group": "validation",
+      "case": "riso_lido",
+      "variant": "official-fp32-16",
+      "title": "Official-code FP32 / 16 steps",
+      "image": "images/validation/riso_lido-official-fp32-16.png",
+      "sha256": "a04010dc99a8122fe9880dabb024460ff407eb8b76c5f581f322bfcd1cab64e6",
+      "width": 832,
+      "height": 1248
+    },
+    {
+      "group": "validation",
+      "case": "riso_lido",
+      "variant": "bf16-anchor-16",
+      "title": "Published official BF16 / 16 steps",
+      "image": "images/validation/riso_lido-bf16-anchor-16.png",
+      "sha256": "5e1a8df10a20b63e2c62432bee974450b4a0a7df9494542b971cd30913cc6443",
+      "width": 832,
+      "height": 1248,
+      "quality": {
+        "psnr_db": 23.965932853870058,
+        "ssim": 0.9347642432418328,
+        "lpips": 0.04546947032213211
+      }
+    },
+    {
+      "group": "validation",
+      "case": "knitted",
+      "variant": "official-fp32-16",
+      "title": "Official-code FP32 / 16 steps",
+      "image": "images/validation/knitted-official-fp32-16.png",
+      "sha256": "b41c678636d781cceceb5c778c62f4bdb447f222b3bc7b82b92af3695068c073",
+      "width": 1184,
+      "height": 896
+    },
+    {
+      "group": "validation",
+      "case": "knitted",
+      "variant": "bf16-anchor-16",
+      "title": "Published official BF16 / 16 steps",
+      "image": "images/validation/knitted-bf16-anchor-16.png",
+      "sha256": "292efac7e3c99e03cd72a7c80e9cfedaed33f99ea5d78e12e784c720f2698ebc",
+      "width": 1184,
+      "height": 896,
+      "quality": {
+        "psnr_db": 31.830870319149675,
+        "ssim": 0.971625681273165,
+        "lpips": 0.012146931141614914
+      }
+    },
+    {
+      "group": "validation",
+      "case": "cereal_box",
+      "variant": "official-fp32-16",
+      "title": "Official-code FP32 / 16 steps",
+      "image": "images/validation/cereal_box-official-fp32-16.png",
+      "sha256": "66db9b4ac466cb5cf58268d34cda94a44e7c81e8eb509475a9ed15338554e844",
+      "width": 832,
+      "height": 1248
+    },
+    {
+      "group": "validation",
+      "case": "cereal_box",
+      "variant": "bf16-anchor-16",
+      "title": "Published official BF16 / 16 steps",
+      "image": "images/validation/cereal_box-bf16-anchor-16.png",
+      "sha256": "13e7202ac77ff6791169487214a7cf42301c2f2154aff43136acddf3e5639a10",
+      "width": 832,
+      "height": 1248,
+      "quality": {
+        "psnr_db": 29.479834398339566,
+        "ssim": 0.9776180845162119,
+        "lpips": 0.010087607428431511
+      }
+    },
+    {
+      "group": "validation",
+      "case": "double_exposure_s2",
+      "variant": "official-fp32-16",
+      "title": "Official-code FP32 / 16 steps",
+      "image": "images/validation/double_exposure_s2-official-fp32-16.png",
+      "sha256": "69ebe7352c872beefc235d0f87e8ed65762255eb1a1919c086b44aa309f94cc7",
+      "width": 832,
+      "height": 1248
+    },
+    {
+      "group": "validation",
+      "case": "double_exposure_s2",
+      "variant": "bf16-anchor-16",
+      "title": "Published official BF16 / 16 steps",
+      "image": "images/validation/double_exposure_s2-bf16-anchor-16.png",
+      "sha256": "d9c27591b4a6bd78bb14867bdd0b9245263406bcb9778792537805a20acd4eaf",
+      "width": 832,
+      "height": 1248,
+      "quality": {
+        "psnr_db": 33.1011045768051,
+        "ssim": 0.9745492715793168,
+        "lpips": 0.025206251069903374
+      }
+    },
+    {
+      "group": "validation",
+      "case": "cactus",
+      "variant": "official-fp32-16",
+      "title": "Official-code FP32 / 16 steps",
+      "image": "images/validation/cactus-official-fp32-16.png",
+      "sha256": "9f89ce82ed710d6cbb03945a1018c1bc6141c5d952b4e3ed257e81198d3b6643",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "group": "validation",
+      "case": "cactus",
+      "variant": "bf16-anchor-16",
+      "title": "Published official BF16 / 16 steps",
+      "image": "images/validation/cactus-bf16-anchor-16.png",
+      "sha256": "64502b42645b2219ec787900c82b8f411528ac26887777a93ae0b23b84e2d24d",
+      "width": 1024,
+      "height": 1024,
+      "quality": {
+        "psnr_db": 53.92364886762615,
+        "ssim": 0.9986710848950558,
+        "lpips": 0.000295413687126711
+      }
+    },
+    {
+      "group": "validation",
+      "case": "mugprint",
+      "variant": "official-fp32-16",
+      "title": "Official-code FP32 / 16 steps",
+      "image": "images/validation/mugprint-official-fp32-16.png",
+      "sha256": "a3ff6f4334e6c6c5d4b455014cf86e736e639693819367ef12268917f09dc8a1",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "group": "validation",
+      "case": "mugprint",
+      "variant": "bf16-anchor-16",
+      "title": "Published official BF16 / 16 steps",
+      "image": "images/validation/mugprint-bf16-anchor-16.png",
+      "sha256": "9e88e8efde7eb2e44ce94709e222dfcca0ea553c344741dbb89d58e932cfcae5",
+      "width": 1024,
+      "height": 1024,
+      "quality": {
+        "psnr_db": 54.00343617654933,
+        "ssim": 0.9984811315354721,
+        "lpips": 0.0003222447994630784
+      }
+    },
+    {
+      "group": "validation",
+      "case": "teapot_small",
+      "variant": "official-fp32-16",
+      "title": "Official-code FP32 / 16 steps",
+      "image": "images/validation/teapot_small-official-fp32-16.png",
+      "sha256": "6a2410fe8aae9066642cd1cea28f51644ac70a334aff99558033e62f16a76946",
+      "width": 768,
+      "height": 512
+    },
+    {
+      "group": "validation",
+      "case": "teapot_small",
+      "variant": "bf16-anchor-16",
+      "title": "Official-policy BF16 on MPS / 16 steps",
+      "image": "images/inputs/teapot_edit_small-0.png",
+      "sha256": "9f455ed8baab236b47be11868fb355b47caca9fca8648561dd1e953a83efbf0c",
+      "width": 768,
+      "height": 512,
+      "quality": {
+        "psnr_db": 34.540978633303006,
+        "ssim": 0.9902543586848888,
+        "lpips": 0.006332173477858305
+      }
+    },
+    {
+      "group": "validation",
+      "case": "poster_small",
+      "variant": "official-fp32-16",
+      "title": "Official-code FP32 / 16 steps",
+      "image": "images/validation/poster_small-official-fp32-16.png",
+      "sha256": "1441d1c4370bea49830459c22087c382b218b090092cd9f212495b3bab948a6a",
+      "width": 640,
+      "height": 640
+    },
+    {
+      "group": "validation",
+      "case": "poster_small",
+      "variant": "bf16-anchor-16",
+      "title": "Official-policy BF16 on MPS / 16 steps",
+      "image": "images/validation/poster_small-bf16-anchor-16.png",
+      "sha256": "8e0cb11bf549679eddd04402017decf74197b2f8b7160048116391ec7dd30c95",
+      "width": 640,
+      "height": 640,
+      "quality": {
+        "psnr_db": 25.622962423123198,
+        "ssim": 0.9567272077156875,
+        "lpips": 0.01989598385989666
+      }
+    },
+    {
+      "group": "validation",
+      "case": "teapot_edit_small",
+      "variant": "official-fp32-16",
+      "title": "Official-code FP32 / 16 steps",
+      "image": "images/validation/teapot_edit_small-official-fp32-16.png",
+      "sha256": "bdf4c726478b01a1e917b4db2e14f760a7bec6f2e8a9f6b44cf47ad2a9b6cc97",
+      "width": 768,
+      "height": 512
+    },
+    {
+      "group": "validation",
+      "case": "teapot_edit_small",
+      "variant": "bf16-anchor-16",
+      "title": "Official-policy BF16 on MPS / 16 steps",
+      "image": "images/validation/teapot_edit_small-bf16-anchor-16.png",
+      "sha256": "5337787e45b414395cf369d6216484ecb217b4fc8349bc0d9b351158bc6898d4",
+      "width": 768,
+      "height": 512,
+      "quality": {
+        "psnr_db": 54.76986589105765,
+        "ssim": 0.9986025383932131,
+        "lpips": 0.00020481774117797613
+      }
+    },
+    {
+      "group": "previews",
+      "case": "man_dog",
+      "variant": "official-fp32-8",
+      "title": "Official FP32 / 8 steps",
+      "image": "images/previews/man_dog-official-fp32-8.png",
+      "sha256": "12a9635ca869fda28b99532b69ce7dcc66aabb49e84335a29e5d0d1401fe3e7d",
+      "width": 1024,
+      "height": 1024,
+      "quality": {
+        "psnr_db": null,
+        "ssim": 1.0,
+        "mean_abs": 0.0,
+        "max_abs": 0.0
+      }
+    },
+    {
+      "group": "previews",
+      "case": "man_dog",
+      "variant": "previous-q8-8",
+      "title": "Previous 8-bit / 8 steps",
+      "image": "images/previews/man_dog-previous-q8-8.png",
+      "sha256": "9506ace85b67fd47e96d99a98f6d9f0bde8677fa8b187f584d59d3eaba3e0d22",
+      "width": 1024,
+      "height": 1024,
+      "quality": {
+        "psnr_db": 31.025751906660517,
+        "ssim": 0.9602843970219627,
+        "mean_abs": 2.9075565338134766,
+        "max_abs": 193.0
+      }
+    },
+    {
+      "group": "previews",
+      "case": "man_dog",
+      "variant": "previous-q4-8",
+      "title": "Previous 4-bit / 8 steps",
+      "image": "images/previews/man_dog-previous-q4-8.png",
+      "sha256": "c304a52476ff35bc3ee6fb555091aa37c5d272a2cebf5d24efcbd86ebb117151",
+      "width": 1024,
+      "height": 1024,
+      "quality": {
+        "psnr_db": 19.136636660429712,
+        "ssim": 0.6691306895076458,
+        "mean_abs": 16.88567002614339,
+        "max_abs": 238.0
+      }
+    },
+    {
+      "group": "previews",
+      "case": "man_dog",
+      "variant": "q8-8",
+      "title": "8-bit / 8 steps",
+      "image": "images/previews/man_dog-q8-8.png",
+      "sha256": "4931d6714ca3c0267ce45ec0cc2b991db61549274ab390bc678309dc2fbc2605",
+      "width": 1024,
+      "height": 1024,
+      "quality": {
+        "psnr_db": 36.9980921496854,
+        "ssim": 0.9880101050506956,
+        "mean_abs": 1.3118139902750652,
+        "max_abs": 165.0
+      }
+    },
+    {
+      "group": "previews",
+      "case": "man_dog",
+      "variant": "q4-8",
+      "title": "4-bit / 8 steps",
+      "image": "images/previews/man_dog-q4-8.png",
+      "sha256": "8b08702ceb9497efcb6a47bb7a6bd62faa9831b9881707f941ef1b872c3fbfb3",
+      "width": 1024,
+      "height": 1024,
+      "quality": {
+        "psnr_db": 25.59404474508736,
+        "ssim": 0.8600167939462368,
+        "mean_abs": 8.016727447509766,
+        "max_abs": 207.0
+      }
+    },
+    {
+      "group": "previews",
+      "case": "man_dog",
+      "variant": "mixed-8",
+      "title": "Mixed 4/8-bit / 8 steps",
+      "image": "images/previews/man_dog-mixed-8.png",
+      "sha256": "cb4ad4a7a5633a27c540cb4072223c903d856cb0ff6aab2a5241a4e83f38f599",
+      "width": 1024,
+      "height": 1024,
+      "quality": {
+        "psnr_db": 25.25720657234794,
+        "ssim": 0.8713221813099569,
+        "mean_abs": 7.5438798268636065,
+        "max_abs": 215.0
+      }
+    },
+    {
+      "group": "previews",
+      "case": "man_dog",
+      "variant": "bf16-8",
+      "title": "BF16 control / 8 steps",
+      "image": "images/previews/man_dog-bf16-8.png",
+      "sha256": "8dd3fc65ad4c0c749b843a5b98bbc2496b1872e430967f9fe6ce14f3bd18ac9c",
+      "width": 1024,
+      "height": 1024,
+      "quality": {
+        "psnr_db": 42.76844240724958,
+        "ssim": 0.9961761306577004,
+        "mean_abs": 0.37125396728515625,
+        "max_abs": 176.0
+      }
+    },
+    {
+      "group": "previews",
+      "case": "man_dog",
+      "variant": "mixed-6",
+      "title": "Mixed 4/8-bit / 6 steps",
+      "image": "images/previews/man_dog-mixed-6.png",
+      "sha256": "ce8740aee893aed6a45c48e9c2d9ac9ef68d6994fa4676a425499063a3152ae1",
+      "width": 1024,
+      "height": 1024,
+      "quality": {
+        "psnr_db": 22.476545973283507,
+        "ssim": 0.7698973378774988,
+        "mean_abs": 11.301192919413248,
+        "max_abs": 235.0
+      }
+    },
+    {
+      "group": "previews",
+      "case": "teapot_small",
+      "variant": "official-fp32-8",
+      "title": "Official FP32 / 8 steps",
+      "image": "images/previews/teapot_small-official-fp32-8.png",
+      "sha256": "6afe56fce56f2e3ba14f6a4e4a655a1bf3f1cf639d4b273535d2e2fe2106d585",
+      "width": 768,
+      "height": 512,
+      "quality": {
+        "psnr_db": null,
+        "ssim": 1.0,
+        "mean_abs": 0.0,
+        "max_abs": 0.0
+      }
+    },
+    {
+      "group": "previews",
+      "case": "teapot_small",
+      "variant": "previous-q8-8",
+      "title": "Previous 8-bit / 8 steps",
+      "image": "images/previews/teapot_small-previous-q8-8.png",
+      "sha256": "facd2e69d4e2989d1ce44e8b6da4f3d128f4ef395d6f2553d3675431620f3e39",
+      "width": 768,
+      "height": 512,
+      "quality": {
+        "psnr_db": 36.267337355625216,
+        "ssim": 0.9888933609463822,
+        "mean_abs": 1.3349855211046007,
+        "max_abs": 135.0
+      }
+    },
+    {
+      "group": "previews",
+      "case": "teapot_small",
+      "variant": "previous-q4-8",
+      "title": "Previous 4-bit / 8 steps",
+      "image": "images/previews/teapot_small-previous-q4-8.png",
+      "sha256": "b733b215a7e03d7c66032984db8220358b1a0b92e18ccfac4343a9cf99fa3bd6",
+      "width": 768,
+      "height": 512,
+      "quality": {
+        "psnr_db": 22.610379914533773,
+        "ssim": 0.8364630644883865,
+        "mean_abs": 11.780045403374565,
+        "max_abs": 208.0
+      }
+    },
+    {
+      "group": "previews",
+      "case": "teapot_small",
+      "variant": "q8-8",
+      "title": "8-bit / 8 steps",
+      "image": "images/previews/teapot_small-q8-8.png",
+      "sha256": "b322203375fd905ff22360e6ef88799b63887272f41bb2a7b93f89d759f0773e",
+      "width": 768,
+      "height": 512,
+      "quality": {
+        "psnr_db": 37.745678175451985,
+        "ssim": 0.989774604248768,
+        "mean_abs": 1.0063086615668402,
+        "max_abs": 145.0
+      }
+    },
+    {
+      "group": "previews",
+      "case": "teapot_small",
+      "variant": "q4-8",
+      "title": "4-bit / 8 steps",
+      "image": "images/previews/teapot_small-q4-8.png",
+      "sha256": "e47bc0ed363558940040ac0ac09e46b7e49aa8f38cbc08a99d9b6442f51f25dd",
+      "width": 768,
+      "height": 512,
+      "quality": {
+        "psnr_db": 29.23604776284027,
+        "ssim": 0.9460494362226853,
+        "mean_abs": 4.449846903483073,
+        "max_abs": 183.0
+      }
+    },
+    {
+      "group": "previews",
+      "case": "teapot_small",
+      "variant": "mixed-8",
+      "title": "Mixed 4/8-bit / 8 steps",
+      "image": "images/previews/teapot_small-mixed-8.png",
+      "sha256": "0d6426c9eff747a8341c740c699f939a399f4a0eb49a2b3880185981a8f19534",
+      "width": 768,
+      "height": 512,
+      "quality": {
+        "psnr_db": 30.83347970962814,
+        "ssim": 0.9623043529381499,
+        "mean_abs": 3.6410285101996527,
+        "max_abs": 185.0
+      }
+    },
+    {
+      "group": "previews",
+      "case": "teapot_small",
+      "variant": "bf16-8",
+      "title": "BF16 control / 8 steps",
+      "image": "images/previews/teapot_small-bf16-8.png",
+      "sha256": "ef748693594392599a4f79a742926b35612023cfa41e09c7c05cf0a59d7c687e",
+      "width": 768,
+      "height": 512,
+      "quality": {
+        "psnr_db": 55.83785429499085,
+        "ssim": 0.9993341119727113,
+        "mean_abs": 0.0957302517361111,
+        "max_abs": 30.0
+      }
+    },
+    {
+      "group": "previews",
+      "case": "teapot_small",
+      "variant": "mixed-6",
+      "title": "Mixed 4/8-bit / 6 steps",
+      "image": "images/previews/teapot_small-mixed-6.png",
+      "sha256": "e164d1664566d252918df1c9b2d7185e62a07d3cc9b2210ec626ca67d42512b5",
+      "width": 768,
+      "height": 512,
+      "quality": {
+        "psnr_db": 26.66038409309108,
+        "ssim": 0.910190555390809,
+        "mean_abs": 5.8327178955078125,
+        "max_abs": 192.0
+      }
+    },
+    {
+      "group": "previews",
+      "case": "poster_small",
+      "variant": "official-fp32-8",
+      "title": "Official FP32 / 8 steps",
+      "image": "images/previews/poster_small-official-fp32-8.png",
+      "sha256": "ebe48443919890673f00af1bb3d2403f7fddc5667ebcb7c7ce2ce394f078369a",
+      "width": 640,
+      "height": 640,
+      "quality": {
+        "psnr_db": null,
+        "ssim": 1.0,
+        "mean_abs": 0.0,
+        "max_abs": 0.0
+      }
+    },
+    {
+      "group": "previews",
+      "case": "poster_small",
+      "variant": "previous-q8-8",
+      "title": "Previous 8-bit / 8 steps",
+      "image": "images/previews/poster_small-previous-q8-8.png",
+      "sha256": "2d0f208796369ebccbbce47ad71e6c55435108e0c251a0c238244d8a8caa5d0e",
+      "width": 640,
+      "height": 640,
+      "quality": {
+        "psnr_db": 26.622203172537382,
+        "ssim": 0.9409320212776487,
+        "mean_abs": 4.0829443359375,
+        "max_abs": 210.0
+      }
+    },
+    {
+      "group": "previews",
+      "case": "poster_small",
+      "variant": "previous-q4-8",
+      "title": "Previous 4-bit / 8 steps",
+      "image": "images/previews/poster_small-previous-q4-8.png",
+      "sha256": "53d2fa509ad5ac90dc32678cf1012619bcc31c4f65ce58f0012ebc952fe69bd9",
+      "width": 640,
+      "height": 640,
+      "quality": {
+        "psnr_db": 20.420253231406353,
+        "ssim": 0.7895255859672258,
+        "mean_abs": 12.862350260416667,
+        "max_abs": 227.0
+      }
+    },
+    {
+      "group": "previews",
+      "case": "poster_small",
+      "variant": "q8-8",
+      "title": "8-bit / 8 steps",
+      "image": "images/previews/poster_small-q8-8.png",
+      "sha256": "d2a680eb8ad51b8ef20f56786293b09df64f4a20b2f344cbe32f5bbe2f804dd9",
+      "width": 640,
+      "height": 640,
+      "quality": {
+        "psnr_db": 29.208450751434366,
+        "ssim": 0.9689533788803822,
+        "mean_abs": 3.3548380533854165,
+        "max_abs": 166.0
+      }
+    },
+    {
+      "group": "previews",
+      "case": "poster_small",
+      "variant": "q4-8",
+      "title": "4-bit / 8 steps",
+      "image": "images/previews/poster_small-q4-8.png",
+      "sha256": "2b188641d4a38ff15f19ac184fd0e760a193683444038be22e987c012026d3cb",
+      "width": 640,
+      "height": 640,
+      "quality": {
+        "psnr_db": 23.01738843256103,
+        "ssim": 0.881680511042501,
+        "mean_abs": 8.487914225260417,
+        "max_abs": 223.0
+      }
+    },
+    {
+      "group": "previews",
+      "case": "poster_small",
+      "variant": "mixed-8",
+      "title": "Mixed 4/8-bit / 8 steps",
+      "image": "images/previews/poster_small-mixed-8.png",
+      "sha256": "31c6d7dcb686f60f639fa13d91616ab8f485f41b5e0e71cf583b5db3df7d9226",
+      "width": 640,
+      "height": 640,
+      "quality": {
+        "psnr_db": 23.2916241785095,
+        "ssim": 0.8827678623401999,
+        "mean_abs": 7.399429524739583,
+        "max_abs": 228.0
+      }
+    },
+    {
+      "group": "previews",
+      "case": "poster_small",
+      "variant": "bf16-8",
+      "title": "BF16 control / 8 steps",
+      "image": "images/previews/poster_small-bf16-8.png",
+      "sha256": "9b8ddbdffbb88b1c6af787c3cd0853db4eaf59bf3be261ce2f35c4cc5dc40694",
+      "width": 640,
+      "height": 640,
+      "quality": {
+        "psnr_db": 27.530188342269174,
+        "ssim": 0.9529003662252361,
+        "mean_abs": 3.0237581380208334,
+        "max_abs": 212.0
+      }
+    },
+    {
+      "group": "previews",
+      "case": "poster_small",
+      "variant": "mixed-6",
+      "title": "Mixed 4/8-bit / 6 steps",
+      "image": "images/previews/poster_small-mixed-6.png",
+      "sha256": "a3c0431ec10635dd8838eeba0870e550951f950664435039052122a45afe40b9",
+      "width": 640,
+      "height": 640,
+      "quality": {
+        "psnr_db": 23.08391239833351,
+        "ssim": 0.8773384597501023,
+        "mean_abs": 8.15460205078125,
+        "max_abs": 238.0
+      }
+    },
+    {
+      "group": "previews",
+      "case": "teapot_edit_small",
+      "variant": "official-fp32-8",
+      "title": "Official FP32 / 8 steps",
+      "image": "images/previews/teapot_edit_small-official-fp32-8.png",
+      "sha256": "a5ac95cd747c397599a6de8b4cfc70baaa221a769d5e53dea6f46c44ccb5bd4d",
+      "width": 768,
+      "height": 512,
+      "quality": {
+        "psnr_db": null,
+        "ssim": 1.0,
+        "mean_abs": 0.0,
+        "max_abs": 0.0
+      }
+    },
+    {
+      "group": "previews",
+      "case": "teapot_edit_small",
+      "variant": "previous-q8-8",
+      "title": "Previous 8-bit / 8 steps",
+      "image": "images/previews/teapot_edit_small-previous-q8-8.png",
+      "sha256": "abe50014de1c819357fc589c11e119cfe707ea6a3a91f0f2207f1a81d4efa9dc",
+      "width": 768,
+      "height": 512,
+      "quality": {
+        "psnr_db": 51.02363039068334,
+        "ssim": 0.9978465194663424,
+        "mean_abs": 0.4039798312717014,
+        "max_abs": 12.0
+      }
+    },
+    {
+      "group": "previews",
+      "case": "teapot_edit_small",
+      "variant": "previous-q4-8",
+      "title": "Previous 4-bit / 8 steps",
+      "image": "images/previews/teapot_edit_small-previous-q4-8.png",
+      "sha256": "e3f0c1fd58127cf11d6dd2a88fa46dada571330e9321e274052e2aa568d7da02",
+      "width": 768,
+      "height": 512,
+      "quality": {
+        "psnr_db": 35.799922384487274,
+        "ssim": 0.9833764302794613,
+        "mean_abs": 2.715539720323351,
+        "max_abs": 86.0
+      }
+    },
+    {
+      "group": "previews",
+      "case": "teapot_edit_small",
+      "variant": "q8-8",
+      "title": "8-bit / 8 steps",
+      "image": "images/previews/teapot_edit_small-q8-8.png",
+      "sha256": "04edde3d7d3635c4f6afde8b3dfa5bd3c76af1bfc7f0abe2303b0ada4f52ffa2",
+      "width": 768,
+      "height": 512,
+      "quality": {
+        "psnr_db": 56.45781198880159,
+        "ssim": 0.9990300569507199,
+        "mean_abs": 0.14045630560980904,
+        "max_abs": 6.0
+      }
+    },
+    {
+      "group": "previews",
+      "case": "teapot_edit_small",
+      "variant": "q4-8",
+      "title": "4-bit / 8 steps",
+      "image": "images/previews/teapot_edit_small-q4-8.png",
+      "sha256": "670c2d5a2ae666c071c2bd68aba9dbcd30145308cbedc384747212c92d51a778",
+      "width": 768,
+      "height": 512,
+      "quality": {
+        "psnr_db": 38.60886432090988,
+        "ssim": 0.9904035719471788,
+        "mean_abs": 1.8995140923394098,
+        "max_abs": 62.0
+      }
+    },
+    {
+      "group": "previews",
+      "case": "teapot_edit_small",
+      "variant": "mixed-8",
+      "title": "Mixed 4/8-bit / 8 steps",
+      "image": "images/previews/teapot_edit_small-mixed-8.png",
+      "sha256": "6fc7ea2fbb0f7cac777490096f3819343ea5731faa0019a3a7af1f6e0e0bd0f2",
+      "width": 768,
+      "height": 512,
+      "quality": {
+        "psnr_db": 42.73887880790311,
+        "ssim": 0.9960171001490181,
+        "mean_abs": 1.2547149658203125,
+        "max_abs": 40.0
+      }
+    },
+    {
+      "group": "previews",
+      "case": "teapot_edit_small",
+      "variant": "bf16-8",
+      "title": "BF16 control / 8 steps",
+      "image": "images/previews/teapot_edit_small-bf16-8.png",
+      "sha256": "658aa067bd4445cc0e701eb1a4eae8f317b86090f0fe5fdff976b2b27ed7d2ac",
+      "width": 768,
+      "height": 512,
+      "quality": {
+        "psnr_db": 60.4087783363625,
+        "ssim": 0.9995763838639501,
+        "mean_abs": 0.05871242947048611,
+        "max_abs": 4.0
+      }
+    },
+    {
+      "group": "previews",
+      "case": "teapot_edit_small",
+      "variant": "mixed-6",
+      "title": "Mixed 4/8-bit / 6 steps",
+      "image": "images/previews/teapot_edit_small-mixed-6.png",
+      "sha256": "2344cefffae96c297656242c630c9fac522b6d0472d87478ab724c22a99f85c4",
+      "width": 768,
+      "height": 512,
+      "quality": {
+        "psnr_db": 42.82007276321088,
+        "ssim": 0.9946953257356808,
+        "mean_abs": 1.1083450317382812,
+        "max_abs": 53.0
+      }
+    }
+  ]
+}

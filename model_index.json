@@ -1,0 +1,125 @@
+{
+  "format_version": 1,
+  "model_id": "flux-3-image-klein-mlx",
+  "artifact_type": "model-weights-and-inference-runtime",
+  "architecture": "FLUX.3 Image Klein distilled",
+  "backend": "mlx",
+  "upstream_revision": "1755314e2216b2a2c5cc0dd899d4e49ee3404d2c",
+  "license": "FLUX Kommunity License v.1.0 (FLUX weights); Apache-2.0 (text encoder assets)",
+  "default_steps": 16,
+  "default_variant": "q8-quality",
+  "shared_components": {
+    "autoencoder": "vae-fp32",
+    "assets": "assets"
+  },
+  "presets_file": "presets.json",
+  "results_file": "RESULTS.md",
+  "gallery": "gallery/README.md",
+  "format": {
+    "tensors": "safetensors",
+    "layout": "fluxmac-packed-v1",
+    "quantization": "MLX affine grouped weight-only",
+    "per_tensor_quantization": "Each variant manifest.json contains the bits and group size needed to load its tensors.",
+    "text_encoder": "Qwen3-VL text feature extractor, first 32 layers; no vision tower or language-model head.",
+    "autoencoder": "FP32 stored weights; includes image encoder and decoder."
+  },
+  "variants": {
+    "bf16": {
+      "transformer": "bf16",
+      "text_encoder": "bf16",
+      "purpose": "Unquantized weight control; accelerated inference.",
+      "required_paths": [
+        "bf16/transformer",
+        "bf16/image_conditioning",
+        "bf16/manifest.json",
+        "bf16/text_encoder",
+        "vae-fp32",
+        "assets",
+        "LICENSE.md",
+        "NOTICE.md",
+        "LICENSE-text-encoder.txt"
+      ],
+      "download_bytes": 18678249740
+    },
+    "q8-quality": {
+      "transformer": "q8",
+      "text_encoder": "bf16",
+      "purpose": "8-bit transformer with unquantized text features.",
+      "required_paths": [
+        "q8/transformer",
+        "q8/image_conditioning",
+        "q8/manifest.json",
+        "bf16/text_encoder",
+        "bf16/manifest.json",
+        "vae-fp32",
+        "assets",
+        "LICENSE.md",
+        "NOTICE.md",
+        "LICENSE-text-encoder.txt"
+      ],
+      "download_bytes": 13673645329
+    },
+    "q8": {
+      "transformer": "q8",
+      "text_encoder": "q8",
+      "purpose": "8-bit transformer and text features; smaller download.",
+      "required_paths": [
+        "q8/transformer",
+        "q8/image_conditioning",
+        "q8/manifest.json",
+        "q8/text_encoder",
+        "vae-fp32",
+        "assets",
+        "LICENSE.md",
+        "NOTICE.md",
+        "LICENSE-text-encoder.txt"
+      ],
+      "download_bytes": 10281238171
+    },
+    "mixed": {
+      "transformer": "mixed",
+      "text_encoder": "q8",
+      "purpose": "Mixed 4/8-bit transformer; reduced memory with fidelity tradeoffs.",
+      "required_paths": [
+        "mixed/transformer",
+        "mixed/image_conditioning",
+        "mixed/manifest.json",
+        "q8/text_encoder",
+        "q8/manifest.json",
+        "vae-fp32",
+        "assets",
+        "LICENSE.md",
+        "NOTICE.md",
+        "LICENSE-text-encoder.txt"
+      ],
+      "download_bytes": 8832057018
+    },
+    "q4": {
+      "transformer": "q4",
+      "text_encoder": "q8",
+      "purpose": "Smallest transformer; larger fidelity tradeoffs.",
+      "required_paths": [
+        "q4/transformer",
+        "q4/image_conditioning",
+        "q4/manifest.json",
+        "q8/text_encoder",
+        "q8/manifest.json",
+        "vae-fp32",
+        "assets",
+        "LICENSE.md",
+        "NOTICE.md",
+        "LICENSE-text-encoder.txt"
+      ],
+      "download_bytes": 7945748146
+    }
+  },
+  "runtime": {
+    "module": "flux_klein_mlx",
+    "cli": "flux-klein",
+    "manifest": "runtime.json",
+    "guide": "USAGE.md",
+    "license": "LICENSE-runtime.txt",
+    "install": "python -m pip install ."
+  },
+  "download_bytes_scope": "Model components, tokenizer and weight licenses; inference runtime is installed separately."
+}

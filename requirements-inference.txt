@@ -1,0 +1,7 @@
+# Validated Apple Silicon / Python 3.12 runtime; Torch is used only for CPU noise and schedule parity.
+mlx==0.32.4
+mlx-metal==0.32.4
+numpy==2.5.4
+Pillow==12.3.0
+tokenizers==0.22.2
+torch==2.14.1

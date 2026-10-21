@@ -1,0 +1,10 @@
+{
+  "id": "teapot_small",
+  "split": "holdout",
+  "category": "photo",
+  "prompt": "A carefully composed horizontal studio photograph of a pale blue porcelain teapot on a walnut table, with the spout pointing to the left and its curved handle on the right. A small ivory tea cup stands in the foreground. Behind the cup is a rectangular cream tea tin with the clear dark green words \"EARL GREY\" on its front. Three sprigs of lavender lie diagonally across a folded linen napkin at the right edge of the table. Soft daylight from a large window on the left creates gentle shadows, realistic ceramic highlights and a calm, warm atmosphere. The background is a plain pale grey plaster wall, slightly out of focus. Eye-level product photography, natural colors, finely resolved textures, no additional objects.\n",
+  "width": 768,
+  "height": 512,
+  "seed": 1937,
+  "references": []
+}

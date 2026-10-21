@@ -1,0 +1,95 @@
+{
+  "purpose": "Standalone inference-loader packaging parity; not a new performance benchmark",
+  "complete": true,
+  "checks": [
+    {
+      "case": "poster_small",
+      "preset": "bf16-16",
+      "image_sha256": "142c424e823848baf9638cc66791a4c402da0e5d6d1ae2a34219a6aae939595a",
+      "exact_png_match": true,
+      "expected_public_image": "images/local-16/poster_small-bf16.png"
+    },
+    {
+      "case": "poster_small",
+      "preset": "q8-quality-16",
+      "image_sha256": "394778d842adecba0742580b953002f07071c944dd6a6cd7d604a2b6a215b7d7",
+      "exact_png_match": true,
+      "expected_public_image": "images/local-16/poster_small-q8-quality.png"
+    },
+    {
+      "case": "poster_small",
+      "preset": "q8-16",
+      "image_sha256": "8df60d3bf1bbc14e90b2baf40efa39c245c73daeb45a613371b234a592bd3972",
+      "exact_png_match": true,
+      "expected_public_image": "images/local-16/poster_small-q8.png"
+    },
+    {
+      "case": "poster_small",
+      "preset": "mixed-16",
+      "image_sha256": "df48609f282c0ddd51c09f595ec36f4e50368acf2fac980cd1a7f110fdefdcd7",
+      "exact_png_match": true,
+      "expected_public_image": "images/local-16/poster_small-mixed.png"
+    },
+    {
+      "case": "poster_small",
+      "preset": "q4-16",
+      "image_sha256": "09ae50bffc0035692f261d08305d3173754d3b41b3bd9543bc9a504fb08f7c92",
+      "exact_png_match": true,
+      "expected_public_image": "images/local-16/poster_small-q4.png"
+    },
+    {
+      "case": "poster_small",
+      "preset": "bf16-11",
+      "image_sha256": "33f4246242eabeabe35986a9eeef2b5df15edc03f54052c6e828bc763c91cbff",
+      "exact_png_match": true,
+      "expected_public_image": "images/local-presets/poster_small-bf16-11.png"
+    },
+    {
+      "case": "poster_small",
+      "preset": "q8-quality-11",
+      "image_sha256": "7bdf5b45d1237019041678449e9265aff1e07ed90eed2c0a4e14c90d36cd96be",
+      "exact_png_match": true,
+      "expected_public_image": "images/local-presets/poster_small-q8-quality-11.png"
+    },
+    {
+      "case": "poster_small",
+      "preset": "q8-quality-12",
+      "image_sha256": "b1af52d4302f804a7bad233f20cbbfb4bf6a6b86eb2ad86e330f4dd03bc8d37e",
+      "exact_png_match": true,
+      "expected_public_image": "images/local-presets/poster_small-q8-quality-12.png"
+    },
+    {
+      "case": "poster_small",
+      "preset": "q8-13",
+      "image_sha256": "9a5552b2e7e516eb88614e97800ca32416c7924fa8203bd0465ebec0b8378384",
+      "exact_png_match": true,
+      "expected_public_image": "images/local-presets/poster_small-q8-13.png"
+    },
+    {
+      "case": "teapot_edit_small",
+      "preset": "q8-quality-16",
+      "image_sha256": "15585413ba168271aaa4a77256011356c2363e925b1a0ea05a512cef59d55570",
+      "exact_png_match": true,
+      "expected_public_image": "images/local-16/teapot_edit_small-q8-quality.png"
+    }
+  ],
+  "exact_matches": 10,
+  "machine": {
+    "processor": "Apple M5",
+    "memory_bytes": 34359738368,
+    "platform": "macOS-27.0.1-arm64-arm-64bit",
+    "python": "3.12.10",
+    "packages": {
+      "mlx": "0.32.4",
+      "mlx-metal": "0.32.4",
+      "torch": "2.14.1",
+      "numpy": "2.5.4",
+      "safetensors": "0.8.0",
+      "tokenizers": "0.22.2",
+      "lpips": "0.1.4"
+    },
+    "model_identifier": "Mac17,2"
+  },
+  "installation": "Built as a code-only wheel; imported from a separate installation directory without the private package on the import path",
+  "scope": "All nine finalized presets on the 640x640 typography case, plus Q8 quality 16-step image editing at 768x512. Other prompt/seed combinations were not rebenchmarked during packaging."
+}

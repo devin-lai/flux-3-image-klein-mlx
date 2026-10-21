@@ -1,0 +1,342 @@
+[
+  {
+    "round": "optimized-20261020",
+    "machine": {
+      "processor": "Apple M5 Pro",
+      "memory_bytes": 68719476736,
+      "platform": "macOS-27.0.1-arm64-arm-64bit",
+      "python": "3.12.14",
+      "packages": {
+        "mlx": "0.32.4",
+        "mlx-metal": "0.32.4",
+        "torch": "2.14.1",
+        "numpy": "2.5.4",
+        "safetensors": "0.8.0",
+        "tokenizers": "0.22.2",
+        "lpips": "0.1.4"
+      }
+    },
+    "cases": [
+      "man_dog",
+      "teapot_edit_small"
+    ],
+    "repeats": 3,
+    "first_finished": "2026-10-20T05:55:12",
+    "last_finished": "2026-10-20T06:04:42",
+    "results": [
+      {
+        "preset": "bf16-fused-11",
+        "geometric_mean_seconds": 21.145114043685542,
+        "max_physical_GiB": 12.331185027956963,
+        "by_case": {
+          "man_dog": {
+            "median_seconds": 25.36759283299034,
+            "min_seconds": 24.629339749997598,
+            "max_seconds": 25.374203749990556,
+            "median_peak_GiB": 11.270698204636574,
+            "pixel_identical": true,
+            "runs": 3
+          },
+          "teapot_edit_small": {
+            "median_seconds": 17.625474000000395,
+            "min_seconds": 17.52149370900588,
+            "max_seconds": 18.08258470799774,
+            "median_peak_GiB": 12.328209653496742,
+            "pixel_identical": true,
+            "runs": 3
+          }
+        },
+        "tf32_values": [
+          "1"
+        ]
+      },
+      {
+        "preset": "bf16-11",
+        "geometric_mean_seconds": 20.780589600730107,
+        "max_physical_GiB": 12.444054290652275,
+        "by_case": {
+          "man_dog": {
+            "median_seconds": 24.977678166003898,
+            "min_seconds": 24.280271125011495,
+            "max_seconds": 25.56898349999392,
+            "median_peak_GiB": 11.138114653527737,
+            "pixel_identical": true,
+            "runs": 3
+          },
+          "teapot_edit_small": {
+            "median_seconds": 17.288752832988393,
+            "min_seconds": 17.199209749989677,
+            "max_seconds": 17.322622624997166,
+            "median_peak_GiB": 12.424111008644104,
+            "pixel_identical": true,
+            "runs": 3
+          }
+        },
+        "tf32_values": [
+          "1"
+        ]
+      },
+      {
+        "preset": "bf16-11-cache128",
+        "geometric_mean_seconds": 21.292430521676255,
+        "max_physical_GiB": 12.017220206558704,
+        "by_case": {
+          "man_dog": {
+            "median_seconds": 25.702090582999517,
+            "min_seconds": 25.028627249994315,
+            "max_seconds": 25.850824124994688,
+            "median_peak_GiB": 10.811774998903275,
+            "pixel_identical": true,
+            "runs": 3
+          },
+          "teapot_edit_small": {
+            "median_seconds": 17.639327666998724,
+            "min_seconds": 17.6145858749951,
+            "max_seconds": 17.736469208000926,
+            "median_peak_GiB": 12.015785947442055,
+            "pixel_identical": true,
+            "runs": 3
+          }
+        },
+        "tf32_values": [
+          "1"
+        ]
+      },
+      {
+        "preset": "q8-quality-11",
+        "geometric_mean_seconds": 22.902248857300748,
+        "max_physical_GiB": 7.374318204820156,
+        "by_case": {
+          "man_dog": {
+            "median_seconds": 27.447171583000454,
+            "min_seconds": 27.432077499994193,
+            "max_seconds": 27.88004970799375,
+            "median_peak_GiB": 6.843693301081657,
+            "pixel_identical": true,
+            "runs": 3
+          },
+          "teapot_edit_small": {
+            "median_seconds": 19.10991087499133,
+            "min_seconds": 18.868268499994883,
+            "max_seconds": 19.397463874993264,
+            "median_peak_GiB": 7.373128063976765,
+            "pixel_identical": true,
+            "runs": 3
+          }
+        },
+        "tf32_values": [
+          "1"
+        ]
+      }
+    ]
+  },
+  {
+    "round": "final-m5pro",
+    "machine": {
+      "processor": "Apple M5 Pro",
+      "memory_bytes": 68719476736,
+      "platform": "macOS-27.0.1-arm64-arm-64bit",
+      "python": "3.12.14",
+      "packages": {
+        "mlx": "0.32.4",
+        "mlx-metal": "0.32.4",
+        "torch": "2.14.1",
+        "numpy": "2.5.4",
+        "safetensors": "0.8.0",
+        "tokenizers": "0.22.2",
+        "lpips": "0.1.4"
+      }
+    },
+    "cases": [
+      "man_dog",
+      "teapot_edit_small"
+    ],
+    "repeats": 3,
+    "first_finished": "2026-10-19T03:29:36",
+    "last_finished": "2026-10-19T03:48:21",
+    "results": [
+      {
+        "preset": "q8-quality-11",
+        "geometric_mean_seconds": 22.271297568556847,
+        "max_physical_GiB": 7.354908868670464,
+        "by_case": {
+          "man_dog": {
+            "median_seconds": 26.60589079199781,
+            "min_seconds": 26.532105416998093,
+            "max_seconds": 26.93624966599964,
+            "median_peak_GiB": 6.821629002690315,
+            "pixel_identical": true,
+            "runs": 3
+          },
+          "teapot_edit_small": {
+            "median_seconds": 18.64288999999917,
+            "min_seconds": 18.620082541998272,
+            "max_seconds": 19.016587791000347,
+            "median_peak_GiB": 7.351674005389214,
+            "pixel_identical": true,
+            "runs": 3
+          }
+        },
+        "tf32_values": [
+          "1"
+        ]
+      },
+      {
+        "preset": "q8-quality-11-cache128",
+        "geometric_mean_seconds": 22.724107522329295,
+        "max_physical_GiB": 7.032841630280018,
+        "by_case": {
+          "man_dog": {
+            "median_seconds": 26.971403208000993,
+            "min_seconds": 26.815953165998508,
+            "max_seconds": 27.671261584000604,
+            "median_peak_GiB": 6.459660030901432,
+            "pixel_identical": true,
+            "runs": 3
+          },
+          "teapot_edit_small": {
+            "median_seconds": 19.14565062499969,
+            "min_seconds": 18.97697708299893,
+            "max_seconds": 19.203097917001287,
+            "median_peak_GiB": 6.982945367693901,
+            "pixel_identical": true,
+            "runs": 3
+          }
+        },
+        "tf32_values": [
+          "1"
+        ]
+      },
+      {
+        "preset": "q8-quality-12",
+        "geometric_mean_seconds": 24.17206577561253,
+        "max_physical_GiB": 7.355549737811089,
+        "by_case": {
+          "man_dog": {
+            "median_seconds": 28.804695124999853,
+            "min_seconds": 28.6887297079993,
+            "max_seconds": 29.651461833000212,
+            "median_peak_GiB": 6.833591893315315,
+            "pixel_identical": true,
+            "runs": 3
+          },
+          "teapot_edit_small": {
+            "median_seconds": 20.28449741700024,
+            "min_seconds": 20.23594320799748,
+            "max_seconds": 20.313734167000803,
+            "median_peak_GiB": 7.352299593389034,
+            "pixel_identical": true,
+            "runs": 3
+          }
+        },
+        "tf32_values": [
+          "1"
+        ]
+      },
+      {
+        "preset": "hybrid-q8-12-archived",
+        "geometric_mean_seconds": 23.81999983251478,
+        "max_physical_GiB": 10.59505408257246,
+        "by_case": {
+          "man_dog": {
+            "median_seconds": 28.44866112499949,
+            "min_seconds": 28.30268766700101,
+            "max_seconds": 32.35554095800035,
+            "median_peak_GiB": 9.651678621768951,
+            "pixel_identical": true,
+            "runs": 3
+          },
+          "teapot_edit_small": {
+            "median_seconds": 19.94443216599757,
+            "min_seconds": 19.86586187499779,
+            "max_seconds": 20.479449625003326,
+            "median_peak_GiB": 10.539634093642235,
+            "pixel_identical": true,
+            "runs": 3
+          }
+        },
+        "tf32_values": [
+          "1"
+        ]
+      },
+      {
+        "preset": "q8-13",
+        "geometric_mean_seconds": 25.948901356438014,
+        "max_physical_GiB": 7.39410874247551,
+        "by_case": {
+          "man_dog": {
+            "median_seconds": 31.039626167003007,
+            "min_seconds": 30.932668459001434,
+            "max_seconds": 31.585730709000927,
+            "median_peak_GiB": 6.822269827127457,
+            "pixel_identical": true,
+            "runs": 3
+          },
+          "teapot_edit_small": {
+            "median_seconds": 21.693092499997874,
+            "min_seconds": 21.682772625001235,
+            "max_seconds": 21.85398108300069,
+            "median_peak_GiB": 7.349766723811626,
+            "pixel_identical": true,
+            "runs": 3
+          }
+        },
+        "tf32_values": [
+          "1"
+        ]
+      },
+      {
+        "preset": "q8",
+        "geometric_mean_seconds": 31.603682796844687,
+        "max_physical_GiB": 7.398167558014393,
+        "by_case": {
+          "man_dog": {
+            "median_seconds": 37.83912224999949,
+            "min_seconds": 37.68451383299907,
+            "max_seconds": 38.160145708003256,
+            "median_peak_GiB": 6.833912260830402,
+            "pixel_identical": true,
+            "runs": 3
+          },
+          "teapot_edit_small": {
+            "median_seconds": 26.39576995799871,
+            "min_seconds": 26.39309462500023,
+            "max_seconds": 26.55992554200202,
+            "median_peak_GiB": 7.37732407450676,
+            "pixel_identical": true,
+            "runs": 3
+          }
+        },
+        "tf32_values": [
+          "1"
+        ]
+      },
+      {
+        "preset": "bf16",
+        "geometric_mean_seconds": 30.516312084761587,
+        "max_physical_GiB": 12.366005472838879,
+        "by_case": {
+          "man_dog": {
+            "median_seconds": 36.12363458300024,
+            "min_seconds": 36.068207500000426,
+            "max_seconds": 36.80889720900086,
+            "median_peak_GiB": 11.113975070416927,
+            "pixel_identical": true,
+            "runs": 3
+          },
+          "teapot_edit_small": {
+            "median_seconds": 25.77939108300052,
+            "min_seconds": 25.66658016599831,
+            "max_seconds": 25.846184458998323,
+            "median_peak_GiB": 12.324287965893745,
+            "pixel_identical": true,
+            "runs": 3
+          }
+        },
+        "tf32_values": [
+          "1"
+        ]
+      }
+    ]
+  }
+]

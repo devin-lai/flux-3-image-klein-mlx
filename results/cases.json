@@ -1,0 +1,256 @@
+[
+  {
+    "id": "man_dog",
+    "split": "selection",
+    "category": "photo",
+    "prompt": "Full-color outdoor photograph taken at eye level in the afternoon, with low sunlight coming from frame-right and casting long shadows across a neighborhood park. In the center, a white man in his thirties with fair skin, short brown hair, and light stubble walks along a paved path while holding a medium-sized golden retriever on a dark green leash. He wears a faded blue overshirt over a grey T-shirt, tan trousers, and worn brown walking shoes. His body faces left as he takes a step forward, looking down toward the dog with a neutral expression. The leash hangs in a loose curve between his right hand and the dog’s red collar. The golden retriever walks beside him on the left, its cream-gold coat lit along the back and ears, head lowered toward the grass and tail raised behind it. Dry leaves and small twigs lie near the edge of the path in the foreground. On the right, the sun sits just above the line of trees, producing a bright patch of glare and warm highlights on the man’s sleeve and the dog’s fur. Behind them, an open lawn extends toward scattered shrubs and mature tree trunks, with a wooden bench resting near the path. In the background, muted brick houses and parked cars form simple shapes beyond the foliage, while the pale blue sky occupies a narrow band above the treetops.",
+    "width": 1024,
+    "height": 1024,
+    "seed": 7,
+    "references": []
+  },
+  {
+    "id": "church",
+    "split": "selection",
+    "category": "architecture",
+    "prompt": "Full-color indoor large-format photograph in a vertical 4-by-5 composition, showing the interior of a brutalist concrete church from a low, wide-angle viewpoint. Massive raw concrete walls rise around a cavernous nave, their surfaces marked by formwork seams, pinholes, chipped corners, and broad geometric planes. In the upper center, a narrow rectangular opening cuts through the thick wall as one slot of hard daylight falls diagonally into the otherwise dark sanctuary. The bright beam forms a single pale shaft across the center, revealing suspended dust particles against deep grey-brown shadow. One empty wooden pew stands alone within the light, placed off-center in the lower middle of the frame and facing the unseen altar beyond it. Its long plank seat has a dull brown finish, worn edges, visible grain, and two heavy supports; the backrest is bare, with no person or object resting on it. Behind the pew, the concrete architecture expands into angular buttresses and an overhanging ceiling slab that disappears into darkness. On the left, a recessed wall remains nearly black, while the right side contains a massive cantilevered concrete volume with a rough aggregate texture. At the far end, the daylight slot ends at a small altar-like projection of unadorned concrete, but its details remain lost in shadow. The floor consists of broad poured-concrete slabs with hairline joints and scattered grit. The concentrated beam illuminates only the pew and a thin patch of floor beneath it, leaving the surrounding nave in dense shadow.",
+    "width": 832,
+    "height": 1248,
+    "seed": 1,
+    "references": []
+  },
+  {
+    "id": "fashion",
+    "split": "selection",
+    "category": "photo",
+    "prompt": "Studio fashion photograph captured on a Hasselblad medium-format camera, full-length portrait against an unmarked mustard seamless paper backdrop. A Black female model in her twenties with dark skin and a tall, slender build stands just left of center, facing the camera with her body turned a few degrees toward frame-left. Her short natural hair is cropped close to the head, leaving the oversized grey wool coat as the dominant form. The heavy coat falls below her knees in broad, boxy folds, with dropped shoulders, wide sleeves, a high folded collar, concealed front closure, and two deep patch pockets. Both hands are tucked into the pockets, pulling the lower front into angular pleats. Her face has a neutral expression, closed lips, and a direct gaze. One hard key light from the upper left strikes her forehead, cheek, shoulder, and the raised ridges of the wool, producing bright highlights along the left side while the right side falls into dense charcoal-grey shade. A crisp-edged shadow extends behind her across the mustard paper toward the lower right, following the silhouette of the coat and legs. Dark straight trousers and black leather ankle boots emerge beneath the hem. The seamless paper curves into the floor without a horizon line, its matte surface showing fine tonal falloff around the sharp cast shadow. The composition contains only the model, coat, footwear, mustard background, and shadow, with clean negative space above and to the right.",
+    "width": 832,
+    "height": 1248,
+    "seed": 1,
+    "references": []
+  },
+  {
+    "id": "hiroshige",
+    "split": "selection",
+    "category": "illustration",
+    "prompt": "Traditional Japanese woodblock print in the Hiroshige register, rendered entirely in indigo and sumi ink on warm off-white washi paper with visible fibers and uneven carved edges. A broad wooden bridge crosses a rushing river from the lower left toward the center-right, its dark timber planks and low railings reduced to crisp, rhythmic lines. Sudden rain fills the upper half of the composition as dense, fine parallel indigo lines slanting diagonally across the entire scene. Above the bridge, layered blue-grey storm clouds sweep over distant mountains, their flattened silhouettes breaking into pale mist and deep indigo cloud bands. In the foreground, three small travelers stand close together beneath umbrellas on the bridge: one figure in a dark robe holds a round indigo umbrella, another carries a black umbrella, and a third wears a muted grey cloak beneath a smaller umbrella. Their bodies lean forward against the downpour, with hems and sleeves bending in the wind. Below them, white water surges around the bridge supports in curling sumi waves marked by sparse indigo foam crests. On the left bank, reeds and wet grasses rise beside a cluster of dark rocks; on the right, a windswept pine bends over the riverbank. The restrained composition uses broad areas of untouched paper, flat color separations, irregular hand-printed registration, and no lettering, seals, captions, or decorative inscriptions anywhere.",
+    "width": 832,
+    "height": 1248,
+    "seed": 1,
+    "references": []
+  },
+  {
+    "id": "tea_tin",
+    "split": "selection",
+    "category": "typography",
+    "prompt": "Studio product photograph of a cylindrical tea tin against a seamless warm grey background, shot from a slightly elevated three-quarter angle with hard side light entering from the left. The tin stands upright in the center, its front facing the viewer and its right side receding into shadow. Its body is coated in dark green enamel with a narrow gold rim around the top and bottom edges. A fitted dark green lid sits flush above the body, edged by a thin gold band; the raised metal lid knob catches a bright highlight while the right half falls into deep shade. Across the upper front, large embossed gold serif capitals read \"HIGHLAND BREAKFAST\". Directly beneath, smaller gold lettering reads \"Assam and Ceylon leaf\". Below it, a circular gold roundel contains the text \"est. 1884\" in compact dark green type. On the visible right side of the tin, small white sans-serif lettering follows the curve of the cylinder and reads \"Brew for four minutes. One spoon per cup and one for the pot.\" The hard light creates a sharp vertical highlight along the left edge, reveals the enamel’s smooth reflective surface, and casts a dense shadow behind and to the right of the tin. A few tiny scuffs interrupt the green finish near the lower rim, and the tin rests on a matte tabletop with a short, crisp cast shadow extending toward the lower right.",
+    "width": 1024,
+    "height": 1024,
+    "seed": 1,
+    "references": []
+  },
+  {
+    "id": "gig_poster",
+    "split": "selection",
+    "category": "typography",
+    "prompt": "Studio photograph of a letterpress gig poster printed on thick cream paper stock, shown straight-on against a plain neutral background with even, shadowless lighting. The rectangular sheet fills most of the frame, its deckled fibers and fine paper grain visible around the edges. A strict two-ink composition uses only black and brick red ink, with no illustrations, borders, logos, or additional wording. At the top, very large black wood type reads \"THE LOW TIDES\", set in bold uppercase slab-serif letters with uneven hand-pressed edges and shallow brick-red registration marks confined to the ink impressions. Directly below, small brick-red serif text reads \"with special guests\". In the center, medium-sized black wood type reads \"MOTH LIGHT\", followed by medium brick-red wood type reading \"HARBOUR SOUND\", both centered on separate lines with generous spacing. Along the bottom, compact black small-cap lettering reads \"Saturday 21 March, Doors 8pm, The Old Chapel, Margate\". Beneath it, smaller brick-red small caps read \"Tickets 12 pounds\". The typography is centered vertically and horizontally, with minor ink spread and irregular pressure texture characteristic of traditional letterpress printing; every other area remains unprinted cream stock.",
+    "width": 832,
+    "height": 1248,
+    "seed": 1,
+    "references": []
+  },
+  {
+    "id": "field_notes",
+    "split": "selection",
+    "category": "typography",
+    "prompt": "Close-up photograph of an open field notebook resting on a worn wooden table, viewed from a high three-quarter angle under diffused daylight. The cream paper pages fill most of the frame, with the notebook’s stitched binding running vertically through the center and one page corner curling upward. At the top of the right-hand page, handwritten in graphite pencil, the heading reads \"Lake Vyrnwy, 14 October\". Beneath it, four short lines of neat but uneven cursive handwriting read \"wind NW, light\", \"two herons on the far shore\", \"water 9 degrees\", and \"the fog lifted at ten\". Below the notes sits a small pencil sketch of a single standing heron in profile, drawn with a long neck, pointed beak, narrow body, and thin legs. A flattened pressed leaf rests beside the sketch near the lower left of the writing area, its muted green-brown surface held flat by the paper fibers. These are the only marks on the page. The left-hand page is blank apart from the paper grain and shallow creases. The tabletop consists of broad brown planks with dark seams, scratches, and visible wood grain, while the notebook casts a short shadow along its lower edge.",
+    "width": 1248,
+    "height": 832,
+    "seed": 2,
+    "references": []
+  },
+  {
+    "id": "balloons",
+    "split": "selection",
+    "category": "layout",
+    "prompt": "Full-color outdoor photograph at sunrise, with a broad dawn sky <sky_1> above a green valley <valley_1>. On the left, a large hot-air balloon <obj_1> floats over the valley, while a smaller blue hot-air balloon <obj_2> hangs farther back on the right. Along the horizon, the rising sun <sun_1> appears between distant mountain ridges <mountain_1>, casting low orange light across the slopes and leaving the foreground meadow in cooler shadow. [{\"id\": \"obj_1\", \"bbox\": [80, 60, 480, 380], \"desc\": \"A large red and yellow striped hot-air balloon with alternating vertical fabric panels, a rounded envelope, dark suspension cables, and a small rectangular wicker basket hanging below; the lower edge of the envelope is partly shaded by the sunrise angle.\"}, {\"id\": \"obj_2\", \"bbox\": [200, 620, 420, 800], \"desc\": \"A small blue hot-air balloon with a rounded cobalt-blue envelope, narrow darker seams, fine suspension lines, and a tiny brown basket.\"}, {\"id\": \"sky_1\", \"bbox\": [0, 0, 650, 1000], \"desc\": \"A clear sunrise sky grading from pale orange near the horizon through peach to muted blue overhead, with several thin horizontal clouds catching warm light.\"}, {\"id\": \"sun_1\", \"bbox\": [470, 455, 535, 525], \"desc\": \"A low circular sunrise disk in bright yellow-orange, partially veiled by the distant ridge line.\"}, {\"id\": \"mountain_1\", \"bbox\": [430, 0, 690, 1000], \"desc\": \"Layered distant mountain ridges forming an uneven horizon, with blue-gray silhouettes in front and warmer brown-green slopes along their upper edges.\"}, {\"id\": \"valley_1\", \"bbox\": [560, 0, 1000, 1000], \"desc\": \"A broad green valley with rolling grassy slopes, scattered darker tree masses, and a winding river reflecting a narrow strip of orange morning light; the nearest meadow contains patches of deep green shadow and uneven vegetation.\"}]",
+    "width": 1024,
+    "height": 1024,
+    "seed": 1,
+    "references": []
+  },
+  {
+    "id": "double_exposure_s1",
+    "split": "selection",
+    "category": "illustration",
+    "prompt": "Digital double-exposure portrait in a muted blue monochrome palette, framed as a square head-and-shoulders composition with visible 35mm film grain. Centered in the foreground, a young East Asian man in his twenties faces the camera directly, shown from the shoulders up with fair skin, short black hair, dark eyes, and a neutral closed mouth. He wears a plain dark crew-neck shirt that merges into the shadowed lower portion of the image, and a polished silver hoop earring hangs from his left ear. His face remains sharply defined beneath a larger translucent profile of the same man layered across it, facing left. The oversized profile rises above and extends beyond the frontal head, its forehead, nose, lips, chin, and swept-back hair rendered as pale blue silhouettes with feathered edges. The translucent profile overlaps the frontal face so that both sets of eyes, cheekbones, and strands of hair intersect through the center. Behind them, the double exposure dissolves into a hazy blue field containing indistinct cloud forms and fine tonal texture, with no hard horizon. Cool diffused light catches the bridge of the frontal nose and the rim of the silver hoop, while deep navy shadows gather around the outer edges. Fine scratches, dust specks, uneven exposure, and dense analog grain run across the entire frame.",
+    "width": 832,
+    "height": 1248,
+    "seed": 1,
+    "references": []
+  },
+  {
+    "id": "bandana",
+    "split": "selection",
+    "category": "edit",
+    "prompt": "Create a photograph preserving the first image exactly as the canvas: keep the same golden retriever seated in the same position on the broad beach, with its body facing forward, front paws planted in the sand, head held near-frontally, and eyes looking directly toward the camera. Preserve the dog’s golden coat, wet fur, floppy ears, dark eyes, black nose, facial markings, and calm expression without alteration. Add a red triangular bandana tied securely around the dog’s neck, with the knot centered beneath its chin and the two pointed ends resting naturally over the wet chest fur. The bandana is solid red fabric with subtle woven texture, following the contours of the neck and sitting partly over the golden fur, with natural folds, contact shadows, and dampness consistent with the beach setting. Keep unchanged the pale gray sand scattered with small shells and footprints, the dog’s paw impressions, the calm gray-blue ocean with low waves, the distant horizon, and the expansive layered gray storm clouds with the narrow blue opening near the horizon. Preserve the original eye-level camera position, square composition, subdued overcast daylight, colors, perspective, and every other background detail exactly as photographed.",
+    "width": 1024,
+    "height": 1024,
+    "seed": 22,
+    "references": [
+      {
+        "image": "images/inputs/bandana-0.png",
+        "sha256": "60ff18c6ce360237604f7f76bd9fe0d4081dcd742a79b0403de7c4903e8823ee"
+      }
+    ]
+  },
+  {
+    "id": "coffee",
+    "split": "selection",
+    "category": "edit",
+    "prompt": "Create a photograph preserving the first image exactly as the canvas: keep the same close, slightly elevated camera position, the white ceramic mug in the same place on the worn honey-brown wooden tabletop, the window directly behind it, the cream curtain at frame-left, the white-painted window frame with its small chips and weathering, and the blue-green outdoor foliage visible through the glass. Keep the same warm sunlight entering from frame-right, the long diagonal mug shadow across the tabletop, the window reflections, and every scratch, seam, and mark in the wood. Fill the mug completely with dark brown coffee, with the liquid surface sitting just below the rim and the existing wisps of steam rising naturally above it. Add one golden-brown croissant beside the mug at frame-right, resting directly on the tabletop near the handle without covering it. Give the croissant its familiar curved, flaky layered form, with a few loose pastry flakes nearby. Match its scale and perspective to the mug, with warm highlights along its upper ridges and a soft contact shadow falling toward frame-left, consistent with the existing sunlight.",
+    "width": 1024,
+    "height": 1024,
+    "seed": 21,
+    "references": [
+      {
+        "image": "images/inputs/coffee-0.png",
+        "sha256": "0eca0ffdc27da1b158b691b75cd8cba3fd382e129c20c059ab9114df576d9816"
+      }
+    ]
+  },
+  {
+    "id": "figurine",
+    "split": "selection",
+    "category": "edit",
+    "prompt": "Create a photograph of a painted tabletop figurine based on the mecha from the first image, displayed on a desk. Preserve the mecha’s exact design as the sculpted figure: the towering bipedal robot with its broad armored torso, mustard-yellow and muted sage-green color blocking, dark mechanical joints, heavy fists, three long cylindrical launchers rising from its back, compact head housing, and wide tracked feet. Translate it into a solid collectible figurine mounted on a small round black display base, with the original desert terrain simplified into a miniature sculpted base featuring pale sand, tiny rocks, sparse tufts of grass, and a few raised dust marks. Place the figurine upright at the center of a plain wooden desk under even daylight from a nearby window. Replace the original sky and desert background with an ordinary home-office setting: a closed gray notebook and black pen at frame-left, a ceramic mug at frame-right, and a small desk lamp behind the display. Show the figurine at a believable tabletop scale, with visible painted edges, subtle seam lines, and a clear support connection between its base and the sculpted terrain. Add a few loose model-making tools near the back edge of the desk, including a paintbrush and a small bottle of paint.",
+    "width": 896,
+    "height": 1120,
+    "seed": 33,
+    "references": [
+      {
+        "image": "images/inputs/figurine-0.png",
+        "sha256": "4193971dd16146156c50221c0c8926e57d540954f7da1b56054c36e1529f4370"
+      }
+    ]
+  },
+  {
+    "id": "still_life_wide",
+    "split": "holdout",
+    "category": "photo",
+    "prompt": "Large-format still-life photograph in the register of a Dutch painting, composed vertically on a dark oak table against a deep black background. A single hard window light enters from the left, illuminating the objects with warm highlights and leaving their right sides in dense brown-black shadow. In the upper center, a torn rustic loaf rests off-center on the tabletop, its rough golden-brown crust split open to reveal an irregular pale crumb; several crumbs lie scattered below it. On the left stands a heavy pewter jug with a rounded body, narrow neck, curved handle, and dull silver surface marked by tarnish and small dents. The jug catches a bright vertical reflection along its left rim while its base disappears into shadow. Across the lower center sit exactly three lemons: two whole yellow lemons near the front and one peeled lemon beside them, its exposed flesh curling outward in a broad spiral peel. The remaining whole lemons have dimpled rinds and short shadows cast toward the right. A long old iron knife lies diagonally across the foreground, its blade pointing toward the peeled lemon and its worn wooden handle extending toward the lower right. The dark oak planks show pronounced grain, shallow scratches, and a narrow seam beneath the arrangement. The composition has restrained earth tones, concentrated chiaroscuro, crisp detail on the illuminated food and metal, and broad areas of unbroken darkness above and around the still life.",
+    "width": 1248,
+    "height": 832,
+    "seed": 1,
+    "references": []
+  },
+  {
+    "id": "riso_lido",
+    "split": "holdout",
+    "category": "illustration",
+    "prompt": "Two-ink risograph poster printed in fluorescent orange and blue on warm off-white paper, with coarse halftone grain, uneven ink coverage, and visible color misregistration along the edges of every shape. A swimmer dominates the upper center, captured mid-dive headfirst toward the lower left, body stretched diagonally into a long streamlined pose. The swimmer is constructed from flat geometric shapes: a fluorescent orange head and torso, blue limbs, and a blue cap with an orange face opening. One arm reaches forward while the other follows close behind, and the legs trail together above the waterline. Broad blue wave bands sweep across the middle as angular horizontal forms, interrupted by fluorescent orange circles and sharp splash shapes around the diver. Behind the swimmer, a large fluorescent orange sun sits near the top edge against a blue field, with offset orange contours creating narrow doubled outlines. At the bottom, the word \"LIDO\" spans nearly the full width in oversized uppercase block letters, alternating between fluorescent orange and blue with misregistered edges. The composition contains only the swimmer, abstract water, sun, and the single word \"LIDO\", with no additional lettering, numbers, logos, or symbols.",
+    "width": 832,
+    "height": 1248,
+    "seed": 1,
+    "references": []
+  },
+  {
+    "id": "knitted",
+    "split": "holdout",
+    "category": "layout",
+    "prompt": "Macro photograph of a chunky knitted soft sculpture diorama, lit by a low, directional light source from the left that casts long, deep shadows across the textures. Filling the upper background is a dark indigo knitted backdrop. Across the lower third, a chaotic bed of thick looped yarn forms a churning sea. Rising from this base are three massive, conical icebergs constructed of stark white cable-knit yarn, positioned in a rhythmic frontal row: one on the left <iceberg_1>, a slightly taller one on the right <iceberg_2>, and a bulky central peak <iceberg_3>. Clinging to the slopes of the outer icebergs is a rhythmic repetition of tiny, identical pale blue knitted houses. Suspended in the upper frame between the peaks is a slightly curling strip of cream-colored stockinette fabric, bearing thick embroidered text <En_Text_1>. Disrupting the icy white and blue palette, a giant, vibrant magenta knitted whale tail <whale_tail_1> bursts vertically from the center of the teal sea, its thick ribbed surface covered in a halo of stray wool fibers illuminated by the raking light. [{\"id\": \"iceberg_1\", \"bbox\": [300, 50, 750, 350], \"desc\": \"A conical soft sculpture made of stark white, chunky roving yarn in a thick cable-knit pattern. The left side is brightly lit, while the right side falls into deep, fuzzy shadow.\"}, {\"id\": \"iceberg_2\", \"bbox\": [250, 650, 750, 950], \"desc\": \"A tall, asymmetrical peak of white cable-knit yarn, featuring a few visibly dropped stitches near the base and slightly uneven tension in the cables.\"}, {\"id\": \"iceberg_3\", \"bbox\": [200, 300, 650, 700], \"desc\": \"The largest central iceberg, a bulky mound of white and pale grey ribbed knitting, dominating the midground with thick, vertical columns of stitches.\"}, {\"id\": \"En_Text_1\", \"bbox\": [130, 220, 220, 780], \"desc\": \"The exact words \\\"KNITTED ICEBERG VILLAGE\\\" embroidered in thick, raised navy-blue yarn across the cream banner. The lettering is slightly uneven and puckered, conforming to the physical stretch of the knitted fabric beneath it.\"}, {\"id\": \"whale_tail_1\", \"bbox\": [500, 380, 850, 620], \"desc\": \"A giant whale tail knitted from bright magenta and coral-pink yarn, bursting vertically from the teal sea. It features thick ribs, a slightly asymmetrical fluke, and a fuzzy halo of stray wool fibers caught in the directional light.\"}]",
+    "width": 1184,
+    "height": 896,
+    "seed": 1,
+    "references": []
+  },
+  {
+    "id": "cereal_box",
+    "split": "holdout",
+    "category": "typography",
+    "prompt": "Studio product photograph, shot straight-on with flat, even lighting and a deep depth of field, showing a single 1960s cereal box centered against a plain warm cream background. The rectangular cardboard box fills most of the frame, its front panel facing the camera squarely with crisp edges and no perspective distortion. The package uses flat screen-printed colors in mustard yellow, burnt orange, sky blue, cream, and dark brown, with minor ink texture along the printed shapes. Across the top, large bold rounded letters read \"MORNING OATS\" in dark brown on a pale yellow header band. Directly below, a curved red banner carries the white lowercase text \"with real honey\". In the center, a friendly cartoon bear with round ears, a tan muzzle, black oval eyes, and a simple smiling mouth stands behind a small breakfast bowl, holding a long silver spoon upright in one paw. The spoon rises above the bowl beside the bear’s head. Curving script across the lower middle reads \"A good start to the day\" in dark blue cursive lettering. Small illustrated oat stalks and three golden honey droplets decorate the sides without covering the main wording. At the bottom right corner, compact uppercase sans-serif text reads \"NET WT 16 OZ\". A narrow cream border encloses the entire front design, with worn corners and a few tiny scuffs on the cardboard surface.",
+    "width": 832,
+    "height": 1248,
+    "seed": 1,
+    "references": []
+  },
+  {
+    "id": "double_exposure_s2",
+    "split": "holdout",
+    "category": "illustration",
+    "prompt": "Digital double-exposure portrait in a muted blue monochrome palette, framed as a square head-and-shoulders composition with visible 35mm film grain. Centered in the foreground, a young East Asian man in his twenties faces the camera directly, shown from the shoulders up with fair skin, short black hair, dark eyes, and a neutral closed mouth. He wears a plain dark crew-neck shirt that merges into the shadowed lower portion of the image, and a polished silver hoop earring hangs from his left ear. His face remains sharply defined beneath a larger translucent profile of the same man layered across it, facing left. The oversized profile rises above and extends beyond the frontal head, its forehead, nose, lips, chin, and swept-back hair rendered as pale blue silhouettes with feathered edges. The translucent profile overlaps the frontal face so that both sets of eyes, cheekbones, and strands of hair intersect through the center. Behind them, the double exposure dissolves into a hazy blue field containing indistinct cloud forms and fine tonal texture, with no hard horizon. Cool diffused light catches the bridge of the frontal nose and the rim of the silver hoop, while deep navy shadows gather around the outer edges. Fine scratches, dust specks, uneven exposure, and dense analog grain run across the entire frame.",
+    "width": 832,
+    "height": 1248,
+    "seed": 2,
+    "references": []
+  },
+  {
+    "id": "cactus",
+    "split": "holdout",
+    "category": "edit",
+    "prompt": "Add a small potted cactus <obj_1> on the wooden tabletop in the lower-right area indicated by the locked placement box, with its pot resting near the lower-right edge of the white coffee mug <mug_1>. Give it a compact green cactus in a simple terracotta pot, matching the scene’s perspective, warm sunlight, and natural contact shadow. Keep the coffee mug and every other part of the image unchanged. [{\"id\": \"obj_1\", \"from\": \"target\", \"src_bbox\": null, \"tgt_bbox\": [550, 620, 850, 850], \"desc\": \"A small potted cactus with a compact upright green barrel cactus featuring several short vertical ribs and evenly spaced clusters of rounded spines, planted in dark soil inside a simple unadorned terracotta pot with a slightly flared rim.\"}, {\"id\": \"mug_1\", \"from\": \"ref_image_0\", \"src_bbox\": [354, 283, 768, 755], \"tgt_bbox\": [354, 283, 768, 755], \"desc\": \"A large plain white ceramic coffee mug with a rounded body and broad curved handle, filled with dark black coffee and a thin ring of steam rising above the rim.\"}]",
+    "width": 1024,
+    "height": 1024,
+    "seed": 1,
+    "references": [
+      {
+        "image": "images/inputs/coffee-0.png",
+        "sha256": "0eca0ffdc27da1b158b691b75cd8cba3fd382e129c20c059ab9114df576d9816"
+      }
+    ]
+  },
+  {
+    "id": "mugprint",
+    "split": "holdout",
+    "category": "multi-edit",
+    "prompt": "Create a photograph preserving the first image exactly as the canvas: keep the white ceramic mug filled with dark coffee in the same position on the worn honey-brown wooden tabletop, with its handle pointing toward frame-right, the window directly behind it, the off-white curtain at frame-left, the weathered white window frame, the blue sky and green foliage visible through the glass, and the same low sunlight casting the mug’s long angular shadow across the table. Print the golden retriever from the second image onto the front of the mug as a centered ceramic decal, replacing only the plain white surface of the mug’s body. Depict the dog’s seated, near-frontal portrait from the second image, including its golden coat, wet-looking fur, dark eyes, black nose, floppy ears, and calm expression, but omit the beach, ocean, and cloudy sky from the printed image. Scale the dog to fit naturally within the mug’s visible front face, following the mug’s curved surface with correct perspective and subtle distortion. Integrate the print into the ceramic glaze so it follows the rounded contours, with the existing sunlight and shadow falling naturally across it. Leave every other element unchanged.",
+    "width": 1024,
+    "height": 1024,
+    "seed": 23,
+    "references": [
+      {
+        "image": "images/inputs/coffee-0.png",
+        "sha256": "0eca0ffdc27da1b158b691b75cd8cba3fd382e129c20c059ab9114df576d9816"
+      },
+      {
+        "image": "images/inputs/bandana-0.png",
+        "sha256": "60ff18c6ce360237604f7f76bd9fe0d4081dcd742a79b0403de7c4903e8823ee"
+      }
+    ]
+  },
+  {
+    "id": "teapot_small",
+    "split": "holdout",
+    "category": "photo",
+    "prompt": "A carefully composed horizontal studio photograph of a pale blue porcelain teapot on a walnut table, with the spout pointing to the left and its curved handle on the right. A small ivory tea cup stands in the foreground. Behind the cup is a rectangular cream tea tin with the clear dark green words \"EARL GREY\" on its front. Three sprigs of lavender lie diagonally across a folded linen napkin at the right edge of the table. Soft daylight from a large window on the left creates gentle shadows, realistic ceramic highlights and a calm, warm atmosphere. The background is a plain pale grey plaster wall, slightly out of focus. Eye-level product photography, natural colors, finely resolved textures, no additional objects.\n",
+    "width": 768,
+    "height": 512,
+    "seed": 1937,
+    "references": []
+  },
+  {
+    "id": "poster_small",
+    "split": "holdout",
+    "category": "typography",
+    "prompt": "An editorial still-life photograph in a quiet artist's studio, with a square composition and realistic fine material detail. A large cream paper poster leans against a pale sage wall in the upper center of the frame. The poster reads \"MORNING LIGHT\" in two lines of dark navy serif lettering, with \"STUDIO 27\" printed in small widely spaced capitals beneath it. The lettering is clean and legible, surrounded by ample blank paper.\n\nOn a warm oak table in front of the poster sits a low cobalt blue ceramic bowl containing three yellow lemons, one with a small green leaf attached. A clear ribbed glass of water stands on the right, casting a delicate caustic pattern across the wood. A loosely folded ivory linen cloth lies on the left, with individual woven fibers visible along its edge. A sharpened red pencil rests diagonally beside the cloth.\n\nSoft morning sunlight enters from a window outside the upper left of the image, forming long gentle shadows toward the lower right. The paper has a subtle matte texture, the bowl has a slightly uneven glazed rim, and the oak grain runs horizontally. The camera is at table height with a normal lens and enough depth of field to keep the poster lettering and foreground objects in focus. Natural muted color grading, no people, no additional objects or text.\n",
+    "width": 640,
+    "height": 640,
+    "seed": 47191,
+    "references": []
+  },
+  {
+    "id": "teapot_edit_small",
+    "split": "holdout",
+    "category": "edit",
+    "prompt": "The same carefully composed horizontal studio photograph of the teapot, cup, tea tin, lavender and linen napkin on the walnut table shown in the reference image. The porcelain teapot is now a deep glossy red, with its original shape, spout pointing left and curved handle on the right. Keep the ivory cup in the foreground, the cream tea tin with the dark green words \"EARL GREY\" behind the cup, and the three lavender sprigs across the linen napkin on the right. Preserve the camera angle, object positions, pale grey plaster background, soft daylight from the left, realistic highlights and warm natural color palette. Only the teapot glaze changes from pale blue to deep red.\n",
+    "width": 768,
+    "height": 512,
+    "seed": 8521,
+    "references": [
+      {
+        "image": "images/inputs/teapot_edit_small-0.png",
+        "sha256": "9f455ed8baab236b47be11868fb355b47caca9fca8648561dd1e953a83efbf0c"
+      }
+    ]
+  }
+]

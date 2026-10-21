@@ -1,0 +1,26 @@
+{
+  "source": "black-forest-labs/flux-3-image-klein",
+  "format": "fluxmac-packed-v1",
+  "models": {
+    "q8-quality": {
+      "repo_id": "devin-lai/flux-3-image-klein-mlx-q8-quality",
+      "revision": "9414ab19ce2571a8cbb112074c2db597501e2025"
+    },
+    "q8": {
+      "repo_id": "devin-lai/flux-3-image-klein-mlx-q8",
+      "revision": "d9790a1ceaba200e8b773fb236f7c9fa754283a7"
+    },
+    "mixed": {
+      "repo_id": "devin-lai/flux-3-image-klein-mlx-mixed",
+      "revision": "baa7e1f461449512b62014573615ca7b1b2ff58f"
+    },
+    "q4": {
+      "repo_id": "devin-lai/flux-3-image-klein-mlx-q4",
+      "revision": "741633d2abf7c16b9c6bf16105c7224b72c2eb52"
+    },
+    "bf16": {
+      "repo_id": "devin-lai/flux-3-image-klein-mlx-bf16",
+      "revision": "4689292c45c4d9945856197caf9a6fabc4279621"
+    }
+  }
+}
